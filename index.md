@@ -5,117 +5,95 @@ title: Accueil
 
 ## Sommaire
 
-* [Impacts utilisateurs RGAA v4.1.1](#impacts-utilisateurs-rgaa-v411)
-  * [Sommaire](#sommaire)
-  * [1. Images](#1-images)
-    * [Recommandations globales](#recommandations-globales)
-    * [Critères 1.1, 1.3 - Fournir une alternative aux images porteuses d’information](#critères-11-13---fournir-une-alternative-aux-images-porteuses-dinformation)
-    * [Critère 1.2 - Masquer les images décoratives aux Technologies d’Assistance](#critère-12---masquer-les-images-décoratives-aux-technologies-dassistance)
-    * [Critères 1.4, 1.5 - Renseigner la nature et fournir un accès alternatif aux images Captcha](#critères-14-15---renseigner-la-nature-et-fournir-un-accès-alternatif-aux-images-captcha)
-    * [Critère 1.6, 1.7 - Implémenter une description détaillée pour les images véhiculant une information complexe](#critère-16-17---implémenter-une-description-détaillée-pour-les-images-véhiculant-une-information-complexe)
-    * [Critère 1.8 - Remplacer les images textes par du texte stylé lorsque c'est possible](#critère-18---remplacer-les-images-textes-par-du-texte-stylé-lorsque-cest-possible)
-    * [Critère 1.9 - Associer correctement une légende à son image](#critère-19---associer-correctement-une-légende-à-son-image)
-  * [2. Cadres](#2-cadres)
-    * [Recommandations globales](#recommandations-globales-1)
-    * [Critères 2.1, 2.2 - Nommer les cadres affichant du contenu informatif](#critères-21-22---nommer-les-cadres-affichant-du-contenu-informatif)
-  * [3. Couleurs](#3-couleurs)
-    * [Recommandations globales](#recommandations-globales-2)
-    * [Critère 3.1 - Ne pas véhiculer d'information par la couleur uniquement](#critère-31---ne-pas-véhiculer-dinformation-par-la-couleur-uniquement)
-    * [Critères 3.2, 3.3 - Appliquer des contrastes suffisamment élevés](#critères-32-33---appliquer-des-contrastes-suffisamment-élevés)
-  * [4. Multimédia](#4-multimédia)
-    * [Recommandations globales](#recommandations-globales-3)
-    * [Critères 4.1, 4.2 - Transcription textuelle](#critères-41-42---transcription-textuelle)
-    * [Critères 4.3, 4.4 - Sous-titrage des vidéos](#critères-43-44---sous-titrage-des-vidéos)
-    * [Critères 4.5, 4.6 - Audiodescription des vidéos](#critères-45-46---audiodescription-des-vidéos)
-    * [Critère 4.7 - Identification des médias temporels](#critère-47---identification-des-médias-temporels)
-    * [Critères 4.8, 4.9 - Alternative aux médias non temporels](#critères-48-49---alternative-aux-médias-non-temporels)
-    * [Critère 4.10 - Déclenchement automatique de son](#critère-410---déclenchement-automatique-de-son)
-    * [Critères 4.11, 4.12 - Utilisation au clavier et à la souris des lecteurs et des médias non temporels](#critères-411-412---utilisation-au-clavier-et-à-la-souris-des-lecteurs-et-des-médias-non-temporels)
-    * [Critère 4.13 - Accessibilité des lecteurs et des medias non temporels](#critère-413---accessibilité-des-lecteurs-et-des-medias-non-temporels)
-  * [5. Tableaux](#5-tableaux)
-    * [Recommandations globales](#recommandations-globales-4)
-    * [Critères 5.1, 5.2 - Résumé des tableaux de données complexes](#critères-51-52---résumé-des-tableaux-de-données-complexes)
-    * [Critères 5.3, 5.8 - Linéarisation et identification des tableaux de mise en forme](#critères-53-58---linéarisation-et-identification-des-tableaux-de-mise-en-forme)
-    * [Critères 5.4, 5.5 - Titrage des tableaux de données](#critères-54-55---titrage-des-tableaux-de-données)
-    * [Critères 5.6, 5.7 - Identification des en-têtes et liaisons des cellules d’en-têtes et de données](#critères-56-57---identification-des-en-têtes-et-liaisons-des-cellules-den-têtes-et-de-données)
-  * [6. Liens](#6-liens)
-    * [Recommandations globales](#recommandations-globales-5)
-    * [Critère 6.1 - Lien non explicite](#critère-61---lien-non-explicite)
-    * [Critère 6.2 - Lien sans intitulé](#critère-62---lien-sans-intitulé)
-  * [7. Scripts](#7-scripts)
-    * [Recommandations globales](#recommandations-globales-6)
-    * [Critère 7.1 - Compatibilité des scripts avec les technologies d’assistance](#critère-71---compatibilité-des-scripts-avec-les-technologies-dassistance)
-    * [Critère 7.2 – Alternative pertinente au script](#critère-72--alternative-pertinente-au-script)
-    * [Critère 7.3 – Utilisation des scripts au clavier et par les dispositifs de pointage](#critère-73--utilisation-des-scripts-au-clavier-et-par-les-dispositifs-de-pointage)
-    * [Critère 7.4 - Changement de contexte initié par un script](#critère-74---changement-de-contexte-initié-par-un-script)
-    * [Critère 7.5 – Restitution des messages de statut](#critère-75--restitution-des-messages-de-statut)
-  * [8. Éléments obligatoires](#8-éléments-obligatoires)
-    * [Recommandations globales](#recommandations-globales-7)
-    * [Critères 8.1, 8.2 - Validité du code source](#critères-81-82---validité-du-code-source)
-    * [Critères 8.3, 8.4, 8.7, 8.8, 8.10 - Identification de langue principale et des changements de langue](#critères-83-84-87-88-810---identification-de-langue-principale-et-des-changements-de-langue)
-    * [Critères 8.5, 8.6 – Présence d’un titre de page](#critères-85-86--présence-dun-titre-de-page)
-    * [Critère 8.9 - Utilisation des balises à bon escient](#critère-89---utilisation-des-balises-à-bon-escient)
-  * [9. Structuration de l'information](#9-structuration-de-linformation)
-    * [Recommandations globales](#recommandations-globales-8)
-    * [Critère 9.1 – Présence d’une hiérarchie de titres](#critère-91--présence-dune-hiérarchie-de-titres)
-    * [Critère 9.2 – Présence de balises structurantes HTML5](#critère-92--présence-de-balises-structurantes-html5)
-    * [Critère 9.3 – Utilisation de listes pour organiser le contenu](#critère-93--utilisation-de-listes-pour-organiser-le-contenu)
-    * [Critère 9.4 – Identification des citations](#critère-94--identification-des-citations)
-  * [10. Présentation de l'information](#10-présentation-de-linformation)
-    * [Recommandations globales](#recommandations-globales-9)
-    * [Critère 10.1 – Gestion de l’affichage au moyen des feuilles de styles](#critère-101--gestion-de-laffichage-au-moyen-des-feuilles-de-styles)
-    * [Critère 10.2 – Absence de contenu porteur d’information dans les feuilles de styles](#critère-102--absence-de-contenu-porteur-dinformation-dans-les-feuilles-de-styles)
-    * [Critère 10.3 – Cohérence de l’ordre du code source](#critère-103--cohérence-de-lordre-du-code-source)
-    * [Critère 10.4 – Personnalisation de la taille de caractères](#critère-104--personnalisation-de-la-taille-de-caractères)
-    * [Critère 10.5 – Présence conjointe d’une couleur de caractères et d’arrière-plan](#critère-105--présence-conjointe-dune-couleur-de-caractères-et-darrière-plan)
-    * [Critère 10.6 – Visibilité des liens par rapport au texte environnant](#critère-106--visibilité-des-liens-par-rapport-au-texte-environnant)
-    * [Critère 10.7 – Visibilité de la prise de focus](#critère-107--visibilité-de-la-prise-de-focus)
-    * [Critère 10.8 – Restitution des éléments cachés aux Technologies d’Assistance](#critère-108--restitution-des-éléments-cachés-aux-technologies-dassistance)
-    * [Critères 10.9, 10.10 – Alternatives pour l’information données par la forme, la taille ou la position](#critères-109-1010--alternatives-pour-linformation-données-par-la-forme-la-taille-ou-la-position)
-    * [Critère 10.11 – Absence de barre de défilement sur les terminaux de faible largeur ou hauteur](#critère-1011--absence-de-barre-de-défilement-sur-les-terminaux-de-faible-largeur-ou-hauteur)
-    * [Critère 10.12 - Personnalisation des propriétés d’espacement du texte](#critère-1012---personnalisation-des-propriétés-despacement-du-texte)
-    * [Critère 10.13 – Accès et contrôle des contenus apparaissant au survol ou à la prise de focus](#critère-1013--accès-et-contrôle-des-contenus-apparaissant-au-survol-ou-à-la-prise-de-focus)
-    * [Critère 10.14 – Accès aux contenus affichés grâce aux feuilles de styles au clavier et par tout dispositif de pointage](#critère-1014--accès-aux-contenus-affichés-grâce-aux-feuilles-de-styles-au-clavier-et-par-tout-dispositif-de-pointage)
-  * [11. Formulaires](#11-formulaires)
-    * [Recommandations globales](#recommandations-globales-10)
-    * [Critères 11.1, 11.2 – Présence et pertinence des étiquettes de formulaires](#critères-111-112--présence-et-pertinence-des-étiquettes-de-formulaires)
-    * [Critères 11.3 – Uniformité des étiquettes de formulaires](#critères-113--uniformité-des-étiquettes-de-formulaires)
-    * [Critère 11.4 – Association visuelle des champs et de leur étiquette](#critère-114--association-visuelle-des-champs-et-de-leur-étiquette)
-    * [Critères 11.5, 11.6, 11.7, 11.8 – Identification des regroupements de formulaire](#critères-115-116-117-118--identification-des-regroupements-de-formulaire)
-    * [Critère 11.9 – Pertinence de l’intitulé des boutons de soumission](#critère-119--pertinence-de-lintitulé-des-boutons-de-soumission)
-    * [Critères 11.10, 11.11 – Contrôle de saisie](#critères-1110-1111--contrôle-de-saisie)
-    * [Critère 11.12 – Droit à l’erreur](#critère-1112--droit-à-lerreur)
-    * [Critère 11.13 – Aide à la saisie](#critère-1113--aide-à-la-saisie)
-  * [12. Navigation](#12-navigation)
-    * [Recommandations globales](#recommandations-globales-11)
-    * [Critères 12.1, 12.2, 12.3 – Systèmes de navigation](#critères-121-122-123--systèmes-de-navigation)
-    * [Critères 12.4, 12.5 – Systèmes de navigation atteignables de manière identique](#critères-124-125--systèmes-de-navigation-atteignables-de-manière-identique)
-    * [Critères 12.6, 12.7 – Accès rapide aux contenus](#critères-126-127--accès-rapide-aux-contenus)
-    * [Critère 12.8 – Ordre de tabulation cohérente](#critère-128--ordre-de-tabulation-cohérente)
-    * [Critère 12.9 – Pas de piège au clavier](#critère-129--pas-de-piège-au-clavier)
-    * [Critère 12.10 – Raccourcis clavier contrôlables](#critère-1210--raccourcis-clavier-contrôlables)
-    * [Critère 12.11- Contenus additionnels atteignables au clavier](#critère-1211--contenus-additionnels-atteignables-au-clavier)
-  * [13. Consultation](#13-consultation)
-    * [Recommandations globales](#recommandations-globales-12)
-    * [Critère 13.1 – Contrôle des Limites de temps](#critère-131--contrôle-des-limites-de-temps)
-    * [Critère 13.2 – Ouverture d’une nouvelle fenêtre inattendue](#critère-132--ouverture-dune-nouvelle-fenêtre-inattendue)
-    * [Critères 13.3, 13.4 – Documents bureautiques en téléchargement](#critères-133-134--documents-bureautiques-en-téléchargement)
-    * [Critères 13.5, 13.6 – Alternatives des contenus cryptiques](#critères-135-136--alternatives-des-contenus-cryptiques)
-    * [Critères 13.7, 13.8 - Accessibilité des contenus dynamiques](#critères-137-138---accessibilité-des-contenus-dynamiques)
-    * [Critère 13.9 – Contenus consultables quelle que soit l’orientation de l’écran](#critère-139--contenus-consultables-quelle-que-soit-lorientation-de-lécran)
-    * [Critère 13.10 – Alternative au geste complexe](#critère-1310--alternative-au-geste-complexe)
-    * [Critère 13.11 – Annulation des actions déclenchées au moyen d’un dispositif de pointage](#critère-1311--annulation-des-actions-déclenchées-au-moyen-dun-dispositif-de-pointage)
-    * [Critère 13.12 – Alternative aux mouvements de l’appareil](#critère-1312--alternative-aux-mouvements-de-lappareil)
+- [Sommaire](#sommaire)
+- [1. Images](#1-images)
+  - [Critères 1.1, 1.3 - Fournir une alternative aux images porteuses d’information](#critères-11-13---fournir-une-alternative-aux-images-porteuses-dinformation)
+  - [Critère 1.2 - Masquer les images décoratives aux Technologies d’Assistance](#critère-12---masquer-les-images-décoratives-aux-technologies-dassistance)
+  - [Critères 1.4, 1.5 - Renseigner la nature et fournir un accès alternatif aux images Captcha](#critères-14-15---renseigner-la-nature-et-fournir-un-accès-alternatif-aux-images-captcha)
+  - [Critère 1.6, 1.7 - Implémenter une description détaillée pour les images véhiculant une information complexe](#critère-16-17---implémenter-une-description-détaillée-pour-les-images-véhiculant-une-information-complexe)
+  - [Critère 1.8 - Remplacer les images textes par du texte stylé lorsque c'est possible](#critère-18---remplacer-les-images-textes-par-du-texte-stylé-lorsque-cest-possible)
+  - [Critère 1.9 - Associer correctement une légende à son image](#critère-19---associer-correctement-une-légende-à-son-image)
+- [2. Cadres](#2-cadres)
+  - [Critères 2.1, 2.2 - Nommer les cadres affichant du contenu informatif](#critères-21-22---nommer-les-cadres-affichant-du-contenu-informatif)
+- [3. Couleurs](#3-couleurs)
+  - [Critère 3.1 - Ne pas véhiculer d'information par la couleur uniquement](#critère-31---ne-pas-véhiculer-dinformation-par-la-couleur-uniquement)
+  - [Critères 3.2, 3.3 - Appliquer des contrastes suffisamment élevés](#critères-32-33---appliquer-des-contrastes-suffisamment-élevés)
+- [4. Multimédia](#4-multimédia)
+  - [Critères 4.1, 4.2 - Transcription textuelle](#critères-41-42---transcription-textuelle)
+  - [Critères 4.3, 4.4 - Sous-titrage des vidéos](#critères-43-44---sous-titrage-des-vidéos)
+  - [Critères 4.5, 4.6 - Audiodescription des vidéos](#critères-45-46---audiodescription-des-vidéos)
+  - [Critère 4.7 - Identification des médias temporels](#critère-47---identification-des-médias-temporels)
+  - [Critères 4.8, 4.9 - Alternative aux médias non temporels](#critères-48-49---alternative-aux-médias-non-temporels)
+  - [Critère 4.10 - Déclenchement automatique de son](#critère-410---déclenchement-automatique-de-son)
+  - [Critères 4.11, 4.12 - Utilisation au clavier et à la souris des lecteurs et des médias non temporels](#critères-411-412---utilisation-au-clavier-et-à-la-souris-des-lecteurs-et-des-médias-non-temporels)
+  - [Critère 4.13 - Accessibilité des lecteurs et des medias non temporels](#critère-413---accessibilité-des-lecteurs-et-des-medias-non-temporels)
+- [5. Tableaux](#5-tableaux)
+  - [Critères 5.1, 5.2 - Résumé des tableaux de données complexes](#critères-51-52---résumé-des-tableaux-de-données-complexes)
+  - [Critères 5.3, 5.8 - Linéarisation et identification des tableaux de mise en forme](#critères-53-58---linéarisation-et-identification-des-tableaux-de-mise-en-forme)
+  - [Critères 5.4, 5.5 - Titrage des tableaux de données](#critères-54-55---titrage-des-tableaux-de-données)
+  - [Critères 5.6, 5.7 - Identification des en-têtes et liaisons des cellules d’en-têtes et de données](#critères-56-57---identification-des-en-têtes-et-liaisons-des-cellules-den-têtes-et-de-données)
+- [6. Liens](#6-liens)
+  - [Critère 6.1 - Lien non explicite](#critère-61---lien-non-explicite)
+  - [Critère 6.2 - Lien sans intitulé](#critère-62---lien-sans-intitulé)
+- [7. Scripts](#7-scripts)
+  - [Critère 7.1 - Compatibilité des scripts avec les technologies d’assistance](#critère-71---compatibilité-des-scripts-avec-les-technologies-dassistance)
+  - [Critère 7.2 – Alternative pertinente au script](#critère-72--alternative-pertinente-au-script)
+  - [Critère 7.3 – Utilisation des scripts au clavier et par les dispositifs de pointage](#critère-73--utilisation-des-scripts-au-clavier-et-par-les-dispositifs-de-pointage)
+  - [Critère 7.4 - Changement de contexte initié par un script](#critère-74---changement-de-contexte-initié-par-un-script)
+  - [Critère 7.5 – Restitution des messages de statut](#critère-75--restitution-des-messages-de-statut)
+- [8. Éléments obligatoires](#8-éléments-obligatoires)
+  - [Critères 8.1, 8.2 - Validité du code source](#critères-81-82---validité-du-code-source)
+  - [Critères 8.3, 8.4, 8.7, 8.8, 8.10 - Identification de langue principale et des changements de langue](#critères-83-84-87-88-810---identification-de-langue-principale-et-des-changements-de-langue)
+  - [Critères 8.5, 8.6 – Présence d’un titre de page](#critères-85-86--présence-dun-titre-de-page)
+  - [Critère 8.9 - Utilisation des balises à bon escient](#critère-89---utilisation-des-balises-à-bon-escient)
+- [9. Structuration de l'information](#9-structuration-de-linformation)
+  - [Critère 9.1 – Présence d’une hiérarchie de titres](#critère-91--présence-dune-hiérarchie-de-titres)
+  - [Critère 9.2 – Présence de balises structurantes HTML5](#critère-92--présence-de-balises-structurantes-html5)
+  - [Critère 9.3 – Utilisation de listes pour organiser le contenu](#critère-93--utilisation-de-listes-pour-organiser-le-contenu)
+  - [Critère 9.4 – Identification des citations](#critère-94--identification-des-citations)
+- [10. Présentation de l'information](#10-présentation-de-linformation)
+  - [Critère 10.1 – Gestion de l’affichage au moyen des feuilles de styles](#critère-101--gestion-de-laffichage-au-moyen-des-feuilles-de-styles)
+  - [Critère 10.2 – Absence de contenu porteur d’information dans les feuilles de styles](#critère-102--absence-de-contenu-porteur-dinformation-dans-les-feuilles-de-styles)
+  - [Critère 10.3 – Cohérence de l’ordre du code source](#critère-103--cohérence-de-lordre-du-code-source)
+  - [Critère 10.4 – Personnalisation de la taille de caractères](#critère-104--personnalisation-de-la-taille-de-caractères)
+  - [Critère 10.5 – Présence conjointe d’une couleur de caractères et d’arrière-plan](#critère-105--présence-conjointe-dune-couleur-de-caractères-et-darrière-plan)
+  - [Critère 10.6 – Visibilité des liens par rapport au texte environnant](#critère-106--visibilité-des-liens-par-rapport-au-texte-environnant)
+  - [Critère 10.7 – Visibilité de la prise de focus](#critère-107--visibilité-de-la-prise-de-focus)
+  - [Critère 10.8 – Restitution des éléments cachés aux Technologies d’Assistance](#critère-108--restitution-des-éléments-cachés-aux-technologies-dassistance)
+  - [Critères 10.9, 10.10 – Alternatives pour l’information données par la forme, la taille ou la position](#critères-109-1010--alternatives-pour-linformation-données-par-la-forme-la-taille-ou-la-position)
+  - [Critère 10.11 – Absence de barre de défilement sur les terminaux de faible largeur ou hauteur](#critère-1011--absence-de-barre-de-défilement-sur-les-terminaux-de-faible-largeur-ou-hauteur)
+  - [Critère 10.12 - Personnalisation des propriétés d’espacement du texte](#critère-1012---personnalisation-des-propriétés-despacement-du-texte)
+  - [Critère 10.13 – Accès et contrôle des contenus apparaissant au survol ou à la prise de focus](#critère-1013--accès-et-contrôle-des-contenus-apparaissant-au-survol-ou-à-la-prise-de-focus)
+  - [Critère 10.14 – Accès aux contenus affichés grâce aux feuilles de styles au clavier et par tout dispositif de pointage](#critère-1014--accès-aux-contenus-affichés-grâce-aux-feuilles-de-styles-au-clavier-et-par-tout-dispositif-de-pointage)
+- [11. Formulaires](#11-formulaires)
+  - [Critères 11.1, 11.2 – Présence et pertinence des étiquettes de formulaires](#critères-111-112--présence-et-pertinence-des-étiquettes-de-formulaires)
+  - [Critères 11.3 – Uniformité des étiquettes de formulaires](#critères-113--uniformité-des-étiquettes-de-formulaires)
+  - [Critère 11.4 – Association visuelle des champs et de leur étiquette](#critère-114--association-visuelle-des-champs-et-de-leur-étiquette)
+  - [Critères 11.5, 11.6, 11.7, 11.8 – Identification des regroupements de formulaire](#critères-115-116-117-118--identification-des-regroupements-de-formulaire)
+  - [Critère 11.9 – Pertinence de l’intitulé des boutons de soumission](#critère-119--pertinence-de-lintitulé-des-boutons-de-soumission)
+  - [Critères 11.10, 11.11 – Contrôle de saisie](#critères-1110-1111--contrôle-de-saisie)
+  - [Critère 11.12 – Droit à l’erreur](#critère-1112--droit-à-lerreur)
+  - [Critère 11.13 – Aide à la saisie](#critère-1113--aide-à-la-saisie)
+- [12. Navigation](#12-navigation)
+  - [Critères 12.1, 12.2, 12.3 – Systèmes de navigation](#critères-121-122-123--systèmes-de-navigation)
+  - [Critères 12.4, 12.5 – Systèmes de navigation atteignables de manière identique](#critères-124-125--systèmes-de-navigation-atteignables-de-manière-identique)
+  - [Critères 12.6, 12.7 – Accès rapide aux contenus](#critères-126-127--accès-rapide-aux-contenus)
+  - [Critère 12.8 – Ordre de tabulation cohérente](#critère-128--ordre-de-tabulation-cohérente)
+  - [Critère 12.9 – Pas de piège au clavier](#critère-129--pas-de-piège-au-clavier)
+  - [Critère 12.10 – Raccourcis clavier contrôlables](#critère-1210--raccourcis-clavier-contrôlables)
+  - [Critère 12.11- Contenus additionnels atteignables au clavier](#critère-1211--contenus-additionnels-atteignables-au-clavier)
+- [13. Consultation](#13-consultation)
+  - [Critère 13.1 – Contrôle des Limites de temps](#critère-131--contrôle-des-limites-de-temps)
+  - [Critère 13.2 – Ouverture d’une nouvelle fenêtre inattendue](#critère-132--ouverture-dune-nouvelle-fenêtre-inattendue)
+  - [Critères 13.3, 13.4 – Documents bureautiques en téléchargement](#critères-133-134--documents-bureautiques-en-téléchargement)
+  - [Critères 13.5, 13.6 – Alternatives des contenus cryptiques](#critères-135-136--alternatives-des-contenus-cryptiques)
+  - [Critères 13.7, 13.8 - Accessibilité des contenus dynamiques](#critères-137-138---accessibilité-des-contenus-dynamiques)
+  - [Critère 13.9 – Contenus consultables quelle que soit l’orientation de l’écran](#critère-139--contenus-consultables-quelle-que-soit-lorientation-de-lécran)
+  - [Critère 13.10 – Alternative au geste complexe](#critère-1310--alternative-au-geste-complexe)
+  - [Critère 13.11 – Annulation des actions déclenchées au moyen d’un dispositif de pointage](#critère-1311--annulation-des-actions-déclenchées-au-moyen-dun-dispositif-de-pointage)
+  - [Critère 13.12 – Alternative aux mouvements de l’appareil](#critère-1312--alternative-aux-mouvements-de-lappareil)
 
 ## 1. Images
-
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Donner à chaque [image porteuse d'information](https://disic.github.io/rgaa_referentiel/glossaire.html#image-porteuse-dinformation) une [alternative textuelle](https://disic.github.io/rgaa_referentiel/glossaire.html#alternative-textuelle-image) pertinente et une [description détaillée](https://disic.github.io/rgaa_referentiel/glossaire.html#description-dtaille-image), si nécessaire.
-* Lier les [légendes](https://disic.github.io/rgaa_referentiel/glossaire.html#lgende-dimage) à leurs images.
-* Éviter l'utilisation d'images lorsqu’il est possible d’obtenir le même rendu avec du texte stylé
 
 ### Critères 1.1, 1.3 - Fournir une alternative aux images porteuses d’information
 
@@ -260,12 +238,6 @@ Elles peuvent penser que la légende (le copyright, la date de publication ou le
 
 ## 2. Cadres
 
-Principe WCAG : [Robuste](https://www.w3.org/Translations/WCAG20-fr/#robust)
-
-### Recommandations globales
-
-Donner à chaque [cadre en ligne](https://disic.github.io/rgaa_referentiel/glossaire.html#cadre-en-ligne) un [titre](https://disic.github.io/rgaa_referentiel/glossaire.html#titre-de-cadre) pertinent.
-
 ### Critères 2.1, 2.2 - Nommer les cadres affichant du contenu informatif
 
 <div class="chapo">
@@ -287,13 +259,6 @@ Dans ces deux modes de navigation, un cadre sans titre (ou sans titre pertinent)
 </div>
 
 ## 3. Couleurs
-
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Ne pas donner l'[information](https://disic.github.io/rgaa_referentiel/glossaire.html#information-donne-par-la-couleur) uniquement par la couleur.
-* Utiliser des [contrastes](https://disic.github.io/rgaa_referentiel/glossaire.html#contraste) de couleurs suffisamment élevés.
 
 ### Critère 3.1 - Ne pas véhiculer d'information par la couleur uniquement
 
@@ -336,14 +301,6 @@ L’utilisation de contrastes trop faibles diminue considérablement la lisibili
 </div>
 
 ## 4. Multimédia
-
-Principe WCAG : [Utilisable](https://www.w3.org/Translations/WCAG20-fr/#operable)
-
-### Recommandations globales
-
-* Donner si nécessaire à chaque [média temporel](https://disic.github.io/rgaa_referentiel/glossaire.html#mdia-temporel-type-son-vido-et-synchronis) une [transcription textuelle](https://disic.github.io/rgaa_referentiel/glossaire.html#transcription-textuelle-media-temporel), des [sous-titres synchronisés](https://disic.github.io/rgaa_referentiel/glossaire.html#soustitres-synchroniss-objet-multimdia) et une [audiodescription](https://disic.github.io/rgaa_referentiel/glossaire.html#audiodescription-synchronise-media-temporel) synchronisée pertinents.
-* Donner à chaque [média non temporel](https://disic.github.io/rgaa_referentiel/glossaire.html#mdia-non-temporel) une alternative textuelle pertinente.
-* Rendre possible le [contrôle de la consultation](https://disic.github.io/rgaa_referentiel/glossaire.html#contrle-de-la-consultation-dun-media-temporel) de chaque [média temporel](https://disic.github.io/rgaa_referentiel/glossaire.html#mdia-temporel-type-son-vido-et-synchronis) et non-temporel au clavier et s'assurer de leur [compatibilité avec les technologies d'assistance](https://disic.github.io/rgaa_referentiel/glossaire.html#compatible-avec-les-technologies-dassistance).
 
 ### Critères 4.1, 4.2 - Transcription textuelle
 
@@ -529,14 +486,6 @@ Les personnes aveugles ou malvoyantes (qui utilisent un lecteur d’écran ou un
 
 ## 5. Tableaux
 
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Donner à chaque [tableau de données complexe](https://disic.github.io/rgaa_referentiel/glossaire.html#tableau-de-donnes-complexe), un [résumé](https://disic.github.io/rgaa_referentiel/glossaire.html#rsum-de-tableau) et un [titre](https://disic.github.io/rgaa_referentiel/glossaire.html#titreTab) pertinent.
-* Identifier clairement les cellules d'en-tête et utiliser un mécanisme pertinent pour lier les cellules de données aux [cellules d'en-tête](https://disic.github.io/rgaa_referentiel/glossaire.html#entte-de-colonne-ou-de-ligne).
-* Pour chaque [tableau de mise en forme](https://disic.github.io/rgaa_referentiel/glossaire.html#tableau-de-mise-en-forme), veiller à sa bonne linéarisation.
-
 ### Critères 5.1, 5.2 - Résumé des tableaux de données complexes
 
 <div class="chapo">
@@ -648,13 +597,6 @@ L’absence de liaisons entre les cellules d’en-tête et de données rend la c
 
 ## 6. Liens
 
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Donner des [intitulés de lien](https://disic.github.io/rgaa_referentiel/glossaire.html#intitul-de-lien) explicites, grâce à des informations de [contexte](https://disic.github.io/rgaa_referentiel/glossaire.html#contexte-du-lien) notamment.
-* Utiliser le [titre de lien](https://disic.github.io/rgaa_referentiel/glossaire.html#titre-de-lien) le moins possible.
-
 ### Critère 6.1 - Lien non explicite
 
 <div class="chapo">
@@ -710,14 +652,6 @@ La présence de lien sans intitulé rend les interactions très difficiles :
 </div>
 
 ## 7. Scripts
-
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Donner si nécessaire à chaque [script](https://disic.github.io/rgaa_referentiel/glossaire.html#script) une [alternative](https://disic.github.io/rgaa_referentiel/glossaire.html#alternative--script) pertinente.
-* Rendre possible [le contrôle de chaque code script au moins par le clavier et la souris](https://disic.github.io/rgaa_referentiel/glossaire.html#accessible-et-activable-par-le-clavier-et-la-souris).
-* S'assurer de la [compatibilité de chaque script avec les technologies d'assistance](https://disic.github.io/rgaa_referentiel/glossaire.html#compatible-avec-les-technologies-dassistance).
 
 ### Critère 7.1 - Compatibilité des scripts avec les technologies d’assistance
 
@@ -838,14 +772,6 @@ Elles ne sont pas informées de l’état du contenu : L’échec ou le succès 
 
 ## 8. Éléments obligatoires
 
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Vérifier que chaque page web a un [code source valide](https://disic.github.io/rgaa_referentiel/glossaire.html#code-valide) selon le [type de document](https://disic.github.io/rgaa_referentiel/glossaire.html#type-de-document), un [titre](https://disic.github.io/rgaa_referentiel/glossaire.html#titrePage) pertinent et une indication de [langue par défaut](https://disic.github.io/rgaa_referentiel/glossaire.html#langue-par-dfaut).
-* Vérifier que les balises ne sont pas utilisées [uniquement à des fins de présentation](https://disic.github.io/rgaa_referentiel/glossaire.html#uniquement--des-fins-de-prsentation).
-* Vérifier que les changements de langues et de direction de sens de lecture sont indiqués.
-
 ### Critères 8.1, 8.2 - Validité du code source
 
 <div class="chapo">
@@ -965,13 +891,6 @@ Un code HTML sémantique est nécessaire aux technologies d’assistance pour re
 
 ## 9. Structuration de l'information
 
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Utiliser des [titres](https://disic.github.io/rgaa_referentiel/glossaire.html#titre), des [listes](https://disic.github.io/rgaa_referentiel/glossaire.html#listes), des abréviations et des citations pour structurer l'information.
-* S'assurer que la structure du document est cohérente.
-
 ### Critère 9.1 – Présence d’une hiérarchie de titres
 
 <div class="chapo">
@@ -1063,17 +982,6 @@ En l’absence de balisage approprié :
 </div>
 
 ## 10. Présentation de l'information
-
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Utiliser des [feuilles de styles](https://disic.github.io/rgaa_referentiel/glossaire.html#feuille-de-style) pour contrôler la [présentation de l'information](https://disic.github.io/rgaa_referentiel/glossaire.html#prsentation-de-linformation).
-* Vérifier l'effet de l'agrandissement des [taille des caractères](https://disic.github.io/rgaa_referentiel/glossaire.html#taille-des-caractres) sur la lisibilité.
-* S'assurer que les liens sont correctement identifiables et que la [prise de focus](https://disic.github.io/rgaa_referentiel/glossaire.html#prise-de-focus) est signalée.
-* Vérifier que l'interlignage est suffisant et donner la possibilité à l'utilisateur de le modifier.
-* S'assurer que les textes cachés sont [correctement restitués](https://disic.github.io/rgaa_referentiel/glossaire.html#correctement-restitue-par-les-technologies-dassistance).
-* Vérifier que l'information n'est pas donnée uniquement par la forme ou la position d'un élément.
 
 ### Critère 10.1 – Gestion de l’affichage au moyen des feuilles de styles
 
@@ -1346,18 +1254,6 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les
 
 ## 11. Formulaires
 
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Associer pour chaque formulaire chacun de ses [champs](https://disic.github.io/rgaa_referentiel/glossaire.html#champ-de-saisie-de-formulaire) à son [étiquette](https://disic.github.io/rgaa_referentiel/glossaire.html#tiquette-de-champs-de-formulaire).
-* Grouper les champs dans des [blocs d'informations de même nature](https://disic.github.io/rgaa_referentiel/glossaire.html#bloc-dinformations-de-mme-nature).
-* Structurer les [listes de choix](https://disic.github.io/rgaa_referentiel/glossaire.html#liste-de-choix) de manière pertinente.
-* Donner à chaque [bouton](https://disic.github.io/rgaa_referentiel/glossaire.html#bouton-formulaire) un intitulé explicite.
-* Vérifier la présence d'aide à la saisie.
-* S'assurer que le [contrôle de saisie](https://disic.github.io/rgaa_referentiel/glossaire.html#contrle-de-saisie-formulaire) est accessible.
-* Vérifier que l'utilisateur peut contrôler les données à caractère financier, juridique ou personnel.
-
 ### Critères 11.1, 11.2 – Présence et pertinence des étiquettes de formulaires
 
 <div class="chapo">
@@ -1588,16 +1484,6 @@ De même, un champ dont la liste des données proposées ne correspond pas à la
 
 ## 12. Navigation
 
-Principe WCAG : [Utilisable](https://www.w3.org/Translations/WCAG20-fr/#operable)
-
-### Recommandations globales
-
-* Faciliter la navigation dans un [ensemble de pages](https://disic.github.io/rgaa_referentiel/glossaire.html#ensemble-de-pages) par au moins deux [systèmes de navigation](https://disic.github.io/rgaa_referentiel/glossaire.html#systeme-de-navigation) différents ([menu de navigation](https://disic.github.io/rgaa_referentiel/glossaire.html#menu-de-navigation), [plan du site](https://disic.github.io/rgaa_referentiel/glossaire.html#page-plan-du-site) ou [moteur de recherche](https://disic.github.io/rgaa_referentiel/glossaire.html#moteur-de-recherche-interne--un-site-web)).
-* Identifier les groupes de liens importants et la [zone de contenu](https://disic.github.io/rgaa_referentiel/glossaire.html#zone-main).  
-    Donner la possibilité de les [éviter par des liens de navigation interne](https://disic.github.io/rgaa_referentiel/glossaire.html#liens-dvitement-ou-daccs-rapide).
-* S'assurer que l'[ordre de tabulation](https://disic.github.io/rgaa_referentiel/glossaire.html#ordre-de-tabulation) est cohérent.
-* Vérifier que la page ne comporte pas de piège au clavier.
-
 ### Critères 12.1, 12.2, 12.3 – Systèmes de navigation
 
 <div class="impact">
@@ -1778,18 +1664,6 @@ Les personnes aveugles, malvoyantes ou déficientes motrices qui naviguent au cl
 </div>
 
 ## 13. Consultation
-
-Principe WCAG : [Perceptible](https://www.w3.org/Translations/WCAG20-fr/#perceivable)
-
-### Recommandations globales
-
-* Vérifier que l'utilisateur a le contrôle des [procédés de rafraîchissement](https://disic.github.io/rgaa_referentiel/glossaire.html#procd-de-rafrachissement), des [changements brusques de luminosité](https://disic.github.io/rgaa_referentiel/glossaire.html#changements-brusques-de-luminosite), des ouvertures de nouvelles fenêtres et des [contenus en mouvement ou clignotants](https://disic.github.io/rgaa_referentiel/glossaire.html#controle-mouvement).
-* Indiquer lorsqu'un contenu s'ouvre dans une nouvelle fenêtre.
-* Donner des informations relatives à la consultation des fichiers en téléchargement.
-* Ne pas faire dépendre l'accomplissement d'une tâche d'une limite de temps sauf si elle est essentielle.
-* S'assurer que les données saisies sont récupérées après une interruption de session authentifiée.
-* Vérifier que les expressions inhabituelles et le jargon sont explicités.
-* Proposer des [versions accessibles](https://disic.github.io/rgaa_referentiel/glossaire.html#version-accessible-document) ou rendre accessibles les documents en téléchargement.
 
 ### Critère 13.1 – Contrôle des Limites de temps
 
