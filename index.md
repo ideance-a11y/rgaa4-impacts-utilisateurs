@@ -99,8 +99,8 @@ title: Accueil
 
 <div class="chapo">
 
-* Critère 1.1. Chaque [image porteuse d’information](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-porteuse-d-information) a-t-elle une [alternative textuelle](https://accessibilite.numerique.gouv.fr/methode/glossaire/#alternative-textuelle-image) ?
-* Critère 1.3. Pour chaque image [porteuse d’information](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-porteuse-d-information) ayant une [alternative textuelle](https://accessibilite.numerique.gouv.fr/methode/glossaire/#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?
+* Critère 1.1. Chaque image porteuse d’information a-t-elle une alternative textuelle ?
+* Critère 1.3. Pour chaque image porteuse d’information ayant une alternative textuelle, cette alternative est-elle pertinente (hors cas particuliers) ?
 
 </div>
 
@@ -115,7 +115,7 @@ L'absence (ou le manque de pertinence) d’alternative aux images porteuses d’
 
 <div class="chapo">
 
-Critère 1.2. Chaque [image de décoration](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-de-decoration) est-elle correctement ignorée par les technologies d’assistance ?
+Critère 1.2. Chaque image de décoration est-elle correctement ignorée par les technologies d’assistance ?
 
 </div>
 
@@ -130,7 +130,7 @@ En l’absence d’alternative vide (ou d’attribut permettant de masquer l’�
 
 <div class="chapo">
 
-Critère 1.4. Pour chaque image utilisée comme [CAPTCHA](https://accessibilite.numerique.gouv.fr/methode/glossaire/#captcha) ou comme [image-test](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-test), ayant une [alternative textuelle](https://accessibilite.numerique.gouv.fr/methode/glossaire/#alternative-textuelle-image), cette alternative permet-elle d’identifier la nature et la fonction de l’image ?
+Critère 1.4. Pour chaque image utilisée comme CAPTCHA ou comme image-test, ayant une alternative textuelle, cette alternative permet-elle d’identifier la nature et la fonction de l’image ?
 
 </div>
 
@@ -142,7 +142,7 @@ L’absence d’alternative à une image test empêche les personnes aveugles ou
 
 <div class="chapo">
 
-Critère 1.5. Pour chaque image utilisée comme [CAPTCHA](https://accessibilite.numerique.gouv.fr/methode/glossaire/#captcha), une solution d’accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?
+Critère 1.5. Pour chaque image utilisée comme CAPTCHA, une solution d’accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?
 
 </div>
 
@@ -157,8 +157,8 @@ L'absence de solution alternative empêche ces personnes d’accomplir une tâch
 
 <div class="chapo">
 
-* Critère 1.6. Chaque image [porteuse d’information](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-porteuse-d-information) a-t-elle, si nécessaire, une [description détaillée](https://accessibilite.numerique.gouv.fr/methode/glossaire/#description-detaillee-image) ?
-* Critère 1.7. Pour chaque image [porteuse d’information](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-porteuse-d-information) ayant une [description détaillée](https://accessibilite.numerique.gouv.fr/methode/glossaire/#description-detaillee-image), cette description est-elle pertinente ?
+* Critère 1.6. Chaque image porteuse d’information a-t-elle, si nécessaire, une description détaillée ?
+* Critère 1.7. Pour chaque image porteuse d’information ayant une description détaillée, cette description est-elle pertinente ?
 
 </div>
 
@@ -169,11 +169,11 @@ L'absence (ou le manque de pertinence) de description détaillée aux images por
 
 </div>
 
-### Critère 1.8 - Remplacer les [images textes](https://disic.github.io/rgaa_referentiel/glossaire.html#image-texte) par du [texte stylé](https://disic.github.io/rgaa_referentiel/glossaire.html#texte-styl) lorsque c'est possible
+### Critère 1.8 - Remplacer les images textes par du texte stylé lorsque c'est possible
 
 <div class="chapo">
 
-Critère 1.8. Chaque [image texte](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-texte) [porteuse d’information](https://accessibilite.numerique.gouv.fr/methode/glossaire/#image-porteuse-d-information), en l’absence d’un [mécanisme de remplacement](https://accessibilite.numerique.gouv.fr/methode/glossaire/#mecanisme-de-remplacement), doit si possible être remplacée par du [texte stylé](https://accessibilite.numerique.gouv.fr/methode/glossaire/#texte-style). Cette règle est-elle respectée (hors cas particuliers) ?
+Critère 1.8. Chaque image texte porteuse d’information, en l’absence d’un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?
 
 </div>
 
@@ -189,7 +189,7 @@ Certaines personnes présentant des troubles de la lecture (comme la dyslexie) u
 
 <div class="chapo">
 
-Critère 1.9. Chaque [légende d’image](https://accessibilite.numerique.gouv.fr/methode/glossaire/#legende-d-image) est-elle, si nécessaire, correctement reliée à l’image correspondante ?
+Critère 1.9. Chaque légende d’image est-elle, si nécessaire, correctement reliée à l’image correspondante ?
 
 </div>
 
@@ -206,8 +206,8 @@ Elles peuvent penser que la légende (le copyright, la date de publication ou le
 
 <div class="chapo">
 
-* Critère 2.1. Chaque [cadre](https://accessibilite.numerique.gouv.fr/methode/glossaire/#cadre) a-t-il un [titre de cadre](https://accessibilite.numerique.gouv.fr/methode/glossaire/#titre-de-cadre) ?
-* Critère 2.2. Pour chaque [cadre](https://accessibilite.numerique.gouv.fr/methode/glossaire/#cadre) ayant un [titre de cadre](https://accessibilite.numerique.gouv.fr/methode/glossaire/#titre-de-cadre), ce titre de cadre est-il pertinent ?
+* Critère 2.1. Chaque cadre a-t-il un titre de cadre ?
+* Critère 2.2. Pour chaque cadre ayant un titre de cadre, ce titre de cadre est-il pertinent ?
 
 </div>
 
@@ -224,7 +224,7 @@ Dans ces deux modes de navigation, un cadre sans titre (ou sans titre pertinent)
 
 <div class="chapo">
 
-Critère 3.1. Dans chaque page web, l’[information](https://accessibilite.numerique.gouv.fr/methode/glossaire/#information-donnee-par-la-couleur) ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?
+Critère 3.1. Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?
 
 </div>
 
@@ -239,8 +239,8 @@ C’est par exemple le cas d’un champ en erreur signalé par un changement de 
 
 <div class="chapo">
 
-* Critère 3.2. Dans chaque page web, le [contraste](https://accessibilite.numerique.gouv.fr/methode/glossaire/#contraste) entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?
-* Critère 3.3. Dans chaque page web, les couleurs utilisées dans les [composants d’interface](https://accessibilite.numerique.gouv.fr/methode/glossaire/#composant-d-interface) ou les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers) ?
+* Critère 3.2. Dans chaque page web, le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?
+* Critère 3.3. Dans chaque page web, les couleurs utilisées dans les composants d’interface ou les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers) ?
 
 </div>
 
@@ -256,8 +256,8 @@ L’utilisation de contrastes trop faibles diminue considérablement la lisibili
 
 <div class="chapo">
 
-* Critère 4.1. Chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) pré-enregistré a-t-il, si nécessaire, une [transcription textuelle](https://accessibilite.numerique.gouv.fr/methode/glossaire/#transcription-textuelle-media-temporel) ou une [audiodescription](https://accessibilite.numerique.gouv.fr/methode/glossaire/#audiodescription-synchronisee-media-temporel) (hors cas particuliers) ?
-* Critère 4.2. Pour chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) pré-enregistré ayant une [transcription textuelle](https://accessibilite.numerique.gouv.fr/methode/glossaire/#transcription-textuelle-media-temporel) ou une [audiodescription](https://accessibilite.numerique.gouv.fr/methode/glossaire/#audiodescription-synchronisee-media-temporel) synchronisée, celles-ci sont-elles pertinentes (hors cas particuliers) ?
+* Critère 4.1. Chaque média temporel pré-enregistré a-t-il, si nécessaire, une transcription textuelle ou une audiodescription (hors cas particuliers) ?
+* Critère 4.2. Pour chaque média temporel pré-enregistré ayant une transcription textuelle ou une audiodescription synchronisée, celles-ci sont-elles pertinentes (hors cas particuliers) ?
 
 </div>
 
@@ -271,8 +271,8 @@ L'absence (ou le manque de pertinence) d’audiodescription ou de transcription 
 
 <div class="chapo">
 
-* Critère 4.3. Chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, des [sous-titres synchronisés](https://accessibilite.numerique.gouv.fr/methode/glossaire/#sous-titres-synchronises-objet-multimedia) (hors cas particuliers) ?
-* Critère 4.4. Pour chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant des [sous-titres synchronisés](https://accessibilite.numerique.gouv.fr/methode/glossaire/#sous-titres-synchronises-objet-multimedia), ces sous-titres sont-ils pertinents ?
+* Critère 4.3. Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers) ?
+* Critère 4.4. Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents ?
 
 </div>
 
@@ -290,8 +290,8 @@ Les personnes sourdes ou malentendantes auront du mal à suivre une vidéo si :
 
 <div class="chapo">
 
-* Critère 4.5. Chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) pré-enregistré a-t-il, si nécessaire, une [audiodescription](https://accessibilite.numerique.gouv.fr/methode/glossaire/#audiodescription-synchronisee-media-temporel) synchronisée (hors cas particuliers) ?
-* Critère 4.6. Pour chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) pré-enregistré ayant une [audiodescription](https://accessibilite.numerique.gouv.fr/methode/glossaire/#audiodescription-synchronisee-media-temporel) synchronisée, celle-ci est-elle pertinente ?
+* Critère 4.5. Chaque média temporel pré-enregistré a-t-il, si nécessaire, une audiodescription synchronisée (hors cas particuliers) ?
+* Critère 4.6. Pour chaque média temporel pré-enregistré ayant une audiodescription synchronisée, celle-ci est-elle pertinente ?
 
 </div>
 
@@ -305,7 +305,7 @@ L’absence (ou le manque de pertinence) d’audiodescription empêche les perso
 
 <div class="chapo">
 
-Critère 4.7. Chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) est-il clairement identifiable (hors cas particuliers) ?
+Critère 4.7. Chaque média temporel est-il clairement identifiable (hors cas particuliers) ?
 
 </div>
 
@@ -320,8 +320,8 @@ Par exemple, dans le cas d’une page regroupant plusieurs médias non titrés, 
 
 <div class="chapo">
 
-* Critère 4.8. Chaque [média non temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-non-temporel) a-t-il, si nécessaire, une alternative (hors cas particuliers) ?
-* Critère 4.9. Pour chaque [média non temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-non-temporel) ayant une alternative, cette alternative est-elle pertinente ?
+* Critère 4.8. Chaque média non temporel a-t-il, si nécessaire, une alternative (hors cas particuliers) ?
+* Critère 4.9. Pour chaque média non temporel ayant une alternative, cette alternative est-elle pertinente ?
 
 </div>
 
@@ -343,7 +343,7 @@ Pour ces personnes, l'absence (ou le manque de pertinence) d’une alternative t
 
 <div class="chapo">
 
-Critère 4.10. Chaque son déclenché automatiquement est-il [contrôlable](https://accessibilite.numerique.gouv.fr/methode/glossaire/#controle-son-declenche-automatiquement) par l’utilisateur ?
+Critère 4.10. Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur ?
 
 </div>
 
@@ -359,8 +359,8 @@ Les personnes handicapées mentales ou cognitives peuvent être désorientées p
 
 <div class="chapo">
 
-* Critère 4.11. La consultation de chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) est-elle, si nécessaire, [contrôlable par le clavier et tout dispositif de pointage](https://accessibilite.numerique.gouv.fr/methode/glossaire/#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) ?
-* Critère 4.12. La consultation de chaque [média non temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-non-temporel) est-elle [contrôlable par le clavier et tout dispositif de pointage](https://accessibilite.numerique.gouv.fr/methode/glossaire/#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) ?
+* Critère 4.11. La consultation de chaque média temporel est-elle, si nécessaire, contrôlable par le clavier et tout dispositif de pointage ?
+* Critère 4.12. La consultation de chaque média non temporel est-elle contrôlable par le clavier et tout dispositif de pointage ?
 
 </div>
 
@@ -374,7 +374,7 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une
 
 <div class="chapo">
 
-Critère 4.13. Chaque [média temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-temporel-type-son-video-et-synchronise) et [non temporel](https://accessibilite.numerique.gouv.fr/methode/glossaire/#media-non-temporel) est-il [compatible avec les technologies d’assistance](https://accessibilite.numerique.gouv.fr/methode/glossaire/#compatible-avec-les-technologies-d-assistance) (hors cas particuliers) ?
+Critère 4.13. Chaque média temporel et non temporel est-il compatible avec les technologies d’assistance (hors cas particuliers) ?
 
 </div>
 
@@ -390,8 +390,8 @@ Les personnes aveugles ou malvoyantes (qui utilisent un lecteur d’écran ou un
 
 <div class="chapo">
 
-* Critère 5.1. Chaque [tableau de données complexe](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-donnees-complexe) a-t-il un [résumé](https://accessibilite.numerique.gouv.fr/methode/glossaire/#resume-de-tableau) ?
-* Critère 5.2. Pour chaque [tableau de données complexe](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-donnees-complexe) ayant un [résumé](https://accessibilite.numerique.gouv.fr/methode/glossaire/#resume-de-tableau), celui-ci est-il pertinent ?
+* Critère 5.1. Chaque tableau de données complexe a-t-il un résumé ?
+* Critère 5.2. Pour chaque tableau de données complexe ayant un résumé, celui-ci est-il pertinent ?
 
 </div>
 
@@ -409,7 +409,7 @@ L’absence (ou le manque de pertinence) d’un résumé rend la compréhension 
 
 <div class="chapo">
 
-Critère 5.3. Pour chaque [tableau de mise en forme](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-mise-en-forme), le contenu linéarisé reste-t-il compréhensible ?
+Critère 5.3. Pour chaque tableau de mise en forme, le contenu linéarisé reste-t-il compréhensible ?
 
 </div>
 
@@ -421,7 +421,7 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran parcou
 
 <div class="chapo">
 
-Critère 5.8. Chaque [tableau de mise en forme](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-mise-en-forme) ne doit pas utiliser d’éléments propres aux [tableaux de données](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-donnees). Cette règle est-elle respectée ?
+Critère 5.8. Chaque tableau de mise en forme ne doit pas utiliser d’éléments propres aux tableaux de données. Cette règle est-elle respectée ?
 
 </div>
 
@@ -435,8 +435,8 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ne com
 
 <div class="chapo">
 
-* Critère 5.4. Pour chaque [tableau de données ayant un titre](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-donnees-ayant-un-titre), le titre est-il correctement associé au tableau de données ?
-* Critère 5.5. Pour chaque [tableau de données ayant un titre](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-donnees-ayant-un-titre), celui-ci est-il pertinent ?
+* Critère 5.4. Pour chaque tableau de données ayant un titre, le titre est-il correctement associé au tableau de données ?
+* Critère 5.5. Pour chaque tableau de données ayant un titre, celui-ci est-il pertinent ?
 
 </div>
 
@@ -451,8 +451,8 @@ Dans ces deux modes de navigation, un tableau sans titre (ou sans titre pertinen
 
 <div class="chapo">
 
-* Critère 5.6. Pour chaque [tableau de données](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-donnees), chaque [en-tête de colonne](https://accessibilite.numerique.gouv.fr/methode/glossaire/#en-tete-de-colonne-ou-de-ligne) et chaque [en-tête de ligne](https://accessibilite.numerique.gouv.fr/methode/glossaire/#en-tete-de-colonne-ou-de-ligne) sont-ils correctement déclarés ?
-* Critère 5.7. Pour chaque [tableau de données](https://accessibilite.numerique.gouv.fr/methode/glossaire/#tableau-de-donnees), la technique appropriée permettant d’associer chaque cellule avec ses [en-têtes](https://accessibilite.numerique.gouv.fr/methode/glossaire/#en-tete-de-colonne-ou-de-ligne) est-elle utilisée (hors cas particuliers) ?
+* Critère 5.6. Pour chaque tableau de données, chaque en-tête de colonne et chaque en-tête de ligne sont-ils correctement déclarés ?
+* Critère 5.7. Pour chaque tableau de données, la technique appropriée permettant d’associer chaque cellule avec ses en-têtes est-elle utilisée (hors cas particuliers) ?
 
 </div>
 
@@ -471,7 +471,7 @@ L’absence de liaisons entre les cellules d’en-tête et de données rend la c
 
 <div class="chapo">
 
-Critère 6.1. Chaque [lien](https://accessibilite.numerique.gouv.fr/methode/glossaire/#lien) est-il explicite (hors cas particuliers) ?
+Critère 6.1. Chaque lien est-il explicite (hors cas particuliers) ?
 
 </div>
 
@@ -490,7 +490,7 @@ Pour de nombreuses personnes, l’absence d’intitulé de lien explicite rend l
 
 <div class="chapo">
 
-Critère 6.2. Dans chaque page web, chaque [lien](https://accessibilite.numerique.gouv.fr/methode/glossaire/#lien) a-t-il un [intitulé](https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-ou-nom-accessible-de-lien) ?
+Critère 6.2. Dans chaque page web, chaque lien a-t-il un intitulé ?
 
 </div>
 
@@ -509,7 +509,7 @@ La présence de lien sans intitulé rend les interactions très difficiles :
 
 <div class="chapo">
 
-Critère 7.1. Chaque [script](https://accessibilite.numerique.gouv.fr/methode/glossaire/#script) est-il, si nécessaire, [compatible avec les technologies d’assistance](https://accessibilite.numerique.gouv.fr/methode/glossaire/#compatible-avec-les-technologies-d-assistance) ?
+Critère 7.1. Chaque script est-il, si nécessaire, compatible avec les technologies d’assistance ?
 
 </div>
 
@@ -523,7 +523,7 @@ Les composants ne seront pas utilisables si les propriétés permettant de les n
 
 <div class="chapo">
 
-Critère 7.2. Pour chaque [script](https://accessibilite.numerique.gouv.fr/methode/glossaire/#script) ayant une [alternative](https://accessibilite.numerique.gouv.fr/methode/glossaire/#alternative-a-script), cette alternative est-elle pertinente ?
+Critère 7.2. Pour chaque script ayant une alternative, cette alternative est-elle pertinente ?
 
 </div>
 
@@ -544,7 +544,7 @@ Pour ces personnes, l'absence (ou le manque de pertinence) d’une alternative d
 
 <div class="chapo">
 
-Critère 7.3. Chaque [script](https://accessibilite.numerique.gouv.fr/methode/glossaire/#script) est-il [contrôlable par le clavier et par tout dispositif de pointage](https://accessibilite.numerique.gouv.fr/methode/glossaire/#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) (hors cas particuliers) ?
+Critère 7.3. Chaque script est-il contrôlable par le clavier et par tout dispositif de pointage (hors cas particuliers) ?
 
 </div>
 
@@ -558,7 +558,7 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les
 
 <div class="chapo">
 
-Critère 7.4. Pour chaque [script](https://accessibilite.numerique.gouv.fr/methode/glossaire/#script) qui initie un [changement de contexte](https://accessibilite.numerique.gouv.fr/methode/glossaire/#changement-de-contexte), l’utilisateur est-il averti ou en a-t-il le contrôle ?
+Critère 7.4. Pour chaque script qui initie un changement de contexte, l’utilisateur est-il averti ou en a-t-il le contrôle ?
 
 </div>
 
@@ -576,7 +576,7 @@ Pour de nombreuses personnes, les changements de contexte rendent la navigation 
 
 <div class="chapo">
 
-Critère 7.5. Dans chaque page web, les [messages de statut](https://accessibilite.numerique.gouv.fr/methode/glossaire/#message-de-statut) sont-ils correctement restitués par les technologies d’assistance ?
+Critère 7.5. Dans chaque page web, les messages de statut sont-ils correctement restitués par les technologies d’assistance ?
 
 </div>
 
@@ -594,8 +594,8 @@ Elles ne sont pas informées de l’état du contenu : L’échec ou le succès 
 
 <div class="chapo">
 
-Critère 8.1. Chaque page web est-elle définie par un [type de document](https://accessibilite.numerique.gouv.fr/methode/glossaire/#type-de-document) ?
-Critère 8.2. Pour chaque page web, le code source généré est-il valide selon le [type de document](https://accessibilite.numerique.gouv.fr/methode/glossaire/#type-de-document) spécifié ?
+Critère 8.1. Chaque page web est-elle définie par un type de document ?
+Critère 8.2. Pour chaque page web, le code source généré est-il valide selon le type de document spécifié ?
 
 </div>
 
@@ -609,11 +609,11 @@ Un code HTML bien structuré est nécessaire aux technologies d’assistance pou
 
 <div class="chapo">
 
-* Critère 8.3. Dans chaque page web, la [langue par défaut](https://accessibilite.numerique.gouv.fr/methode/glossaire/#langue-par-defaut) est-elle présente ?
-* Critère 8.4. Pour chaque page web ayant une [langue par défaut](https://accessibilite.numerique.gouv.fr/methode/glossaire/#langue-par-defaut), le [code de langue](https://accessibilite.numerique.gouv.fr/methode/glossaire/#code-de-langue) est-il pertinent ?
-* Critère 8.7. Dans chaque page web, chaque [changement de langue](https://accessibilite.numerique.gouv.fr/methode/glossaire/#changement-de-langue) est-il indiqué dans le code source (hors cas particuliers) ?
-* Critère 8.8. Dans chaque page web, le code de langue de chaque [changement de langue](https://accessibilite.numerique.gouv.fr/methode/glossaire/#changement-de-langue) est-il valide et pertinent ?
-* Critère 8.10. Dans chaque page web, les changements du [sens de lecture](https://accessibilite.numerique.gouv.fr/methode/glossaire/#sens-de-lecture) sont-ils signalés ?
+* Critère 8.3. Dans chaque page web, la langue par défaut est-elle présente ?
+* Critère 8.4. Pour chaque page web ayant une langue par défaut, le code de langue est-il pertinent ?
+* Critère 8.7. Dans chaque page web, chaque changement de langue est-il indiqué dans le code source (hors cas particuliers) ?
+* Critère 8.8. Dans chaque page web, le code de langue de chaque changement de langue est-il valide et pertinent ?
+* Critère 8.10. Dans chaque page web, les changements du sens de lecture sont-ils signalés ?
 
 </div>
 
@@ -629,8 +629,8 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ont de
 
 <div class="chapo">
 
-* Critère 8.5. Chaque page web a-t-elle un [titre de page](https://accessibilite.numerique.gouv.fr/methode/glossaire/#titre-de-page) ?
-* Critère 8.6. Pour chaque page web ayant un [titre de page](https://accessibilite.numerique.gouv.fr/methode/glossaire/#titre-de-page), ce titre est-il pertinent ?
+* Critère 8.5. Chaque page web a-t-elle un titre de page ?
+* Critère 8.6. Pour chaque page web ayant un titre de page, ce titre est-il pertinent ?
 
 </div>
 
@@ -646,7 +646,7 @@ Les personnes aveugles ou malvoyantes et les personnes handicapées mentales ou 
 
 <div class="chapo">
 
-Critère 8.9. Dans chaque page web, les balises ne doivent pas être utilisées [uniquement à des fins de présentation](https://accessibilite.numerique.gouv.fr/methode/glossaire/#uniquement-a-des-fins-de-presentation). Cette règle est-elle respectée ?
+Critère 8.9. Dans chaque page web, les balises ne doivent pas être utilisées uniquement à des fins de présentation. Cette règle est-elle respectée ?
 
 </div>
 
@@ -662,7 +662,7 @@ Un code HTML sémantique est nécessaire aux technologies d’assistance pour re
 
 <div class="chapo">
 
-Critère 9.1. Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de [titres](https://accessibilite.numerique.gouv.fr/methode/glossaire/#titre) ?
+Critère 9.1. Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de titres ?
 
 </div>
 
@@ -680,7 +680,7 @@ Pour certaines personnes, l'absence (ou le manque de pertinence) de titre rend l
 
 <div class="chapo">
 
-Critère 9.2. Dans chaque page web, la [structure du document](https://accessibilite.numerique.gouv.fr/methode/glossaire/#structure-du-document) est-elle cohérente (hors cas particuliers) ?
+Critère 9.2. Dans chaque page web, la structure du document est-elle cohérente (hors cas particuliers) ?
 
 </div>
 
@@ -697,7 +697,7 @@ Si les éléments de structure HTML5 ne sont pas présents dans la page (ou s’
 
 <div class="chapo">
 
-Critère 9.3. Dans chaque page web, chaque [liste](https://accessibilite.numerique.gouv.fr/methode/glossaire/#listes) est-elle correctement structurée ?
+Critère 9.3. Dans chaque page web, chaque liste est-elle correctement structurée ?
 
 </div>
 
@@ -734,7 +734,7 @@ En l’absence de balisage approprié :
 
 <div class="chapo">
 
-Critère 10.1. Dans le site web, des [feuilles de styles](https://accessibilite.numerique.gouv.fr/methode/glossaire/#feuille-de-style) sont-elles utilisées pour contrôler la [présentation de l’information](https://accessibilite.numerique.gouv.fr/methode/glossaire/#presentation-de-l-information) ?
+Critère 10.1. Dans le site web, des feuilles de styles sont-elles utilisées pour contrôler la présentation de l’information ?
 
 </div>
 
@@ -750,7 +750,7 @@ La présence d’éléments et d’attributs HTML de présentation rend impossib
 
 <div class="chapo">
 
-Critère 10.2. Dans chaque page web, le [contenu visible](https://accessibilite.numerique.gouv.fr/methode/glossaire/#contenu-visible) porteur d’information reste-t-il présent lorsque les [feuilles de styles](https://accessibilite.numerique.gouv.fr/methode/glossaire/#feuille-de-style) sont désactivées ?
+Critère 10.2. Dans chaque page web, le contenu visible porteur d’information reste-t-il présent lorsque les feuilles de styles sont désactivées ?
 
 </div>
 
@@ -766,7 +766,7 @@ Les éléments porteurs d’information insérés en CSS (comme une icône ou un
 
 <div class="chapo">
 
-Critère 10.3. Dans chaque page web, l’information reste-t-elle [compréhensible](https://accessibilite.numerique.gouv.fr/methode/glossaire/#comprehensible-ordre-de-lecture) lorsque les [feuilles de styles](https://accessibilite.numerique.gouv.fr/methode/glossaire/#feuille-de-style) sont désactivées ?
+Critère 10.3. Dans chaque page web, l’information reste-t-elle compréhensible lorsque les feuilles de styles sont désactivées ?
 
 </div>
 
@@ -786,7 +786,7 @@ Lorsque l’ordre du code n’est pas logique, l’enchaînement des éléments 
 
 <div class="chapo">
 
-Critère 10.4. Dans chaque page web, le texte reste-t-il lisible lorsque la [taille des caractères](https://accessibilite.numerique.gouv.fr/methode/glossaire/#taille-des-caracteres) est augmentée jusqu’à 200%, au moins (hors cas particuliers) ?
+Critère 10.4. Dans chaque page web, le texte reste-t-il lisible lorsque la taille des caractères est augmentée jusqu’à 200%, au moins (hors cas particuliers) ?
 
 </div>
 
@@ -820,7 +820,7 @@ En l’absence de couleur de premier plan ou d’arrière-plan, les personnes ne
 
 <div class="chapo">
 
-Critère 10.6. Dans chaque page web, chaque [lien dont la nature n’est pas évidente](https://accessibilite.numerique.gouv.fr/methode/glossaire/#lien-dont-la-nature-n-est-pas-evidente) est-il visible par rapport au texte environnant ?
+Critère 10.6. Dans chaque page web, chaque lien dont la nature n’est pas évidente est-il visible par rapport au texte environnant ?
 
 </div>
 
@@ -834,7 +834,7 @@ Les personnes malvoyantes et handicapées mentales pourraient ne pas distinguer 
 
 <div class="chapo">
 
-Critère 10.7. Dans chaque page web, pour chaque élément recevant le focus, la [prise de focus](https://accessibilite.numerique.gouv.fr/methode/glossaire/#prise-de-focus) est-elle visible ?
+Critère 10.7. Dans chaque page web, pour chaque élément recevant le focus, la prise de focus est-elle visible ?
 
 </div>
 
@@ -848,7 +848,7 @@ Les personnes déficientes motrices qui naviguent au clavier vont avoir de grand
 
 <div class="chapo">
 
-Critère 10.8. Pour chaque page web, les [contenus cachés](https://accessibilite.numerique.gouv.fr/methode/glossaire/#contenu-cache) ont-ils vocation à être ignorés par les technologies d’assistance ?
+Critère 10.8. Pour chaque page web, les contenus cachés ont-ils vocation à être ignorés par les technologies d’assistance ?
 
 </div>
 
@@ -910,7 +910,7 @@ Les personnes malvoyantes et certaines personnes présentant des troubles de la 
 
 <div class="chapo">
 
-Critère 10.13. Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un [composant d’interface](https://accessibilite.numerique.gouv.fr/methode/glossaire/#composant-d-interface) sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?
+Critère 10.13. Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un composant d’interface sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?
 
 </div>
 
@@ -940,8 +940,8 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les
 
 <div class="chapo">
 
-* Critère 11.1. Chaque [champ de formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#champ-de-saisie-de-formulaire) a-t-il une [étiquette](https://accessibilite.numerique.gouv.fr/methode/glossaire/#etiquette-de-champ-de-formulaire) ?
-* Critère 11.2. Chaque [étiquette](https://accessibilite.numerique.gouv.fr/methode/glossaire/#etiquette-de-champ-de-formulaire) associée à un [champ de formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#champ-de-saisie-de-formulaire) est-elle pertinente (hors cas particuliers) ?
+* Critère 11.1. Chaque champ de formulaire a-t-il une étiquette ?
+* Critère 11.2. Chaque étiquette associée à un champ de formulaire est-elle pertinente (hors cas particuliers) ?
 
 </div>
 
@@ -959,7 +959,7 @@ L’absence (ou le manque de pertinence) d’une étiquette de formulaire empêc
 
 <div class="chapo">
 
-Critère 11.3. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), chaque [étiquette](https://accessibilite.numerique.gouv.fr/methode/glossaire/#etiquette-de-champ-de-formulaire) associée à un [champ de formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#champ-de-saisie-de-formulaire) ayant la même fonction et répétée plusieurs fois dans une même page ou dans un [ensemble de pages](https://accessibilite.numerique.gouv.fr/methode/glossaire/#ensemble-de-pages) est-elle [cohérente](https://accessibilite.numerique.gouv.fr/methode/glossaire/#etiquettes-coherentes) ?
+Critère 11.3. Dans chaque formulaire, chaque étiquette associée à un champ de formulaire ayant la même fonction et répétée plusieurs fois dans une même page ou dans un ensemble de pages est-elle cohérente ?
 
 </div>
 
@@ -973,7 +973,7 @@ Les personnes handicapées mentales ou cognitives pourraient ne pas comprendre l
 
 <div class="chapo">
 
-Critère 11.4. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), chaque [étiquette de champ](https://accessibilite.numerique.gouv.fr/methode/glossaire/#etiquette-de-champ-de-formulaire) et son champ associé sont-ils [accolés](https://accessibilite.numerique.gouv.fr/methode/glossaire/#accoles-etiquette-et-champ-accoles) (hors cas particuliers) ?
+Critère 11.4. Dans chaque formulaire, chaque étiquette de champ et son champ associé sont-ils accolés (hors cas particuliers) ?
 
 </div>
 
@@ -987,7 +987,7 @@ Les personnes malvoyantes qui ne visualisent qu’une partie de l’écran pourr
 
 <div class="chapo">
 
-Critère 11.5. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), les [champs de même nature](https://accessibilite.numerique.gouv.fr/methode/glossaire/#champs-de-meme-nature) sont-ils regroupés, si nécessaire ?
+Critère 11.5. Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?
 
 </div>
 
@@ -999,8 +999,8 @@ Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou d
 
 <div class="chapo">
 
-* Critère 11.6. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), chaque regroupement de [champs de même nature](https://accessibilite.numerique.gouv.fr/methode/glossaire/#champs-de-meme-nature) a-t-il une [légende](https://accessibilite.numerique.gouv.fr/methode/glossaire/#legende) ?
-* Critère 11.7. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), chaque [légende](https://accessibilite.numerique.gouv.fr/methode/glossaire/#legende) associée à un regroupement de [champs de même nature](https://accessibilite.numerique.gouv.fr/methode/glossaire/#champs-de-meme-nature) est-elle pertinente ?
+* Critère 11.6. Dans chaque formulaire, chaque regroupement de champs de même nature a-t-il une légende ?
+* Critère 11.7. Dans chaque formulaire, chaque légende associée à un regroupement de champs de même nature est-elle pertinente ?
 
 </div>
 
@@ -1012,7 +1012,7 @@ Les personnes aveugles ou malvoyantes et les personnes handicapées mentales peu
 
 <div class="chapo">
 
-Critère 11.8. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), les [items de même nature d’une liste de choix](https://accessibilite.numerique.gouv.fr/methode/glossaire/#items-de-meme-nature-d-une-liste-de-choix) sont-ils regroupés de manière pertinente ?
+Critère 11.8. Dans chaque formulaire, les items de même nature d’une liste de choix sont-ils regroupés de manière pertinente ?
 
 </div>
 
@@ -1026,7 +1026,7 @@ Les personnes aveugles ou malvoyantes et les personnes handicapées mentales pou
 
 <div class="chapo">
 
-Critère 11.9. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), l’intitulé de chaque [bouton](https://accessibilite.numerique.gouv.fr/methode/glossaire/#bouton-formulaire) est-il pertinent (hors cas particuliers) ?
+Critère 11.9. Dans chaque formulaire, l’intitulé de chaque bouton est-il pertinent (hors cas particuliers) ?
 
 </div>
 
@@ -1044,7 +1044,7 @@ Les personnes handicapées mentales ou cognitives peuvent avoir des difficultés
 
 <div class="chapo">
 
-Critère 11.10. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), le [contrôle de saisie](https://accessibilite.numerique.gouv.fr/methode/glossaire/#controle-de-saisie-formulaire) est-il utilisé de manière pertinente (hors cas particuliers) ?
+Critère 11.10. Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ?
 
 </div>
 
@@ -1065,7 +1065,7 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une
 
 <div class="chapo">
 
-Critère 11.11. Dans chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire), le [contrôle de saisie](https://accessibilite.numerique.gouv.fr/methode/glossaire/#controle-de-saisie-formulaire) est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?
+Critère 11.11. Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?
 
 </div>
 
@@ -1082,7 +1082,7 @@ Après avoir envoyé un formulaire, les personnes handicapées mentales pourraie
 
 <div class="chapo">
 
-Critère 11.12. Pour chaque [formulaire](https://accessibilite.numerique.gouv.fr/methode/glossaire/#formulaire) qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur ?
+Critère 11.12. Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur ?
 
 </div>
 
@@ -1114,7 +1114,7 @@ De même, un champ dont la liste des données proposées ne correspond pas à la
 
 <div class="chapo">
 
-Critère 12.1. Chaque [ensemble de pages](https://accessibilite.numerique.gouv.fr/methode/glossaire/#ensemble-de-pages) dispose-t-il de deux [systèmes de navigation](https://accessibilite.numerique.gouv.fr/methode/glossaire/#systeme-de-navigation) différents, au moins (hors cas particuliers) ?
+Critère 12.1. Chaque ensemble de pages dispose-t-il de deux systèmes de navigation différents, au moins (hors cas particuliers) ?
 
 </div>
 
@@ -1131,7 +1131,7 @@ Les personnes handicapées choisissent la manière de naviguer qui répond le mi
 
 <div class="chapo">
 
-Critère 12.2. Dans chaque [ensemble de pages](https://accessibilite.numerique.gouv.fr/methode/glossaire/#ensemble-de-pages), le [menu et les barres de navigation](https://accessibilite.numerique.gouv.fr/methode/glossaire/#menu-et-barre-de-navigation) sont-ils toujours à la même place (hors cas particuliers) ?
+Critère 12.2. Dans chaque ensemble de pages, le menu et les barres de navigation sont-ils toujours à la même place (hors cas particuliers) ?
 
 </div>
 
@@ -1159,8 +1159,8 @@ Les personnes déficientes motrices et les personnes handicapées mentales ou co
 
 <div class="chapo">
 
-* Critère 12.4. Dans chaque [ensemble de pages](https://accessibilite.numerique.gouv.fr/methode/glossaire/#ensemble-de-pages), la [page « plan du site »](https://accessibilite.numerique.gouv.fr/methode/glossaire/#page-plan-du-site) est-elle accessible à partir d’une fonctionnalité identique ?
-* Critère 12.5. Dans chaque [ensemble de pages](https://accessibilite.numerique.gouv.fr/methode/glossaire/#ensemble-de-pages), le [moteur de recherche](https://accessibilite.numerique.gouv.fr/methode/glossaire/#moteur-de-recherche-interne-a-un-site-web) est-il atteignable de manière identique ?
+* Critère 12.4. Dans chaque ensemble de pages, la [page « plan du site »](https://accessibilite.numerique.gouv.fr/methode/glossaire/#page-plan-du-site) est-elle accessible à partir d’une fonctionnalité identique ?
+* Critère 12.5. Dans chaque ensemble de pages, le moteur de recherche est-il atteignable de manière identique ?
 
 </div>
 
@@ -1174,7 +1174,7 @@ Les personnes aveugles ou malvoyantes pourraient avoir du mal à trouver les sys
 
 <div class="chapo">
 
-Critère 12.6. Les zones de regroupement de contenus présentes dans plusieurs pages web (zones d’[en-tête](https://accessibilite.numerique.gouv.fr/methode/glossaire/#zone-d-en-tete), de [navigation principale](https://accessibilite.numerique.gouv.fr/methode/glossaire/#menu-et-barre-de-navigation), de [contenu principal](https://accessibilite.numerique.gouv.fr/methode/glossaire/#zone-de-contenu-principal), de [pied de page](https://accessibilite.numerique.gouv.fr/methode/glossaire/#zone-de-pied-de-page) et de [moteur de recherche](https://accessibilite.numerique.gouv.fr/methode/glossaire/#moteur-de-recherche-interne-a-un-site-web)) peuvent-elles être atteintes ou évitées ?
+Critère 12.6. Les zones de regroupement de contenus présentes dans plusieurs pages web (zones d’en-tête, de navigation principale, de contenu principal, de pied de page et de moteur de recherche) peuvent-elles être atteintes ou évitées ?
 
 </div>
 
@@ -1186,7 +1186,7 @@ Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les
 
 <div class="chapo">
 
-Critère 12.7. Dans chaque page web, un [lien d’évitement ou d’accès rapide](https://accessibilite.numerique.gouv.fr/methode/glossaire/#liens-d-evitement-ou-d-acces-rapide) à la [zone de contenu principal](https://accessibilite.numerique.gouv.fr/methode/glossaire/#zone-de-contenu-principal) est-il présent (hors cas particuliers) ?
+Critère 12.7. Dans chaque page web, un lien d’évitement ou d’accès rapide à la zone de contenu principal est-il présent (hors cas particuliers) ?
 
 </div>
 
@@ -1200,7 +1200,7 @@ Les personnes déficientes motrices qui naviguent au clavier ne peuvent pas atte
 
 <div class="chapo">
 
-Critère 12.8. Dans chaque page web, l’[ordre de tabulation](https://accessibilite.numerique.gouv.fr/methode/glossaire/#ordre-de-tabulation) est-il [cohérent](https://accessibilite.numerique.gouv.fr/methode/glossaire/#comprehensible-ordre-de-lecture) ?
+Critère 12.8. Dans chaque page web, l’ordre de tabulation est-il cohérent ?
 
 </div>
 
@@ -1228,7 +1228,7 @@ Face à un piège au clavier, les personnes aveugles ou malvoyantes qui utilisen
 
 <div class="chapo">
 
-Critère 12.10. Dans chaque page web, les [raccourcis clavier](https://accessibilite.numerique.gouv.fr/methode/glossaire/#raccourci-clavier) n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?
+Critère 12.10. Dans chaque page web, les raccourcis clavier n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?
 
 </div>
 
@@ -1242,7 +1242,7 @@ Sans un moyen de contrôler les raccourcis clavier à une touche, les personnes 
 
 <div class="chapo">
 
-Critère 12.11. Dans chaque page web, les contenus additionnels apparaissant au survol, à la prise de focus ou à l’activation d’un [composant d’interface](https://accessibilite.numerique.gouv.fr/methode/glossaire/#composant-d-interface) sont-ils si nécessaire atteignables au clavier ?
+Critère 12.11. Dans chaque page web, les contenus additionnels apparaissant au survol, à la prise de focus ou à l’activation d’un composant d’interface sont-ils si nécessaire atteignables au clavier ?
 
 </div>
 
@@ -1288,8 +1288,8 @@ Les personnes handicapées mentales ou cognitives et les personnes aveugles ou m
 
 <div class="chapo">
 
-* Critère 13.3. Dans chaque page web, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une [version accessible](https://accessibilite.numerique.gouv.fr/methode/glossaire/#version-accessible-pour-un-document-en-telechargement) (hors cas particuliers) ?
-* Critère 13.4. Pour chaque document bureautique ayant une [version accessible](https://accessibilite.numerique.gouv.fr/methode/glossaire/#version-accessible-pour-un-document-en-telechargement), cette version offre-t-elle la même information ?
+* Critère 13.3. Dans chaque page web, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une version accessible (hors cas particuliers) ?
+* Critère 13.4. Pour chaque document bureautique ayant une version accessible, cette version offre-t-elle la même information ?
 
 </div>
 
@@ -1319,7 +1319,7 @@ Ces éléments sont restitués par le lecteur d’écran comme une succession de
 
 <div class="chapo">
 
-Critère 13.7. Dans chaque page web, [les changements brusques de luminosité ou les effets de flash](https://accessibilite.numerique.gouv.fr/methode/glossaire/#changement-brusque-de-luminosite-ou-effet-de-flash) sont-ils correctement utilisés ?
+Critère 13.7. Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?
 
 </div>
 
@@ -1333,7 +1333,7 @@ Ces effets visuels peuvent aussi provoquer des crises d’épilepsie chez certai
 
 <div class="chapo">
 
-Critère 13.8. Dans chaque page web, chaque contenu en mouvement ou clignotant est-il [contrôlable](https://accessibilite.numerique.gouv.fr/methode/glossaire/#controle-contenu-en-mouvement-ou-clignotant) par l’utilisateur ?
+Critère 13.8. Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ?
 
 </div>
 
@@ -1365,7 +1365,7 @@ Certaines personnes déficientes motrices (comme une personne tétraplégique, p
 
 <div class="chapo">
 
-Critère 13.10. Dans chaque page web, les fonctionnalités utilisables ou disponibles au moyen d’un [geste complexe](https://accessibilite.numerique.gouv.fr/methode/glossaire/#gestes-complexes-et-gestes-simples) peuvent-elles être également disponibles au moyen d’un [geste simple](https://accessibilite.numerique.gouv.fr/methode/glossaire/#gestes-complexes-et-gestes-simples) (hors cas particuliers) ?
+Critère 13.10. Dans chaque page web, les fonctionnalités utilisables ou disponibles au moyen d’un geste complexe peuvent-elles être également disponibles au moyen d’un geste simple (hors cas particuliers) ?
 
 </div>
 
