@@ -1,0 +1,42 @@
+{
+  "impacts": [
+    {
+      "name": "Fournir une alternative aux images porteuses d’information",
+      "description": {
+        "default": "Pour les personnes aveugles ou malvoyantes utilisant des outils de lecture, de vocalisation et d'agrandissement des contenus, l'absence d’alternative aux images porteuses d’information, ou leur manque de pertinence, peuvent les empêcher de comprendre un contenu ou d’accomplir une tâche.",
+        "falc": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus.L'absence (ou le manque de pertinence) d’alternative aux images porteuses d’information empêche ces personnes de comprendre un contenu ou d’accomplir une tâche.",
+        "html_default": "<p>Pour les personnes aveugles ou malvoyantes utilisant des outils de lecture, de vocalisation et d'agrandissement des contenus, l'absence d’alternative aux images porteuses d’information, ou leur manque de pertinence, peuvent les empêcher de comprendre un contenu ou d’accomplir une tâche.</p>",
+        "html_falc": "<p>Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus.</p><p>L'absence (ou le manque de pertinence) d’alternative aux images porteuses d’information empêche ces personnes de comprendre un contenu ou d’accomplir une tâche.</p>"
+      },
+      "criteria": {
+        "rgaa": ["1.1", "1.3"],
+        "raweb": [],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": [],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Masquer les images décoratives aux Technologies d’Assistance",
+      "description": {
+        "default": "",
+        "falc": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus. Ces outils retranscrivent beaucoup d’informations comme le type d’élément, ses propriétés, son état et son alternative. En l’absence d’alternative vide (ou d’attribut permettant de masquer l’élément aux technologies d’assistance), les images de décoration risquent d’être annoncées et de rendre le contenu peu compréhensible pour ces personnes.",
+        "html_default": "",
+        "html_falc": "<p>Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus. Ces outils retranscrivent beaucoup d’informations comme le type d’élément, ses propriétés, son état et son alternative. </p><p>En l’absence d’alternative vide (ou d’attribut permettant de masquer l’élément aux technologies d’assistance), les images de décoration risquent d’être annoncées et de rendre le contenu peu compréhensible pour ces personnes.</p>"
+      },
+      "criteria": {
+        "rgaa": ["1.2"],
+        "raweb": [],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": [],
+        "wcag": []
+      }
+    }
+  ]
+}
