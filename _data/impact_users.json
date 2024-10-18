@@ -37,6 +37,25 @@
         "raweb": [],
         "wcag": []
       }
+    },
+    {
+      "name": "3.1 Test",
+      "description": {
+        "default": "",
+        "falc": "Test",
+        "html_default": "",
+        "html_falc": "<p>TEST</p>"
+      },
+      "criteria": {
+        "rgaa": ["3.1"],
+        "raweb": [],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["3"],
+        "raweb": [],
+        "wcag": []
+      }
     }
   ]
 }

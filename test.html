@@ -4,42 +4,53 @@ title: Test
 ---
 
 <!-- Boucle sur toutes les thématiques du RGAA pour créer les titres de niveau 2 -->
-{% for topic in site.data.rgaa_4_1_2_clean.topics %}
-<h2>#{{ topic.num }} - {{ topic.name }}</h2>
+{% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
+<h2 id="{{ rgaa_topic.name | slugify }}">#{{ rgaa_topic.num }} - {{ rgaa_topic.name }}</h2>
 
-<!--
-  TODO:
-  Pour chaque thématique du RGA, filtrer les impacts users pour les structurer par titre.
-  {% assign filtered_impacts = site.data.impact_users.impacts | where: topics.rgaa, topic.num  %}
--->
+<!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
+{% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
 
+<!-- S'il impacts pour cette thématique on construit une liste -->
+{% if topic_impacts.size > 0 %}
 <ul class="unstyled">
-  <!-- On récupère les données présentes dans le fichier /_data/impact_users.json -->
-  {% for impact in site.data.impact_users.impacts %}
+  <!-- On boucle sur tous les impacts users filtrés -->
+  {% for impact in topic_impacts %}
     <li>
       <article>
-        <h3>Critères {{ impact.criteria.rgaa | join: ', ' }} - {{ impact.name }}</h3>
+        <h3 id="{{ impact.name | slugify}}">Critères {{ impact.criteria.rgaa | join: ', ' }} - {{ impact.name }}</h3>
 
         <!-- Critères associés récupérés depuis le JSON du RGAA clean -->
-        <div class="chapo">
-          <ul>
-            <!-- Pour chaque critère associé à l'impact user -->
-            {% for criterion_num in impact.criteria.rgaa %}
-              <!-- On utilise des filtres liquid pour récupérer les données du critère
-               dans les données du RGAA (/_data/rgaa_4_1_2_clean.json) -->
-              {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
-              <li>{{ criterion_num }} - {{ criterion_data[0]['name'] }}</li>
-            {% endfor %}
-          </ul>
-        </div>
+        {% if impact.criteria.rgaa.size > 0 %}
+          <div class="chapo">
+            <h4>Critères RGAA associés</h4>
+            <ul>
+              <!-- Pour chaque critère associé à l'impact user -->
+              {% for criterion_num in impact.criteria.rgaa %}
+                <!--
+                  On utilise des filtres liquid pour récupérer l'intitulé du critère
+                  dans les données du RGAA (/_data/rgaa_4_1_2_clean.json)
+                -->
+                {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
+                <li>
+                  {{ criterion_num }} - {{ criterion_data[0]['name'] }}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
 
-        <h3>Description</h3>
-        {{ impact.description.html_default }}
+        {% if impact.description.html_default.size > 0 %}
+          <h4>Description</h4>
+          {{ impact.description.html_default }}
+        {% endif %}
 
-        <h3>Description FALC</h3>
-        {{ impact.description.html_falc }}
+        {% if impact.description.html_falc.size > 0 %}
+          <h4>Description FALC</h4>
+          {{ impact.description.html_falc }}
+        {% endif %}
       </article>
     </li>
   {% endfor %}
 </ul>
+{% endif %}
 {% endfor %}
