@@ -22,7 +22,10 @@ title: Test
             <!-- Boucle sur tous les impacts users filtrés pour créer les liens de niveau 2 -->
             {% for impact in topic_impacts %}
               <li>
-                <a href="#{{ impact.name | slugify }}">Critères {{ impact.criteria.rgaa | join: ', ' }} - {{ impact.name }}</a>
+                <a href="#{{ impact.name | slugify }}">
+                  Critère{% if impact.criteria.rgaa.size > 1 %}s{% endif %}
+                  {{ impact.criteria.rgaa | join: ', ' }} - {{ impact.name }}
+                </a>
               </li>
             {% endfor %}
           </ul>
@@ -49,7 +52,10 @@ title: Test
       {% for impact in topic_impacts %}
         <li>
           <article>
-            <h3 id="{{ impact.name | slugify}}">Critères {{ impact.criteria.rgaa | join: ', ' }} - {{ impact.name }}</h3>
+            <h3 id="{{ impact.name | slugify}}">
+              Critère{% if impact.criteria.rgaa.size > 1 %}s{% endif %}
+              {{ impact.criteria.rgaa | join: ', ' }} - {{ impact.name }}
+            </h3>
 
             <!-- Critères associés récupérés depuis le JSON du RGAA clean -->
             {% if impact.criteria.rgaa.size > 0 %}
