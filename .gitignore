@@ -2,3 +2,6 @@ Gemfile.lock
 .jekyll-cache
 Gemfile
 _site
+
+# Mac files
+.DS_Store
