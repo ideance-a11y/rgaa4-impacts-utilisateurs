@@ -32,5 +32,5 @@ Pour corriger le problème, il suffit d'installer manuellement webrick via la co
 
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr"><img alt="Licence Creative Commons 4.0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width="118" height="41" /></a>
 
-Le présent contenu est placé sous [licence Creative Commons CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr). Il s'agit d'une refonte en profondeur du guide [Défauts d’accessibilité : Impacts sur les utilisateurs](https://disic.github.io/guide-impacts_utilisateurs/) édité par la DInSIC (devenue depuis lors la DINUM).   
+Le présent contenu est placé sous [licence Creative Commons CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr). Il s'agit d'une refonte en profondeur du guide [Défauts d’accessibilité : Impacts sur les utilisateurs](https://disic.github.io/guide-impacts_utilisateurs/) édité par la DInSIC (devenue depuis lors la DINUM).
 Les contenus originaux sont accessibles sur le dépôt git suivant : [DISIC/guide-impacts_utilisateurs](https://github.com/DISIC/guide-impacts_utilisateurs).
