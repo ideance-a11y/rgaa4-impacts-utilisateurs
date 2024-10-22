@@ -12,10 +12,10 @@ title: Test
   <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
   {% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
 
-  <!-- S'il impacts pour cette thématique on construit une liste -->
+  <!-- Si impacts pour cette thématique on construit une liste -->
   {% if topic_impacts.size > 0 %}
     <ul class="unstyled">
-      <!-- On boucle sur tous les impacts users filtrés -->
+      <!-- Boucle sur tous les impacts users filtrés -->
       {% for impact in topic_impacts %}
         <li>
           <article>
@@ -29,7 +29,7 @@ title: Test
                   <!-- Pour chaque critère associé à l'impact user -->
                   {% for criterion_num in impact.criteria.rgaa %}
                     <!--
-                      On utilise des filtres liquid pour récupérer l'intitulé du critère
+                      Filtres liquid pour récupérer l'intitulé du critère
                       dans les données du RGAA (/_data/rgaa_4_1_2_clean.json)
                     -->
                     {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
