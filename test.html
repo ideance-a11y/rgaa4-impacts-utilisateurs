@@ -3,10 +3,40 @@ layout: default
 title: Test
 ---
 
+<h2 id="summary-impact">Sommaire</h2>
+
+<!-- Sommaire  -->
+<nav role="navigation" aria-labelledby="summary-impact">
+  <ul>
+    <!-- Boucle sur toutes les thématiques du RGAA pour créer les liens de niveau 1-->
+    {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
+      <li>
+        <a href="#{{ rgaa_topic.name | slugify }}">{{ rgaa_topic.num }} - {{ rgaa_topic.name }}</a>
+
+        <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
+        {% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
+
+        <!-- Si impacts pour cette thématique on construit une liste -->
+        {% if topic_impacts.size > 0 %}
+          <ul class="unstyled">
+            <!-- Boucle sur tous les impacts users filtrés pour créer les liens de niveau 2 -->
+            {% for impact in topic_impacts %}
+              <li>
+                <a href="#{{ impact.name | slugify }}">Critères {{ impact.criteria.rgaa | join: ', ' }} - {{ impact.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+<!-- Fin Sommaire  -->
+
 <!-- Boucle sur toutes les thématiques du RGAA pour créer les titres de niveau 2 -->
 {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
   <h2 id="{{ rgaa_topic.name | slugify }}">
-    #{{ rgaa_topic.num }} - {{ rgaa_topic.name }}
+    {{ rgaa_topic.num }} - {{ rgaa_topic.name }}
   </h2>
 
   <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
