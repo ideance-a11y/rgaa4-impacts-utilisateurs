@@ -1,0 +1,1245 @@
+{
+  "impacts": [
+    {
+      "name": "Fournir une alternative aux images porteuses d’information",
+      "description": {
+        "default": "Pour les personnes aveugles ou malvoyantes utilisant des outils de lecture, de vocalisation et d'agrandissement des contenus, l'absence d’alternative aux images porteuses d’information, ou leur manque de pertinence, peuvent les empêcher de comprendre un contenu ou d’accomplir une tâche.",
+        "falc": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus. \n\nL'absence (ou le manque de pertinence) d’alternative aux images porteuses d’information empêche ces personnes de comprendre un contenu ou d’accomplir une tâche."
+      },
+      "criteria": {
+        "rgaa": ["1.1", "1.3"],
+        "raweb": ["1.1", "1.3"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": ["1"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Masquer les images décoratives aux Technologies d’Assistance",
+      "description": {
+        "default": "Les outils de lecture, de vocalisation et d'agrandissement des contenus utilisés par les personnes aveugles ou malvoyantes retranscrivent beaucoup d’information, comme le type d’élément, ses propriétés, son état et son alternative. Les alternatives aux images de décoration produisent beaucoup d’information inutile et peuvent rendre un contenu difficilement compréhensible.\n\n---\n\nLes outils de lecture, de vocalisation et d'agrandissement des contenus utilisés par les personnes aveugles ou malvoyantes retranscrivent beaucoup d’information, comme le type d’élément, ses propriétés, son état et son alternative. L’absence d’alternative à une image de décoration produit beaucoup d’informations inutiles et peut rendre un contenu difficilement compréhensible.\n\nLes lecteurs d’écran utilisés par les aveugles et les systèmes de vocalisations couplés aux logiciels d’agrandissement utilisés par les grands malvoyants retranscrivent beaucoup d’informations. En l’absence d’attribut permettant de masquer les SVG de décoration aux technologies d’assistance, ces derniers risquent d’être restitués et de générer beaucoup d’informations inutiles, rendant ainsi la compréhension du contenu difficile pour ces utilisateurs.",
+        "falc": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus. Ces outils retranscrivent beaucoup d’informations comme le type d’élément, ses propriétés, son état et son alternative.\n\nEn l’absence d’alternative vide (ou d’attribut permettant de masquer l’élément aux technologies d’assistance), les images de décoration risquent d’être annoncées et de rendre le contenu peu compréhensible pour ces personnes."
+      },
+      "criteria": {
+        "rgaa": ["1.2"],
+        "raweb": ["1.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": ["1"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Renseigner la nature et fournir un accès alternatif aux images Captcha",
+      "description": {
+        "default": "L’absence d’alternative à une image captcha permettant d’en identifier la nature, et surtout l’absence de moyen alternatif, constitue un problème insurmontable pour les personnes aveugles et les déficients visuels qui ne sont pas en capacité de lire le code. C’est également le cas pour les personnes handicapés mentales ou cognitifs qui peuvent simplement ne pas comprendre le mécanisme lui-même, notamment lorsque le moyen alternatif est un captcha logique.",
+        "falc": "L’absence d’alternative à une image test empêche les personnes aveugles ou malvoyantes de connaître la nature de l’image.\n\nLes personnes aveugles ou malvoyantes ne peuvent pas lire le code d’un captcha visuel. Les personnes handicapées mentales ou cognitives peuvent ne pas comprendre un captcha visuel ou logique.\nL'absence de solution alternative empêche ces personnes d’accomplir une tâche."
+      },
+      "criteria": {
+        "rgaa": ["1.4", "1.5"],
+        "raweb": ["1.4", "1.5"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": ["1"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Implémenter une description détaillée pour les images véhiculant une information complexe",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes utilisant des outils de lecture, de vocalisation et d'agrandissement des contenus, l'absence de description détaillée aux images porteuses d’information peuvent les empêcher de comprendre un contenu ou d’accomplir une tâche.",
+        "falc": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus.\nL'absence (ou le manque de pertinence) de description détaillée aux images porteuses d’information empêche ces personnes de comprendre un contenu ou d’accomplir une tâche."
+      },
+      "criteria": {
+        "rgaa": ["1.6", "1.7"],
+        "raweb": ["1.6", "1.7"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": ["1"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Remplacer les images textes par du texte stylé lorsque c'est possible",
+      "description": {
+        "default": "Les personnes déficientes visuelles vont avoir de grandes difficultés à lire des textes en images, car ils ne pourront pas agrandir les textes par exemple.\nCertaines personnes présentant des troubles de la lecture (Dyslexie par exemple) peuvent avoir recours à des feuilles de styles personnalisées pour modifier la police d'écriture et en utiliser une plus spécifique. Les textes en images ne peuvent être adaptés dans ce cas.",
+        "falc": "Les personnes malvoyantes ont de grandes difficultés à lire des textes en image car elles ne peuvent pas les rendre plus lisibles : Agrandir les caractères ou améliorer les contrastes, par exemple.\n\nCertaines personnes présentant des troubles de la lecture (comme la dyslexie) utilisent des feuilles de styles personnalisées et des lecteurs vocaux pour simplifier la lecture. Les textes en image ne peuvent pas être modifiés."
+      },
+      "criteria": {
+        "rgaa": ["1.8"],
+        "raweb": ["1.8"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": ["1"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Associer correctement une légende à son image",
+      "description": {
+        "default": "Une légende est associée visuellement à son image par un style particulier. L’absence de perception de cette association pour une personne aveugle peut avoir un impact majeur pour ces utilisateurs.\n\nPar exemple, si la légende contient des informations sur l’image, comme un copyright, une date, le nom d’un auteur ou d’une source, si la liaison entre la légende et l’image n’est pas annoncée, la personne aveugle peut penser que ces informations sont liées à un autre contenu, ce qui aura pour conséquence une grave altération de la compréhension du contenu.\n\n---\n\nL’usage d’une légende pour baliser un texte n’ayant aucun rapport avec l’image à laquelle elle est associée peut altérer la compréhension du contenu pour les personnes aveugles.",
+        "falc": "Une image et sa légende sont associées visuellement par un style particulier. Les personnes aveugles ou malvoyantes ne peuvent pas comprendre le lien entre l’image et sa légende, si cette association n’est pas annoncée.\n\nElles peuvent penser que la légende (le copyright, la date de publication ou le nom de l’auteur, par exemple) sont liés à un autre contenu."
+      },
+      "criteria": {
+        "rgaa": ["1.9"],
+        "raweb": ["1.9"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["1"],
+        "raweb": ["1"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Nommer les cadres affichant du contenu informatif",
+      "description": {
+        "default": "Les lecteurs d’écran disposent de fonctionnalités avancées de navigation rapide par type d’éléments dans la page, ou par l’intermédiaire d’une liste des éléments de la page. Dans ces deux modes de navigation, l’absence d’identification des cadres peut poser un problème de repérage dans la structure de la page ou de compréhension des contenus pour les personnes aveugles.",
+        "falc": "Les lecteurs d’écran permettent de naviguer rapidement dans la page. Par type d’éléments (de cadre en cadre, par exemple) ou grâce à la liste des éléments.\n\nDans ces deux modes de navigation, un cadre sans titre (ou sans titre pertinent) empêche les personnes aveugles d’identifier et de naviguer vers le cadre facilement."
+      },
+      "criteria": {
+        "rgaa": ["2.1", "2.2"],
+        "raweb": ["2.1", "2.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["2"],
+        "raweb": ["2"],
+        "wcag": ["4"]
+      }
+    },
+    {
+      "name": "Ne pas véhiculer d'information par la couleur uniquement",
+      "description": {
+        "default": "Beaucoup de personnes n’ont qu’une vision partielle ou dégradée des couleurs, voire aucune pour les personnes aveugles. Par exemple, dans le cas d'une fonctionnalité impliquant une sélection multiple dans une liste d’objets, si le statut sélectionné est uniquement indiqué par une couleur, ces personnes se retrouveront dans l’incapacité d’utiliser la fonctionnalité.\n\nBeaucoup de personnes ont une vision partielle ou dégradée des couleurs. Lorsqu'il n'est pas possible de distinguer une information véhiculée par la couleur, ces personnes perdent de l'information. Par exemple un champ erroné signalé uniquement par le remplacement de la bordure en rouge.",
+        "falc": "Les informations véhiculées par la couleur uniquement sont inaccessibles aux personnes aveugles ou malvoyantes qui distinguent peu ou pas du tout les couleurs.\n\nC’est par exemple le cas d’un champ en erreur signalé par un changement de couleur de bordure. Ou d’une sélection multiple dont le statut sélectionné est seulement indiqué par la couleur."
+      },
+      "criteria": {
+        "rgaa": ["3.1"],
+        "raweb": ["3.1"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["3"],
+        "raweb": ["3"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Appliquer des contrastes suffisamment élevés",
+      "description": {
+        "default": "Beaucoup de personnes n’ont qu’une vision partielle ou dégradée des couleurs, voire aucune pour les personnes aveugles. Par exemple, dans le cas d'une fonctionnalité impliquant une sélection multiple dans une liste d’objets, si le statut sélectionné est uniquement indiqué par une couleur, ces personnes se retrouveront dans l’incapacité d’utiliser la fonctionnalité.\n\nBeaucoup de personnes ont une vision partielle ou dégradée des couleurs. Lorsqu'il n'est pas possible de distinguer une information véhiculée par la couleur, ces personnes perdent de l'information. Par exemple un champ erroné signalé uniquement par le remplacement de la bordure en rouge.",
+        "falc": "Les informations véhiculées par la couleur uniquement sont inaccessibles aux personnes aveugles ou malvoyantes qui distinguent peu ou pas du tout les couleurs.\n\nC’est par exemple le cas d’un champ en erreur signalé par un changement de couleur de bordure. Ou d’une sélection multiple dont le statut sélectionné est seulement indiqué par la couleur."
+      },
+      "criteria": {
+        "rgaa": ["3.2", "3.3"],
+        "raweb": ["3.2", "3.3"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["3"],
+        "raweb": ["3"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Transcription textuelle",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes rencontreront naturellement des difficultés à percevoir les informations visuelles en l’absence d’audiodescription ou de transcription textuelle.\n\nLes personnes qui rencontrent des difficultés à regarder, percevoir ou à comprendre des médias temporels comme des vidéos ont besoin d’une transcription textuelle.",
+        "falc": "L'absence (ou le manque de pertinence) d’audiodescription ou de transcription textuelle empêche les personnes aveugles ou malvoyantes d’avoir accès aux informations visuelles du média."
+      },
+      "criteria": {
+        "rgaa": ["4.1", "4.2"],
+        "raweb": ["4.1", "4.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Sous-titrage des vidéos",
+      "description": {
+        "default": "Les personnes sourdes ou malentendantes rencontreront des difficultés à suivre une vidéo sans sous-titrage ou sous-titrée automatiquement ou encore lorsque la multiplication des locuteurs ou le paysage sonore ne leur permettent plus de distinguer les sons des uns des autres.",
+        "falc": "Les personnes sourdes ou malentendantes auront du mal à suivre une vidéo si :\n\n* La vidéo n’a pas de sous-titres (ou des sous-titres automatiques) ;\n* Plusieurs personnes parlent en même temps ;\n* Le bruit environnant rend les informations sonores peu (ou pas) compréhensibles."
+      },
+      "criteria": {
+        "rgaa": ["4.3", "4.4"],
+        "raweb": ["4.3", "4.4"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Audiodescription des vidéos",
+      "description": {
+        "default": "En l’absence d’audiodescription, les personnes aveugles ou malvoyantes vont avoir de grosses difficultés de compréhension des vidéos, en particulier avec les textes incrustés par exemple.",
+        "falc": "L’absence (ou le manque de pertinence) d’audiodescription empêche les personnes aveugles ou malvoyantes de comprendre les vidéos. En particulier si elles contiennent des textes incrustés."
+      },
+      "criteria": {
+        "rgaa": ["4.5", "4.6"],
+        "raweb": ["4.5", "4.6"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Identification des médias temporels",
+      "description": {
+        "default": "L’absence d’identification des vidéos par un titre ou un résumé peut rendre la recherche d’information particulièrement laborieuse pour les personnes aveugles et malvoyantes. Les personnes aveugles et malvoyantes pourraient être dans l’obligation de parcourir un lecteur vidéo en l’absence de titre indiquant le type de média.",
+        "falc": "L’absence de titre ou de résumé associé aux contenus audios et vidéos rend la recherche d’informations très difficile pour les personnes aveugles et malvoyantes.\nPar exemple, dans le cas d’une page regroupant plusieurs médias non titrés, elles sont obligées de démarrer chaque lecteur pour connaître le sujet traité."
+      },
+      "criteria": {
+        "rgaa": ["4.7"],
+        "raweb": ["4.7"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Alternative aux médias non temporels",
+      "description": {
+        "default": "Les médias non temporels regroupent des dispositifs liés à l’utilisation de technologies tierces comme la technologie Flash, Java, Silverlight par exemple.\n\nDans ce type de contexte, les problèmes rencontrés peuvent être liés à la technologie elle-même ou à son usage.\n\nLes aveugles auront des difficultés avec les éléments visuels, les indications données uniquement par la couleur, l’utilisation d’éléments interactifs ou l’absence de structure. S’ajoute à ces problèmes le fait que les fonctionnalités de navigation et de contrôle des contenus peuvent être inopérantes dans ce type de contexte.\n\nLes déficients visuels et les grands malvoyants peuvent avoir des problèmes liés à l’impossibilité de personnaliser les contenus diffusés par ce canal, comme l’impossibilité d’agrandir les tailles de textes ou de modifier les couleurs de police et de fond d’élément.\n\nLes handicapés moteurs peuvent rencontrer des difficultés de contrôle des boutons d’action et de manière plus générale de tous les éléments interactifs diffusés dans ce type de contexte.\n\nLes handicapés mentaux et les déficients cognitifs peuvent être dans l’incapacité de comprendre et utiliser des fonctionnalités d’animation et d’interactions trop riches ou trop inhabituelles.\n\nEnfin, les sourds et malentendants peuvent avoir des problèmes lorsque le contenu utilise des signaux sonores informatifs, cela peut être le cas d’un jeu par exemple.\n\nEn l’absence d’une alternative textuelle à ce type de contenu les utilisateurs impactés peuvent se retrouver dans une situation où ils n’auront pas accès à l’information.",
+        "falc": "Les médias non temporels sont intégrés via un plugin (Java, Silverlight…) ou un élément natif (canvas ou svg). Les problèmes rencontrés peuvent être liés à la technologie ou à la manière dont elle est utilisée :\n\n* Les personnes déficientes motrices n’arriveront peut-être pas à contrôler les éléments interactifs du média ;\n* Les personnes sourdes et malentendantes n’auront pas accès aux informations présentes dans la bande son ;\n* Les personnes handicapées mentales ou cognitive n’arriveront pas à comprendre et à utiliser des fonctionnalités trop riches ou inhabituelles ;\n* Les personnes malvoyantes ne pourront pas personnaliser les contenus du média. Comme agrandir les tailles de caractères ou modifier la couleur du texte, par exemple ;\n* Les aveugles auront des difficultés avec les informations visuelles, les indications données par la couleur uniquement, l’absence de structure ou l’utilisation d’éléments interactifs. Les éléments de navigation et de contrôle des contenus peuvent aussi être inefficaces.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative textuelle empêche l’accès à l’information contenue dans le média."
+      },
+      "criteria": {
+        "rgaa": ["4.8", "4.9"],
+        "raweb": ["4.8", "4.9"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Déclenchement automatique de son",
+      "description": {
+        "default": "Lorsqu’un son est déclenché automatiquement au chargement de la page, les aveugles et les grands malvoyants vont avoir de grandes difficultés à naviguer puisque le son va recouvrir celui de la synthèse vocale",
+        "falc": "Les personnes aveugles ou malvoyantes vont avoir de grandes difficultés à naviguer si un son démarre immédiatement après le chargement de la page : Le son va recouvrir celui de la synthèse vocale.\n\nLes personnes handicapées mentales ou cognitives peuvent être désorientées par le déclenchement automatique du son et ne pas comprendre d’où il vient."
+      },
+      "criteria": {
+        "rgaa": ["4.10"],
+        "raweb": ["4.10"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Utilisation au clavier et à la souris des lecteurs et des médias non temporels",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui accèdent aux contenus par l’intermédiaire d’un lecteur d’écran, et la plupart des personnes déficientes motrices qui utilisent le clavier pour interagir, rencontreront des difficultés importantes si les contrôles ne sont pas totalement utilisables au clavier.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée et les personnes déficientes motrices qui naviguent au clavier vont avoir de grandes difficultés pour interagir avec la page si les contrôles ne fonctionnent pas correctement au clavier."
+      },
+      "criteria": {
+        "rgaa": ["4.11", "4.12"],
+        "raweb": ["4.11", "4.12"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Accessibilité des lecteurs et des medias non temporels",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui accèdent aux contenus par l’intermédiaire d’un lecteur d’écran, et la plupart des personnes déficientes motrices qui utilisent le clavier ou la voix pour interagir, rencontreront des difficultés importantes si les contrôles ne sont pas totalement compatibles avec les technologies d’assistance.",
+        "falc": "Les personnes aveugles ou malvoyantes (qui utilisent un lecteur d’écran ou une loupe vocalisée) et les personnes déficientes motrices (qui naviguent au clavier ou à l’aide d’une reconnaissance vocale) vont avoir de grandes difficultés si les contrôles du media ne sont pas compatibles avec les technologies d’assistance."
+      },
+      "criteria": {
+        "rgaa": ["4.13"],
+        "raweb": ["4.13"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["4"],
+        "raweb": ["4"],
+        "wcag": ["2"]
+      }
+    },
+    {
+      "name": "Résumé des tableaux de données complexes",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui accèdent aux contenus par l’intermédiaire d’un lecteur d’écran, les personnes déficientes visuelles qui utilisent une loupe d'écran ou encore les utilisateurs ayant un champ de vision réduit ou partiellement masqué, ne peuvent pas percevoir l’organisation d’un tableau de données complexe.\n\nLes personnes handicapées mentales ou cognitifs peuvent ne pas être en capacité de comprendre une structure de tableau trop complexe possédant par exemple des cellules d’en-tête fusionnées ou des zones de regroupement de données.\n\nDans tous les cas l’absence d’un résumé leur donnant accès à ce niveau d’information peut rendre particulièrement complexe la compréhension et l’utilisation des données du tableau.\n\n---\n\nL’absence d’un résumé peut rendre particulièrement complexe la compréhension et l’utilisation des données d’un tableau complexe.",
+        "falc": "L’absence (ou le manque de pertinence) d’un résumé rend la compréhension et l’utilisation d’un tableau complexe très difficile :\n\n* Les personnes malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit ne visualisent pas la structure globale du tableau ;\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée ne sont pas averties de la structure du tableau ;\n* Les personnes handicapées mentales ou cognitives peuvent ne pas comprendre la structure du tableau."
+      },
+      "criteria": {
+        "rgaa": ["5.1", "5.2"],
+        "raweb": ["5.1", "5.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["5"],
+        "raweb": ["5"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Linéarisation et identification des tableaux de mise en forme",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui accèdent au contenu par l’intermédiaire d’un lecteur d’écran parcourent le contenu de manière séquentielle. Lorsque le tableau n’est pas énoncé comme un tableau de mise en forme, les utilisateurs ne seront pas en capacité de comprendre les contenus.\n\nEn l’absence d’un ordre logique dans la répartition du contenu dans les cellules d’un tableau de mise en forme ces utilisateurs ne seront pas en capacité de comprendre les contenus.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran parcourent les tableaux de mise en forme dans l’ordre de lecture. Si le contenu des cellules ne forme pas une suite logique, l’information n’est pas compréhensible.\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ne comprendront pas un tableau de mise en forme qui a les caractéristiques d’un tableau de données : La restitution du lecteur d’écran ne sera pas adaptée et le contenu ne sera pas compréhensible."
+      },
+      "criteria": {
+        "rgaa": ["5.3", "5.8"],
+        "raweb": ["5.3", "5.8"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["5"],
+        "raweb": ["5"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Titrage des tableaux de données",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran bénéficient de fonctionnalités avancées de navigation dans le contenu. L’une d’elles propose de se déplacer par type d’élément ou d’afficher une liste des éléments de la page. Dans ce contexte, et plus particulièrement lorsque l’utilisateur affiche la liste des éléments de la page, l’absence de titrage ou l’utilisation de titre peu pertinent lié aux tableaux de données ne permet plus l’identification du tableau.\n\n---\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran bénéficient de fonctionnalités avancées de navigation dans le contenu. L’une d’elles, propose de se déplacer de tableau en tableau. Dans ce contexte, l’absence de titrage aux tableaux de données ne permet plus l’identification et par conséquent la navigation vers les tableaux.",
+        "falc": "Les lecteurs d’écran permettent de naviguer rapidement dans la page. Par type d’éléments (de tableau en tableau, par exemple) ou grâce à la liste des éléments.\n\nDans ces deux modes de navigation, un tableau sans titre (ou sans titre pertinent) empêche les personnes aveugles d’identifier et de naviguer vers le tableau facilement."
+      },
+      "criteria": {
+        "rgaa": ["5.4", "5.5"],
+        "raweb": ["5.4", "5.5"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["5"],
+        "raweb": ["5"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Identification des en-têtes et liaisons des cellules d’en-têtes et de données",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui accèdent au contenu par l’intermédiaire d’un lecteur d’écran ou d’une loupe vocalisée, ainsi que les personnes déficientes visuelles dépourvus de vision périphérique ou centrale, ne peuvent pas voir le tableau ou ne perçoivent qu’une partie limitée de l’écran. Ils rencontreront donc des difficultés importantes pour associer les en-têtes aux cellules de données.\n\nIls seront dans l’impossibilité de comprendre et d’utiliser le tableau en l’absence des liaisons programmatiques entre les cellules d’en-tête et de données.",
+        "falc": "L’absence de liaisons entre les cellules d’en-tête et de données rend la compréhension et l’utilisation d’un tableau très difficile :\n\n* Les personnes malvoyantes dépourvues de vision périphérique ou centrale ne visualisent qu’une partie de l’écran. Elles ne peuvent pas voir le tableau dans son ensemble ;\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée ne sont pas averties de la relation entre les cellules d’en-tête et de données."
+      },
+      "criteria": {
+        "rgaa": ["5.6", "5.7"],
+        "raweb": ["5.6", "5.7"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["5"],
+        "raweb": ["5"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Lien non explicite",
+      "description": {
+        "default": "En l’absence d’intitulé de lien explicite, les personnes aveugles ou malvoyantes utilisant un lecteur d’écran et la plupart des personnes déficientes visuelles peuvent être dans l’incapacité d’utiliser les contenus faute de pouvoir déterminer les actions associées aux liens.\n\nAussi, les personnes déficientes motrices naviguant à la voix peuvent devoir réaliser beaucoup d’actions pour tester les liens, ce qui peut rendre l’utilisation de la page excessivement complexe : activer un lien dont le titre ne reprend pas l’intitulé visible peut nécessiter beaucoup d’essais, par exemple.\n\nEnfin, les personnes handicapées mentales ou cognitifs en l’absence d’intitulé explicite peuvent être dans l’incapacité de les comprendre et les utiliser.\n\n---\n\nEn présence de lien image dont l’alternative textuelle de l’image ne serait pas pertinente, les personnes aveugles ou malvoyantes peuvent ne pas comprendre un contenu ou la destination du lien.\n\n---\n\nEn présence de lien composite incluant une image de décoration dont l’alternative textuelle de l’image ne serait pas correctement ignorée, les personnes aveugles ou malvoyantes pourraient ne pas comprendre la destination du lien.",
+        "falc": "Pour de nombreuses personnes, l’absence d’intitulé de lien explicite rend la compréhension et l’utilisation d’un contenu très difficile :\n\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre la fonction et la destination des liens ; \n* Les personnes malvoyantes dépourvues de vision centrale ou périphérique ne perçoivent pas forcément les informations données par le contexte des liens ;\n* Les personnes déficientes motrices naviguant à la voix doivent faire beaucoup d’essais pour activer un lien non explicite ;\n* Les personnes handicapées mentales ou cognitives peuvent ne pas comprendre la destination des liens."
+      },
+      "criteria": {
+        "rgaa": ["6.1"],
+        "raweb": ["6.1"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["6"],
+        "raweb": ["6"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Lien sans intitulé",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes ne pouvant voir l’ensemble des contenus ainsi que les personnes déficientes motrices naviguant à la voix, peuvent devoir réaliser beaucoup d’action pour tester et interagir avec un lien sans intitulé.\n\nEn présence de lien sans intitulé, les personnes aveugles ou malvoyantes utilisant un lecteur d’écran et la plupart des personnes déficientes visuelles peuvent être dans l’incapacité d’utiliser les contenus faute de pouvoir déterminer les actions associées aux liens.",
+        "falc": "La présence de lien sans intitulé rend les interactions très difficiles :\n\n* Les personnes aveugles ou malvoyantes ne sont pas informées de la fonction et de la destination du lien ;\n* Les personnes déficientes motrices naviguant à la voix doivent faire beaucoup d’essais pour activer un lien sans intitulé."
+      },
+      "criteria": {
+        "rgaa": ["6.2"],
+        "raweb": ["6.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["6"],
+        "raweb": ["6"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Compatibilité des scripts avec les technologies d’assistance",
+      "description": {
+        "default": "Les aides techniques comme les lecteurs d’écran seront dans l’incapacité de restituer correctement l’ensemble des informations des composants d’interface si les noms accessibles, rôles, états et propriétés ne sont pas présentes ou erronées. Par exemple si l’état d’un menu déroulant n’est pas indiqué aux technologies d’assistance, les utilisateurs peuvent ne pas comprendre comment accéder au sous-menu ou être dans l’obligation de tester l’interface pour compenser le manque d’information de l’état du menu.\n\n---\n\nLes aides techniques comme les lecteurs d’écran seront dans l’incapacité de restituer correctement l’ensembles des informations des composants d’interface si le motif de conception n’est pas respecté.\n\n---\n\nLes aides techniques comme les lecteurs d’écran ou les reconnaissances vocales seront dans l’incapacité de restituer ou cibler correctement un élément interactif si celui-ci ne possède pas un nom accessible explicite.",
+        "falc": "Les composants ne seront pas utilisables si les propriétés permettant de les nommer et de définir leur rôle et leurs états sont absentes ou peu pertinentes : Les personnes qui utilisent les technologies d’assistance comme un lecteur d’écran ou une reconnaissance vocale ne pourront pas comprendre de quel type de composant il s’agit et comment il s’utilise."
+      },
+      "criteria": {
+        "rgaa": ["7.1"],
+        "raweb": ["7.1"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["7"],
+        "raweb": ["7"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Alternative pertinente au script",
+      "description": {
+        "default": "Les scripts trop complexes ne pouvant être rendu accessibles doivent proposer une alternative accessible (par exemple une carte interactive). Les personnes ne pouvant utiliser ces script pourraient être dans l’incapacité d’avoir le même niveau d’information si une alternative n’est pas proposée avec un contenu et des fonctionnalités similaires.",
+        "falc": "Certains scripts très complexes (comme une carte interactive, par exemple) peuvent poser de nombreux problèmes :\n\n* Les personnes déficientes motrices n’arrivent pas à contrôler les éléments interactifs ;\n* Les personnes handicapées mentales ou cognitive ne comprennent pas ou ne savent pas comment à utiliser la ou les fonctionnalités ;\n* Les personnes malvoyantes n’ont pas les moyens de personnaliser les contenus ;\n* Les fonctionnalités de navigation et de contrôle ne sont pas fonctionnelles avec les technologies d’assistance.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative donnant des contenus similaires empêche l’accès à l’information."
+      },
+      "criteria": {
+        "rgaa": ["7.2"],
+        "raweb": ["7.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["7"],
+        "raweb": ["7"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Utilisation des scripts au clavier et par les dispositifs de pointage",
+      "description": {
+        "default": "Les personnes déficientes motrices ne pourront que très difficilement utiliser des composants qui peuvent nécessiter des interactions riches au clavier, par exemple un carrousel doit pouvoir se piloter avec les flèches de direction.\n\nLes personnes déficientes motrices ne pourront que très difficilement utiliser ses composants qui peuvent nécessiter des interactions riches au clavier.\n\nLes personnes déficientes visuelles utilisant un lecteur d’écran et les personnes déficientes motrices rencontreront de grandes difficultés si les composants d’interface ne sont pas contrôlables au clavier.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes motrices ne peuvent pas utiliser et interagir avec les composants s’ils ne fonctionnent pas correctement au clavier."
+      },
+      "criteria": {
+        "rgaa": ["7.3"],
+        "raweb": ["7.3"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["7"],
+        "raweb": ["7"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Changement de contexte initié par un script",
+      "description": {
+        "default": "Les variations de contenus comme le fait de modifier, d’ajouter ou de supprimer des champs de formulaires en cours de saisie, de transporter le focus sur des éléments de page à la suite d’une action ou l’irruption en cours de processus d’alerte non sollicitée peuvent désorienter durablement les utilisateurs.\n\nLes personnes aveugles ou malvoyantes qui ne peuvent pas voir l’ensemble de la page peuvent ignorer les modifications ou ne pas être en capacité de les interpréter correctement s’ils n’en sont pas informés préalablement.\n\nLes personnes handicapées mentales ou cognitifs peuvent ne pas être en capacité de comprendre ces modifications s’ils n’en sont pas informés préalablement.\n\nEnfin les personnes déficientes visuelles qui n’ont qu’une vue partielle de la page rencontreront des difficultés dans certaines situations lorsque le focus est déplacé.",
+        "falc": "Pour de nombreuses personnes, les changements de contexte rendent la navigation très compliquée, voire impossible :\n\n* Les personnes handicapées mentales ou cognitives peuvent ne pas comprendre les modifications de contenu si elles ne sont pas prévenues avant ;\n* Les personnes malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit peuvent ne pas voir les modifications de contenu ou le déplacement du focus ;\n* Les personnes aveugles ou malvoyantes ignorent les modifications de contenu si elles ne sont pas prévenues avant."
+      },
+      "criteria": {
+        "rgaa": ["7.4"],
+        "raweb": ["7.4"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["7"],
+        "raweb": ["7"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Restitution des messages de statut",
+      "description": {
+        "default": "Les personnes aveugles et malvoyantes qui ne peuvent pas percevoir l’ensemble de la page pourraient ignorer les messages de statut comme le succès ou le résultat d’une action, l’état occupé d’une application, l’état de progression d’un processus ou l’existence d’une erreur s’il ne sont pas correctement restitués.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit pourraient ignorer les messages de statut s’ils ne sont pas correctement restitués.\n\nElles ne sont pas informées de l’état du contenu : L’échec ou le succès d’une soumission, la progression d’une opération, la non-disponibilité d’une fonctionnalité ou la présence d’une erreur par exemple."
+      },
+      "criteria": {
+        "rgaa": ["7.5"],
+        "raweb": ["7.5"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["7"],
+        "raweb": ["7"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Validité du code source",
+      "description": {
+        "default": "Beaucoup de technologies d’assistance s’appuient sur le code des pages pour assurer les restitutions et les interactions avec l’utilisateur. Si le code HTML comporte des erreurs de code, comme des balises mal écrites, cela risque de rendre certaines fonctionnalités essentielles inopérables, comme la navigation de liens en liens par exemple.",
+        "falc": "Un code HTML bien structuré est nécessaire aux technologies d’assistance pour restituer le contenu et permettre les interactions avec la page. Si le code comporte des erreurs (comme des balises mal écrites), certaines fonctionnalités risquent d’être inutilisables (comme la navigation de liens en liens, par exemple)."
+      },
+      "criteria": {
+        "rgaa": ["8.1", "8.2"],
+        "raweb": ["8.1", "8.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["8"],
+        "raweb": ["8"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Identification de langue principale et des changements de langue",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran auront de grandes difficultés à comprendre le texte si celui-ci est lu dans une mauvaise langue, les obligeant éventuellement à modifier d’eux-mêmes, s’ils parviennent à l’identifier, le jeu de langue à utiliser.\n\nDe même certaines personnes handicapées mentales ou cognitifs qui souffrent d’illettrisme ou de dyslexie peuvent recourir à des systèmes de vocalisation qui seront rendus inopérants en l’absence d’indication de langues appropriées.",
+        "falc": "Certaines personnes présentant des troubles de la lecture (comme la dyslexie ou l’illettrisme) utilisent des lecteurs vocaux qui sont inefficaces si les changements de langue ne sont pas indiqués.\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ont de grandes difficultés à comprendre les textes lus dans une langue qui n’est pas la bonne."
+      },
+      "criteria": {
+        "rgaa": ["8.3", "8.4", "8.7", "8.8", "8.10"],
+        "raweb": ["8.3", "8.4", "8.7", "8.8", "8.10"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["8"],
+        "raweb": ["8"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Présence d’un titre de page",
+      "description": {
+        "default": "Les titres des pages sont les premières informations proposées aux utilisateurs. Ils servent à la production d’un historique de navigation, de la liste des onglets ouverts, ou de la mise en favoris des pages. Leur absence peut rendre l'accès et l’utilisation d’un site complexe, particulièrement pour les personnes déficientes motrices.\n\n---\n\nLes titres des pages sont les premières informations proposées aux utilisateurs et ils servent de base à la production, par les navigateurs, d’un historique de navigation ou de la liste des onglets ouverts.\n\nPar manque de pertinence, les personnes aveugles, malvoyantes et handicapés mentaux ou cognitifs auront de grandes difficultés à retrouver ou identifier une page dans l’historique de navigation ou dans la liste des onglets ouverts.\n\nLorsque les pages font partie d’un processus, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas comprendre le processus.\n\nLes titres des pages sont les premières informations proposées aux utilisateurs. Lorsqu’une page avec un formulaire génère des erreurs côté serveur, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas être informées d’une potentielle erreur si le titre de la page ne le précise pas.",
+        "falc": "Le titre de page est la première information restituée par les technologies d’assistance. Il est utilisé dans l’historique de navigation, la liste des onglets ouverts, ou lors de la mise en favoris.\n\nLes personnes aveugles ou malvoyantes et les personnes handicapées mentales ou cognitives ont de grandes difficultés à retrouver ou identifier une page si le titre de page est absent ou peu pertinent."
+      },
+      "criteria": {
+        "rgaa": ["8.5", "8.6"],
+        "raweb": ["8.5", "8.6"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["8"],
+        "raweb": ["8"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Utilisation des balises à bon escient",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes utilisent des lecteurs d’écran qui s’appuient sur la sémantique des balises, telle qu’elle est fournie par le navigateur, pour restituer le contenu et proposer des fonctionnalités de navigation dans le contenu.\n\nSi l’utilisation des balises est détournée, la restitution peut devenir incompréhensible et les fonctionnalités de navigation dans les contenus inopérantes ou donner des résultats particulièrement inattendus.\n\nUtiliser des successions de retours-chariot ou des paragraphes vides pour créer des marges rendra la restitution peu agréable du fait des silences générés par ce type d’usage.\n\nDe même, utiliser des espaces insécables pour simuler un tableau ou du colonage rendra simplement le contenu incompréhensible.\n\nUtiliser des éléments `<div>` ou `<span>` pour créer des paragraphes peut rendre la compréhension du contenu complexe.\n\n---\n\nDu fait de la restitution qui en est faite, les listes à un seul élément rendent les contenus inutilement verbeux et complexifient la navigation pour les utilisateurs de lecteur d’écran.\n\n---\n\nUtiliser des balises `<div>` pour simuler des paragraphes ne permet pas aux utilisateurs de personnaliser les styles des textes.\n\n---\n\nUtiliser des rubriques titrées sans contenu peut générer des incompréhensions pour les utilisateurs de lecteur d’écran.",
+        "falc": "Un code HTML sémantique est nécessaire aux technologies d’assistance pour restituer le contenu et permettre les interactions avec la page. Si les balises ne sont pas utilisées pour leur sens, la restitution peut être difficilement compréhensible et certaines fonctionnalités risquent d’être inutilisables."
+      },
+      "criteria": {
+        "rgaa": ["8.9"],
+        "raweb": ["8.9"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["8"],
+        "raweb": ["8"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Présence d’une hiérarchie de titres",
+      "description": {
+        "default": "Dans le cas d’une hiérarchie incorrecte ou d’une absence de titrage du contenu, les personnes aveugles ou malvoyantes utilisant un lecteur d’écran, ou les personnes déficientes motrices utilisant des outils spécifiques, peuvent rencontrer des difficultés à comprendre et retrouver de l’information dans le contenu.\n\n---\n\nDans le cas ou le titrage des sections de contenu n’est pas pertinent, les personnes aveugles ou malvoyantes utilisant un lecteur d’écran, ou les personnes ayant une déficience cognitive ou intellectuelle mais également pour l’ensemble des personnes, peuvent rencontrer des difficultés à comprendre un contenu.",
+        "falc": "Pour certaines personnes, l'absence (ou le manque de pertinence) de titre rend la compréhension et la navigation vers les contenus très difficiles. C’est le cas :\n\n* Des personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ;\n* Des personnes déficientes motrices qui utilisent des outils spécifiques ;\n* Des personnes handicapées mentales ou cognitives."
+      },
+      "criteria": {
+        "rgaa": ["9.1"],
+        "raweb": ["9.1"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["9"],
+        "raweb": ["9"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Présence de balises structurantes HTML5",
+      "description": {
+        "default": "Les lecteurs d’écran proposent des moyens de navigation rapide basés sur les éléments de structure du document en HTML5. Si ces éléments de structure sont inexistants ou incohérents, ces moyens de navigation rapide seront inopérants.",
+        "falc": "Si les éléments de structure HTML5 ne sont pas présents dans la page (ou s’ils sont mal utilisés), l’accès rapides aux différentes zones de la page ne sera pas possible pour :\n\n* Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées ;\n* Les personnes déficientes motrices."
+      },
+      "criteria": {
+        "rgaa": ["9.2"],
+        "raweb": ["9.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["9"],
+        "raweb": ["9"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Utilisation de listes pour organiser le contenu",
+      "description": {
+        "default": "En l’absence de listes, ou lorsque les listes sont mal structurées, certains types de contenus comme les successions de liens peuvent devenir ambigus ou difficilement identifiables. Les fonctionnalités de navigation proposées par les lecteurs d'écran pour les personnes aveugles et malvoyantes seront inopérantes.",
+        "falc": "Pour les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées, l'absence de listes (ou la présence de listes mal structurées) complique l’accès et la compréhension du contenu :\n\n* La navigation rapide par type d’éléments (de liste en liste) n’est pas utilisable ;\n* Les suites d’éléments ne sont pas reconnaissables ;\n* Le nombre d’éléments n’est pas indiqué."
+      },
+      "criteria": {
+        "rgaa": ["9.3"],
+        "raweb": ["9.3"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["9"],
+        "raweb": ["9"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Identification des citations",
+      "description": {
+        "default": "L’absence de signalement des citations peut rendre le contenu plus complexe à comprendre pour les personnes aveugles ou malvoyantes et générer des ambiguïtés et des incompréhensions.\n\nLes agents utilisateurs peuvent rendre la structure perceptible à l'utilisateur, par exemple en utilisant une présentation visuelle différente pour différents types de structures ou en utilisant une voix ou un ton différent dans une présentation auditive.",
+        "falc": "En l’absence de balisage approprié :\n\n* Les personnes aveugles ou malvoyantes auront du mal à comprendre le sens d’une citation et sa relation avec le contenu proche ;\n* Les navigateurs et technologies d’assistance ne modifieront pas la restitution visuelle ou auditive de la citation par rapport au reste du contenu."
+      },
+      "criteria": {
+        "rgaa": ["9.4"],
+        "raweb": ["9.4"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["9"],
+        "raweb": ["9"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Gestion de l’affichage au moyen des feuilles de styles",
+      "description": {
+        "default": "La présence d’effets de présentation, jeu de couleur, police, dimension, position des éléments de contenus qui ne reposent pas intégralement sur l’utilisation de styles CSS peut rendre le contenu impossible à personnaliser et à adapter aux capacités des personnes déficientes visuelles ou les personnes présentant des troubles de la lecture (Dyslexie par exemple).",
+        "falc": "Les personnes malvoyantes et certaines personnes présentant des troubles de la lecture (comme la dyslexie) ont de grandes difficultés pour lire le contenu si son affichage n’est pas personnalisable : Augmenter l’espace entre les mots, les lettres ou les lignes facilite la lecture.\n\nLa présence d’éléments et d’attributs HTML de présentation rend impossible toute personnalisation."
+      },
+      "criteria": {
+        "rgaa": ["10.1"],
+        "raweb": ["10.1"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Absence de contenu porteur d’information dans les feuilles de styles",
+      "description": {
+        "default": "Des contenus informatifs insérés via CSS (image de fond véhiculant de l’information par exemple) peuvent ne pas être restitués par les lecteurs d’écran ou les systèmes de loupes vocalisés.\n\nInversement, la possible restitution des éléments décoratifs insérés via CSS, notamment sur les éléments interactifs, peuvent compliquer la compréhension des contenus pour les aveugles et grands malvoyants utilisant un lecteur d’écran.",
+        "falc": "Les éléments porteurs d’information insérés en CSS (comme une icône ou une image d’arrière-plan) ne sont pas correctement restitués par les lecteurs d’écran et les loupes vocalisées.\n\nÀ l’inverse, certains éléments décoratifs insérés en CSS peuvent être restitués aux personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran. Ce qui gêne l’écoute et surtout la compréhension du contenu."
+      },
+      "criteria": {
+        "rgaa": ["10.2"],
+        "raweb": ["10.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Cohérence de l’ordre du code source",
+      "description": {
+        "default": "Des incohérences dans l’ordre dans lequel le contenu se présente dans le code et visuellement peuvent provoquer des incompréhensions pour les utilisateurs de lecteur d’écran et/ou de zoom d’écran et les utilisateurs de clavier.\n\nUne personne malvoyante qui utilise une loupe d'écran en combinaison avec un lecteur d'écran peut être confus lorsque l'ordre de lecture semble sauter sur l'écran.\n\nUn utilisateur de clavier peut avoir du mal à prédire où ira le curseur ensuite lorsque l'ordre des sources ne correspond pas à l'ordre visuel.",
+        "falc": "La présence d’incohérences dans le code HTML rend la compréhension du contenu très difficile pour les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée.\n\nLorsque l’ordre du code n’est pas logique, l’enchaînement des éléments peut poser des problèmes de compréhension. C’est par exemple le cas :\n\n* Des personnes malvoyantes qui utilisent une loupe (ou un zoom) d’écran ou qui agrandissent la taille des caractères ;\n* Des personnes qui utilisent un lecteur d’écran ;\n* Des personnes qui naviguent au clavier."
+      },
+      "criteria": {
+        "rgaa": ["10.3"],
+        "raweb": ["10.3"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Personnalisation de la taille de caractères",
+      "description": {
+        "default": "Les personnes déficientes visuelles rencontreront une difficulté majeure à lire des contenus dont ils ne peuvent pas contrôler la taille des caractères et le jeu de couleurs qu’ils adaptent à leurs capacités de perception.",
+        "falc": "Les personnes malvoyantes rencontrent de grandes difficultés à lire des contenus dont ils ne peuvent pas contrôler la taille des caractères."
+      },
+      "criteria": {
+        "rgaa": ["10.4"],
+        "raweb": ["10.4"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Présence conjointe d’une couleur de caractères et d’arrière-plan",
+      "description": {
+        "default": "Les personnes ayant une perte de vision ou de problèmes cognitifs, linguistiques et d'apprentissage préfèrent souvent des combinaisons spécifiques de couleurs de premier plan et d'arrière-plan. Dans certains cas, les personnes malvoyantes auront beaucoup plus de facilité à voir une page Web dont le texte est blanc sur un fond noir, et elles auront peut-être réglé leur agent utilisateur pour qu'il présente ce contraste.\n\nSi les couleurs de textes ou d'éléments d'interface et de fonds sont manquants, il sera compliqué pour la technologie d'assistance de surcharger les styles CSS.\n\n---\n\nEn l’absence d’une couleur d’arrière plan, les contenus affichés sur une image insérée en CSS deviendront potentiellement imperceptibles aux utilisateurs naviguant en mode de contraste élevé.",
+        "falc": "En l’absence de couleur d’arrière-plan, les personnes naviguant en mode de contraste élevé pourraient ne pas voir le contenu placé sur une image insérée en CSS.\n\nEn l’absence de couleur de premier plan ou d’arrière-plan, les personnes ne peuvent pas personnaliser les styles CSS pour pouvoir lire plus facilement. C’est le cas de :\n\n* Certaines personnes malvoyantes ;\n* Certaines personnes souffrant de problèmes cognitifs ;\n* Certaines personnes ayant des difficultés de lecture ou d’apprentissage."
+      },
+      "criteria": {
+        "rgaa": ["10.5"],
+        "raweb": ["10.5"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Visibilité des liens par rapport au texte environnant",
+      "description": {
+        "default": "Les personnes déficientes visuelles pourraient ignorer des liens, dont la nature ne serait pas évidente, si ces derniers ne sont pas visuellement discernables du reste du texte dans lequel ils sont insérés. Dans une moindre mesure les personnes handicapés mentales pourraient également rencontrer des difficultés dans le même genre de situation.",
+        "falc": "Les personnes malvoyantes et handicapées mentales pourraient ne pas distinguer les liens s’ils ne sont pas suffisamment contrastés par rapport au reste du texte."
+      },
+      "criteria": {
+        "rgaa": ["10.6"],
+        "raweb": ["10.6"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Visibilité de la prise de focus",
+      "description": {
+        "default": "Les personnes déficientes motrices qui naviguent au clavier peuvent rencontrer des difficultés considérables à l’utilisation du contenu s’ils n’ont pas la capacité de repérer où se situe l’indication visuelle du focus et ses déplacements.",
+        "falc": "Les personnes déficientes motrices qui naviguent au clavier vont avoir de grandes difficultés pour interagir avec la page si elles n’arrivent pas à voir où se situe le focus et à suivre ses déplacements."
+      },
+      "criteria": {
+        "rgaa": ["10.7"],
+        "raweb": ["10.7"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Restitution des éléments cachés aux Technologies d’Assistance",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ont un accès séquentiel à l’information. Si des contenus importants à la compréhension sont cachés, ces personnes rencontreront des difficultés majeures pour les comprendre ou les contrôler.\n\nSi des contenus porteurs d’informations sont masqués aux technologies d’assistance, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran seront dans l’incapacité d’accéder à ces contenus sans alternatives.",
+        "falc": "Si du contenu porteur d’information est masqués aux technologies d’assistance, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran n’en auront pas connaissance.\n\nÀ l’inverse, un contenu décoratif non masqué aux technologies d’assistance pose des problèmes de compréhension aux personnes qui les utilisent."
+      },
+      "criteria": {
+        "rgaa": ["10.8"],
+        "raweb": ["10.8"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Alternatives pour l’information données par la forme, la taille ou la position",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ont un accès séquentiel à l’information. Lorsqu'il n'est pas possible de distinguer une information véhiculée uniquement par la forme, la taille ou la position, ces personnes perdent de l'information. Par exemple un terme de recherche mis en évidence en gras (uniquement en CSS).\n\n---\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran n’ont pas la possibilité de distinguer une information véhiculée uniquement par la forme, la taille ou la position, ces personnes perdent de l'information. Par exemple un terme de recherche mis en évidence en gras (uniquement en CSS).",
+        "falc": "Les informations véhiculées uniquement par un effet visuel sont inaccessibles aux personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran. C’est par exemple le cas d’un terme de recherche mis en évidence en gras (via CSS) ou de l’indication de la page courante par l’ajout d’une bordure."
+      },
+      "criteria": {
+        "rgaa": ["10.9", "10.10"],
+        "raweb": ["10.9", "10.10"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Absence de barre de défilement sur les terminaux de faible largeur ou hauteur",
+      "description": {
+        "default": "Les personnes malvoyantes ont besoin d'agrandir le texte et de lire en une seule colonne les contenus. Ils utilisent le zoom du navigateur ou un zoom d'écran spécifique, le contenu doit alors s'adapter afin que l'utilisateur puisse le lire dans une seule colonne sans avoir recours à la fois au défilement vertical et horizontal. Également, le contenu doit être présenté sans perte d’information ou de fonctionnalité.",
+        "falc": "Les personnes malvoyantes utilisent le zoom du navigateur (ou un zoom d'écran spécifique) pour agrandir la taille du texte. Si le contenu ne s’adapte pas et ne s’affiche pas sur une seule colonne, elles sont obligées d’utiliser les barres de défilement horizontale et verticale pour pouvoir lire la totalité du contenu.\n\nDe plus, toutes les personnes ne passent pas forcément par un ordinateur de bureau pour naviguer : C’est par exemple le cas de certaines personnes tétraplégiques qui se servent uniquement d’un mobile (ou d’une tablette) fixé à leur fauteuil ou de certaines personnes aveugles qui utilisent uniquement un mobile couplé à un lecteur d’écran.\n\nSi les différentes versions d’un site (pour mobile, pour tablette et pour ordinateur de bureau, par exemple) ne donnent pas la même information, ces personnes seront privées d’une partie du contenu."
+      },
+      "criteria": {
+        "rgaa": ["10.11"],
+        "raweb": ["10.11"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Personnalisation des propriétés d’espacement du texte",
+      "description": {
+        "default": "Les personnes malvoyantes et les personnes atteintes de troubles DYS peuvent rencontrer de grandes difficultés de lecture si l'affichage du contenu ne peut être personnalisé, comme l’augmentation des espacements entre les textes.",
+        "falc": "Les personnes malvoyantes et certaines personnes présentant des troubles de la lecture (comme la dyslexie) ont de grandes difficultés pour lire un contenu si l’affichage n’est pas personnalisable : Augmenter l’espace entre les mots, les lettres ou les lignes facilite la lecture."
+      },
+      "criteria": {
+        "rgaa": ["10.12"],
+        "raweb": ["10.12"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Accès et contrôle des contenus apparaissant au survol ou à la prise de focus",
+      "description": {
+        "default": "Les personnes malvoyantes utilisant un zoom d’écran peuvent rencontrer des difficultés si des contenus additionnels qui apparaissent via un composant d’interface viennent masquer d'autres contenus et qu’il n’est pas possible de les fermer ou que les contenus additionnels disparaissent au survol de la souris.",
+        "falc": "Les personnes malvoyantes qui utilisent un zoom d’écran peuvent rencontrer des difficultés si un élément vient s’afficher par-dessus la partie de la page qu’elles consultent et qu’elles ne peuvent pas le fermer (ou accéder à son contenu)."
+      },
+      "criteria": {
+        "rgaa": ["10.13"],
+        "raweb": ["10.13"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Accès aux contenus affichés grâce aux feuilles de styles au clavier et par tout dispositif de pointage",
+      "description": {
+        "default": "Les personnes aveugles, malvoyantes ou les personnes ayant une ou plusieurs déficiences motrices pourraient être dans l’incapacité d’afficher un contenu additionnel apparaissant uniquement en CSS si celui-ci ne peut être rendu visible au clavier et par tout dispositif de pointage.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes motrices qui naviguent au clavier pourraient être incapables d’accéder à du contenu additionnel si celui-ci est affiché en CSS uniquement."
+      },
+      "criteria": {
+        "rgaa": ["10.14"],
+        "raweb": ["10.14"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["10"],
+        "raweb": ["10"],
+        "wcag": ["1"]
+      }
+    },
+    {
+      "name": "Présence et pertinence des étiquettes de formulaires",
+      "description": {
+        "default": "Les personnes aveugles, malvoyantes ou déficientes visuelles qui utilisent des lecteurs d’écran ou des loupes vocalisées rencontreront des difficultés majeures pour remplir le formulaire s'il contient des champs de saisie dépourvus d’étiquette.",
+        "falc": "L’absence (ou le manque de pertinence) d’une étiquette de formulaire empêche de comprendre la fonction du champ à renseigner. C’est notamment le cas pour :\n\n* Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées ;\n* Les personnes déficientes motrices qui utilisent des reconnaissances vocales ;\n* Les personnes handicapées mentales ou cognitives."
+      },
+      "criteria": {
+        "rgaa": ["11.1", "11.2"],
+        "raweb": ["11.1", "11.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Uniformité des étiquettes de formulaires",
+      "description": {
+        "default": "Les personnes déficientes motrices qui utilisent des systèmes de contrôles vocaux pourraient rencontrer des difficultés de navigation dans le formulaire si ce dernier contient des champs de saisie dépourvus d’étiquette pertinente.\n\nLes personnes handicapées mentales pourraient rencontrer des difficultés pour comprendre les saisies attendues et envoyer le formulaire si ce dernier contient des champs de saisie dépourvus d’étiquette pertinente.\n\n---\n\nLes personnes déficientes motrices qui utilisent des reconnaissances vocales ainsi que les personnes aveugles et malvoyantes qui utilisent un lecteur d’écran pourraient être dans l’incapacité de renseigner les champs lorsque le contenu des étiquettes est absent.",
+        "falc": "Les personnes handicapées mentales ou cognitives pourraient ne pas comprendre la fonction d’un champ répété en plusieurs endroits et dont l’étiquette n’est pas identique (ou similaire) partout."
+      },
+      "criteria": {
+        "rgaa": ["11.3"],
+        "raweb": ["11.3"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Association visuelle des champs et de leur étiquette",
+      "description": {
+        "default": "Les personnes déficientes visuelles qui ne perçoivent qu’une partie limitée de l’écran pourraient rencontrer des difficultés lors de la saisie si les étiquettes ne sont pas visuellement accolées aux champs de saisie.",
+        "falc": "Les personnes malvoyantes qui ne visualisent qu’une partie de l’écran pourraient ne pas voir l’étiquette d’un champ si elle ne se trouve pas juste à côté."
+      },
+      "criteria": {
+        "rgaa": ["11.4"],
+        "raweb": ["11.4"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Identification des regroupements de formulaire",
+      "description": {
+        "default": "Les personnes aveugles ou déficientes visuelles et les personnes handicapées mentales pourraient rencontrer des difficultés si les listes de sélections complexes ou contenant beaucoup d’items ne sont pas structurées par des regroupements, ou si ces regroupements ne sont pas légendés de manière pertinente.\n\n---\n\nLes personnes aveugles ou malvoyantes utilisant un lecteur d’écran peuvent être dans l’incapacité de comprendre la relation entre plusieurs champs lorsque la légende est absente.\n\n---\n\nLes personnes aveugles ou malvoyantes utilisant un lecteur d’écran peuvent être dans l’incapacité de comprendre le sens d’un regroupement de champs lorsque la légende est absente.\n\n---\n\nLes personnes aveugles ou malvoyantes ou encore les personnes handicapées mentales peuvent être dans l’incapacité de comprendre la relation entre plusieurs champs lorsque la légende n’est pas pertinente.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées peuvent avoir du mal à comprendre la relation entre plusieurs champs s’ils ne sont pas regroupés. Dans le cas de cases à cocher ou de boutons radio, par exemple.\n\n---\n\nLes personnes aveugles ou malvoyantes et les personnes handicapées mentales peuvent ne pas comprendre le sens d’un regroupement de champs si la légende est absente (ou peu pertinente).\n\n---\n\nLes personnes aveugles ou malvoyantes et les personnes handicapées mentales pourraient ne pas comprendre les listes de sélections complexes, si les éléments de liste ne sont pas regroupés."
+      },
+      "criteria": {
+        "rgaa": ["11.5", "11.6", "11.7", "11.8"],
+        "raweb": ["11.5", "11.6", "11.7", "11.8"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Pertinence de l’intitulé des boutons de soumission",
+      "description": {
+        "default": "Les personnes déficientes motrices qui naviguent à la voix pourraient rencontrer des difficultés dans le cas où les intitulés des boutons ne sont pas uniques et pertinents. Les personnes voyantes utilisant un lecteur d’écran pourraient ne pas comprendre lorsque les intitulés qu’ils entendent ne correspondent pas aux intitulés visibles.",
+        "falc": "Les personnes déficientes motrices qui naviguent à la voix peuvent rencontrer des difficultés dans le cas où les intitulés de boutons ne sont pas uniques et pertinents.\n\nLes personnes malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre si le nom vocalisé d’un bouton est différent de celui qu’elles visualisent.\n\nLes personnes handicapées mentales ou cognitives peuvent avoir des difficultés à envoyer un formulaire si les boutons d’action n’ont pas de noms (ou s’ils sont peu pertinents)."
+      },
+      "criteria": {
+        "rgaa": ["11.9"],
+        "raweb": ["11.9"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Contrôle de saisie",
+      "description": {
+        "default": "Les personnes aveugles, malvoyantes ou déficientes visuelles qui utilisent un lecteur d’écran ou une loupe vocalisée, pourraient rencontrer des difficultés majeures si les messages d’erreur ne sont pas vocalisés préalablement à la saisie, ou s’ils ne sont pas correctement liés aux champs correspondants.\n\nLes personnes handicapées mentales pourraient être dans l’incapacité de remplir un champ de formulaire sans indication préalable du format attendu ou fourniture d’un exemple de saisie réelle en cas d’erreur persistante.\n\nLes utilisateurs pourraient être dans l’incapacité de soumettre un formulaire lorsque les champs à caractère obligatoire ne sont pas indiqués.\n\n---\n\nLes personnes handicapées mentales pourraient être dans l’incapacité de remplir un champ de formulaire sans un exemple de saisie réelle en cas d’erreur.\n\n---\n\nLes personnes handicapées mentales pourraient être dans l’incapacité de remplir un champ de formulaire sans indication préalable du format attendu ou sans un exemple de saisie réelle en cas d’erreur.",
+        "falc": "Les personnes déficientes motrices mettront beaucoup de temps à remplir le formulaire si la liste des champs obligatoires n’est pas donnée dans l’étiquette ou le passage de texte associé, mais en fin de formulaire par exemple.\n\nLes personnes handicapées mentales peuvent être incapables de remplir un champ de formulaire si le format attendu n’est pas précisé.\n\nLes personnes handicapées mentales et les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent être incapables d’envoyer un formulaire si les champs obligatoires ne sont pas indiqués avant le bouton d’envoi.\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée, peuvent avoir de grandes difficultés à envoyer un formulaire si :\n\n* Le message d’erreur n’est pas vocalisé avant le champ en erreur ;\n* Ou si le message d’erreur et le champ ne sont pas reliés.\n\n---\n\nAprès avoir envoyé un formulaire, les personnes handicapées mentales pourraient ne pas comprendre le message d’erreur affichée si :\n\n* Le format du champ en erreur n’est pas précisé ;\n* Une valeur n’est pas donnée en exemple."
+      },
+      "criteria": {
+        "rgaa": ["11.10", "11.11"],
+        "raweb": ["11.10", "11.11"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Droit à l’erreur",
+      "description": {
+        "default": "Les personnes déficientes motrice et les personnes ayant des difficultés de lecture peuvent saisir des données incorrectes dans un formulaire. L’impossibilité d'annuler des actions, de revoir et de corriger les informations renseignées pourrait avoir de graves conséquences.",
+        "falc": "Certaines personnes présentant des troubles de l’attention ou ayant des difficultés de lecture et toutes les personnes ayant des problèmes d’agilité peuvent saisir des données incorrectes. S’il n’est pas possible de revoir et de corriger les données ou d’annuler l’envoi du formulaire, cela pourrait avoir de graves conséquences."
+      },
+      "criteria": {
+        "rgaa": ["11.12"],
+        "raweb": ["11.12"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Aide à la saisie",
+      "description": {
+        "default": "Les personnes handicapées mentales et déficientes motrices pourraient rencontrer des difficultés à renseigner les champs d’un formulaire si leurs données utilisateur préalablement enregistrées ne sont pas suggérées. Également, les technologies d’assistance ont la possibilité de présenter par des icônes la nature d’un champ ce qui permet aux personnes rencontrant des difficultés de lecture de mieux comprendre la saisie attendue. Par exemple, une icône représentant un téléphone pour un champ de saisie avec un attribut `autocomplete=\"tel\"`.\n\n---\n\nUn champ autocomplété avec une valeur incorrecte peut potentiellement renseigner une donnée utilisateur erronée et obliger les personnes à devoir modifier la valeur du champ manuellement.",
+        "falc": "Les personnes handicapées mentales et les personnes déficientes motrices peuvent avoir des difficultés à renseigner les champs d’un formulaire si leurs données personnelles ne sont pas suggérées.\n\nDe même, un champ dont la liste des données proposées ne correspond pas à la valeur attendue pose également problème : Cela oblige les personnes à devoir modifier la valeur du champ manuellement."
+      },
+      "criteria": {
+        "rgaa": ["11.13"],
+        "raweb": ["11.13"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["11"],
+        "raweb": ["11"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Systèmes de navigation",
+      "description": {
+        "default": "De manière générale, tous les utilisateurs pourraient rencontrer des difficultés dans le cas où la navigation dans le site ou un ensemble de pages ne dépend que d’un système de navigation unique.\n\nPour les personnes déficientes motrices les difficultés pourraient devenir majeures s’ils ne sont pas en capacité d’utiliser un menu de navigation trop complexe en l’absence de système de navigation alternatif, comme un plan du site par exemple.\n\nPour les personnes handicapées mentaux ou cognitifs, déficientes motrices, aveugles et malvoyantes, la navigation dans le site peut être rendue laborieuse ou complexe en l’absence d’information d’orientation comme l’indication de la page active dans les menus de navigation, la mise à disposition d’un fil d’Ariane ou la non-identification des systèmes de navigation.",
+        "falc": "Les personnes handicapées choisissent la manière de naviguer qui répond le mieux à leurs besoins :\n\n* Les personnes aveugles ou malvoyantes peuvent trouver plus simple d’utiliser la recherche plutôt que de faire défiler le contenu dans une loupe d’écran ou d’écouter le contenu restitué par un lecteur d’écran ;\n* Les personnes handicapées mentales ou cognitives peuvent préférer l’utilisation d’un plan du site qui donne une vue d'ensemble ou trouver plus facile de passer par la fonction de recherche ;\n* Certaines personnes peuvent choisir d’explorer le site de manière séquentielle (en passant d'une page à l'autre) afin de mieux comprendre la présentation ;\n* …\n\n---\n\nLes personnes aveugles ou malvoyantes pourraient avoir du mal à trouver les systèmes de navigation s’ils ne sont pas toujours placés au même endroit dans le code HTML ou s’ils ne sont pas clairement identifiables.\n\nLes personnes handicapées mentales ou cognitives pourraient avoir du mal à voir les systèmes de navigation s’ils n’ont pas le même style sur les différentes pages du site.\n\n---\n\nLes personnes déficientes motrices et les personnes handicapées mentales ou cognitives pourraient avoir de grandes difficultés pour naviguer dans le site si le système de navigation est trop complexe et que le plan du site n’est pas fonctionnel : S’il contient des liens morts ou qu’il ne permet pas d’atteindre facilement l’ensemble des pages du site, par exemple."
+      },
+      "criteria": {
+        "rgaa": ["12.1", "12.2", "12.3"],
+        "raweb": ["12.1", "12.2", "12.3"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["12"],
+        "raweb": ["12"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Systèmes de navigation atteignables de manière identique",
+      "description": {
+        "default": "Les personnes aveugles et malvoyantes pourraient rencontrer des difficultés pour repérer les éléments de navigation si ceux-ci sont déplacés d’une page à l’autre dans le code de la page.",
+        "falc": "Les personnes aveugles ou malvoyantes pourraient avoir du mal à trouver les systèmes de navigation s’ils ne sont pas toujours placés au même endroit dans le code HTML ou s’ils ne sont pas clairement identifiables."
+      },
+      "criteria": {
+        "rgaa": ["12.4", "12.5"],
+        "raweb": ["12.4", "12.5"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["12"],
+        "raweb": ["12"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Accès rapide aux contenus",
+      "description": {
+        "default": "Les personnes déficientes motrices, aveugles ou malvoyantes qui utilisent le clavier pourraient ne pas pouvoir naviguer rapidement vers la zone principale du contenu lorsque le lien d’accès rapide n’est pas fonctionnel.\n\nLes personnes déficientes visuelles utilisant un lecteur d’écran pourraient être dans l’incapacité d’atteindre ou évitées les zones de regroupement de contenus principales.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes motrice ne peuvent pas naviguer entre les différentes zones de contenu facilement.\n\n---\n\nLes personnes déficientes motrices qui naviguent au clavier ne peuvent pas atteindre la zone de contenu principale en un minimum d’efforts."
+      },
+      "criteria": {
+        "rgaa": ["12.6", "12.7"],
+        "raweb": ["12.6", "12.7"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["12"],
+        "raweb": ["12"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Ordre de tabulation cohérente",
+      "description": {
+        "default": "L'ordre de tabulation est déterminant à la fois dans l’exploration des contenus, mais surtout dans la manipulation d’éléments complexes ou dans l’enchaînement d’actions successives. Tous les utilisateurs naviguant au clavier vont rencontrer des difficultés importantes si celui-ci n’est pas correct ou logique.\n\n---\n\nLes handicapés moteurs qui naviguent au clavier peuvent être fortement impactés si les liens d’accès rapides ne sont pas fonctionnels.",
+        "falc": "Les personnes aveugles, malvoyantes ou déficientes motrices qui naviguent au clavier parcourent le contenu dans l’ordre du code source : Un ordre de tabulation incorrect rend très difficile la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions."
+      },
+      "criteria": {
+        "rgaa": ["12.8"],
+        "raweb": ["12.8"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["12"],
+        "raweb": ["12"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Pas de piège au clavier",
+      "description": {
+        "default": "Les utilisateurs de clavier peuvent être bloqués dans la navigation d’une page lorsqu’ils rencontrent des pièges au clavier. Dans ce cas, il n'est plus possible pour l’utilisateur de parcourir la page et d’accéder au contenu.",
+        "falc": "Face à un piège au clavier, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes ne peuvent plus déplacer le focus : Elles sont bloquées et sont obligées de quitter la page pour récupérer le contrôle du curseur."
+      },
+      "criteria": {
+        "rgaa": ["12.9"],
+        "raweb": ["12.9"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["12"],
+        "raweb": ["12"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Raccourcis clavier contrôlables",
+      "description": {
+        "default": "Les personnes naviguant à la voix ainsi que les personnes ayant de problèmes de dextérité pourraient malencontreusement activer une fonctionnalité qui utilise un raccourci à touche unique s’ils ne peuvent pas désactiver ou modifier ces raccourcis.",
+        "falc": "Sans un moyen de contrôler les raccourcis clavier à une touche, les personnes déficientes motrices naviguant à la voix et toutes les personnes ayant des problèmes d’agilité pourraient activer un raccourci par erreur et démarrer une fonction non voulue."
+      },
+      "criteria": {
+        "rgaa": ["12.10"],
+        "raweb": ["12.10"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["12"],
+        "raweb": ["12"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Contenus additionnels atteignables au clavier",
+      "description": {
+        "default": "Les personnes n’utilisant pas une souris comme les personnes aveugles, malvoyantes ou déficientes motrices pourraient rencontrer des difficultés ou pourraient être dans l’incapacité de contrôler des contenus qui apparaissent au survol, à la prise de focus ou à l’activation d’un composant d’interface s’ils ne sont pas atteignables au clavier.",
+        "falc": "Les personnes aveugles, malvoyantes ou déficientes motrices qui naviguent au clavier peuvent être dans l’incapacité d’atteindre et de contrôler le contenu qui s’affiche à la suite d’une action."
+      },
+      "criteria": {
+        "rgaa": ["12.11"],
+        "raweb": ["12.11"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["12"],
+        "raweb": ["12"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Contrôle des Limites de temps",
+      "description": {
+        "default": "Le recours à des technologies d’assistance (lecteur d’écran ou périphériques spécialisés) et les conséquences des déficiences subies par les utilisateurs impactent directement les performances dans l’exploration, la lecture et l’utilisation des contenus et fonctionnalités.\n\nLa modification des contenus à intervalles réguliers, l’absence de contrôle des processus de mise à jour ou les limites de temps fixées pour réaliser une tâche, ont toujours comme conséquence que ces utilisateurs puissent se retrouver dans l’impossibilité d’accomplir une tâche ou, simplement, de lire le contenu.",
+        "falc": "L’utilisation de technologies d’assistance (comme un lecteur d’écran, une loupe vocalisée ou un périphérique spécialisé) et les effets de certaines déficiences ralentissent fortement la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions…\n\nToutes les personnes utilisant une technologie d’assistance ou atteintes d’une déficience auront du mal à accomplir une tâche ou à lire le contenu, si elles non pas la possibilité d’arrêter (ou de contrôler) les délais de mise à jour."
+      },
+      "criteria": {
+        "rgaa": ["13.1"],
+        "raweb": ["13.1"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Ouverture d’une nouvelle fenêtre inattendue",
+      "description": {
+        "default": "Les personnes souffrant de troubles cognitifs et les personnes utilisant des lecteurs d'écran ou des agrandisseurs d'écran peuvent être déroutées par un événement inattendu tel que l’ouverture d’une nouvelle fenêtre.",
+        "falc": "Les personnes handicapées mentales ou cognitives et les personnes aveugles ou malvoyantes qui utilisent un lecteur ou un agrandisseur d’écran peuvent être désorientés par l’ouverture non prévue d’une nouvelle fenêtre."
+      },
+      "criteria": {
+        "rgaa": ["13.2"],
+        "raweb": ["13.2"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Documents bureautiques en téléchargement",
+      "description": {
+        "default": "Les personnes aveugles ou malvoyantes vont avoir de grandes difficultés si les documents en téléchargement ne sont pas traités pour l’accessibilité ou ne disposent pas d’alternative accessible.",
+        "falc": "Les personnes en situation de handicap, notamment les personnes déficientes visuel (cécité, malvoyance, daltonisme entre autres) ou encore les personnes déficientes cognitives (présentant par exemple des troubles Dys) auront de grandes difficultés pour consulter un document en téléchargement qui n’est pas accessible ou pour lequel il n’existe pas d’alternative accessible."
+      },
+      "criteria": {
+        "rgaa": ["13.3", "13.4"],
+        "raweb": ["13.3", "13.4"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Alternatives des contenus cryptiques",
+      "description": {
+        "default": "Émoticônes, texte cryptique ou art ASCII ne représentent dans la plupart des cas qu'une succession de caractères pour les personnes aveugles et malvoyantes. Ces derniers ne peuvent accéder à la représentation visuelle de ces successions de caractères.",
+        "falc": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ne visualisent pas la forme ou le dessin représenté par une émoticône, du texte cryptique ou de l’art ASCII : ces éléments sont restitués par le lecteur d’écran comme une succession de caractères sans signification particulière."
+      },
+      "criteria": {
+        "rgaa": ["13.5", "13.6"],
+        "raweb": ["13.5", "13.6"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Accessibilité des contenus dynamiques",
+      "description": {
+        "default": "Un contenu en mouvement ne peut pas être lu par des personnes rencontrant des difficultés de lecture, s’il défile trop rapidement. Il peut distraire les personnes ayant un déficit de l’attention et les empêcher de lire le reste du texte de la page.",
+        "falc": "Les flashs et les changements brusques de luminosités peuvent rendre la lecture d’un contenu impossible pour les personnes malvoyantes (comme les achromates).\n\nCes effets visuels peuvent aussi provoquer des crises d’épilepsie chez certaines personnes sensibles à la lumière.\n\n---\n\nLa présence de texte en mouvement peut rendre l’accès au contenu très difficile. C’est le cas pour :\n\n* Certaines personnes présentant des troubles de la lecture (comme la dyslexie) : Elles ne peuvent pas lire le texte s’il défile trop rapidement ;\n* Certaines personnes présentant des troubles de l’attention : Elles peuvent être distraites et ne pas arriver à lire le reste du contenu ;\n* Certaines personnes utilisant un lecteur d’écran : Un texte en mouvement peut empêcher le lecteur d’écran de restituer le contenu."
+      },
+      "criteria": {
+        "rgaa": ["13.7", "13.8"],
+        "raweb": ["13.7", "13.8"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Contenus consultables quelle que soit l’orientation de l’écran",
+      "description": {
+        "default": "Certaines personnes déficientes motrices, comme une personne atteinte de tétraplégie, utilisent leur appareil installé dans une position fixe et n’ont pas la capacité à modifier l’orientation de celui-ci. Dans le cas ou la page web serait disponible uniquement dans une orientation spécifique, ces personnes seraient dans l’incapacité de percevoir et d’interagir correctement avec l’interface.",
+        "falc": "Certaines personnes déficientes motrices (comme une personne tétraplégique, par exemple) n’ont pas la possibilité de modifier l’orientation de l’écran qu’elles utilisent. Si la page web est disponible dans un seul format, ces personnes ne peuvent pas visualiser et interagir correctement avec l’interface."
+      },
+      "criteria": {
+        "rgaa": ["13.9"],
+        "raweb": ["13.9"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Alternative au geste complexe",
+      "description": {
+        "default": "Les personnes déficientes motrices rencontrant des difficultés pour enchaîner plusieurs actions, pour utiliser des combinaisons de touches, ou pour contrôler des mouvements sont dans l’incapacité d’effectuer des gestes complexes.",
+        "falc": "Les personnes déficientes motrices et toutes les personnes ayant des problèmes d’agilité peuvent ne pas arriver à réaliser des gestes complexes. Par exemple : Faire plusieurs actions en même temps, utiliser des combinaisons de touches, ou encore exécuter une suite de gestes particuliers."
+      },
+      "criteria": {
+        "rgaa": ["13.10"],
+        "raweb": ["13.10"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Annulation des actions déclenchées au moyen d’un dispositif de pointage",
+      "description": {
+        "default": "Les personnes déficientes motrices peuvent déclencher par erreur des évènements liés au toucher, à la souris ou tout système de pointage. Ces personnes seraient dans l’incapacité d’utiliser une interface si les actions déclenchées par erreur ne peuvent être annulées.",
+        "falc": "Les personnes malvoyantes, déficientes motrices et handicapées mentales ou cognitives peuvent activer des fonctionnalités ou exécuter des commandes liées au toucher, à la souris ou à tout autre système de pointage sans le vouloir. S’il n’est pas possible d’annuler l’action, l’interface pourrait devenir inutilisable."
+      },
+      "criteria": {
+        "rgaa": ["13.11"],
+        "raweb": ["13.11"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    },
+    {
+      "name": "Alternative aux mouvements de l’appareil",
+      "description": {
+        "default": "Les personnes déficientes motrices ne pouvant incliner, secouer ou réaliser un mouvement spécifique de l’appareil pourraient être dans l’incapacité de réaliser des actions si une alternative par un autre moyen accessible n’est pas proposée.",
+        "falc": "Les personnes déficientes motrices peuvent être dans l’incapacité de réaliser un mouvement spécifique de l’appareil (comme l’incliner ou le secouer). Si aucun autre moyen n’est proposé pour démarrer la fonction, ces personnes n’y auront pas accès.\n\nÀ l’inverse, certaines personnes déficientes motrices peuvent activer des fonctions sans le vouloir (à cause de tremblements, par exemple). S’il n’est pas possible d’annuler l’action, l’interface pourrait devenir inutilisable."
+      },
+      "criteria": {
+        "rgaa": ["13.12"],
+        "raweb": ["13.12"],
+        "wcag": []
+      },
+      "topics": {
+        "rgaa": ["13"],
+        "raweb": ["13"],
+        "wcag": []
+      }
+    }
+  ]
+}

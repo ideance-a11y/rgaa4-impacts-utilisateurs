@@ -1,0 +1,119 @@
+---
+layout: default
+title: Impacts utilisateurs et utilisatrices
+---
+
+<h2 id="summary-impact">Sommaire</h2>
+
+<!-- Sommaire  -->
+<nav role="navigation" aria-labelledby="summary-impact">
+  <ul>
+    <!-- Boucle sur les thématiques du RGAA -->
+    {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
+      <li>
+        <a href="#{{ rgaa_topic.name | slugify }}">{{ rgaa_topic.num }} - {{ rgaa_topic.name }}</a>
+
+        <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
+        {% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
+
+        <!-- Si impacts pour cette thématique on construit une liste -->
+        {% if topic_impacts.size > 0 %}
+          <ul class="unstyled">
+            <!-- Boucle sur les impacts users filtrés -->
+            {% for impact in topic_impacts %}
+              <!--
+                Impacts potentiellements séparés en plusieurs sous-critères.
+                Réunis dans un tableau.
+              -->
+              {% assign impact_criteria = impact.default | map: "criteria" | map: "rgaa" | compact %}
+
+              <li>
+                <a href="#{{ impact.name | slugify }}">
+                  {{ impact.name }}
+                  (critère{% if impact_criteria.size > 1 %}s{% endif %}
+                  {{ impact_criteria | join: ', ' }})
+                </a>
+              </li>
+            {% endfor %}
+            <!-- Boucle sur les impacts users filtrés -->
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+    <!-- Fin boucle sur les thématiques du RGAA -->
+  </ul>
+</nav>
+<!-- Fin Sommaire  -->
+
+<!-- Boucle sur les thématiques du RGAA -->
+{% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
+  <h2 id="{{ rgaa_topic.name | slugify }}">
+    {{ rgaa_topic.num }} - {{ rgaa_topic.name }}
+  </h2>
+
+  <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
+  {% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
+
+  <!-- Boucle sur les impacts users filtrés -->
+  {% for impact in topic_impacts %}
+    <!--
+      Impacts potentiellements séparés en plusieurs sous-critères.
+      Réunis dans un tableau.
+    -->
+    <!-- {% assign impact_criteria = impact.default | map: "criteria" | map: "rgaa" | compact %} -->
+
+    <h3 id="{{ impact.name | slugify}}">
+      <!-- Critère{% if impact_criteria.size > 1 %}s{% endif %}
+      {{ impact_criteria | join: ', '}} -  -->
+      {{ impact.name }}
+    </h3>
+
+    <!-- Boucle sur les critères liés à chaque impact -->
+    {% for impact_item in impact.default %}
+      <!--Si plusieurs impacts, on les structure en liste -->
+      {% if forloop.length > 1 %}
+        {% if forloop.first %}<ul>{% endif %}
+        <li>
+      {% endif %}
+
+      {% if impact_item.description.size > 0 %}
+        {{ impact_item.description | markdownify }}
+      {% endif %}
+
+      <!-- Critères associés récupérés depuis le JSON du RGAA clean -->
+      {% if impact_item.criteria.rgaa.size > 0 %}
+        <div class="chapo">
+          <p>
+            {% if impact_item.criteria.rgaa.size > 1 %}
+              Critères RGAA associés
+            {% else %}
+              Critère RGAA associé :
+            {% endif %}
+          </p>
+          <ul>
+            <!-- Pour chaque critère associé à l'impact user -->
+            {% for criterion_num in impact_item.criteria.rgaa %}
+              <!--
+                Filtres liquid pour récupérer l'intitulé du critère
+                dans les données du RGAA (/_data/rgaa_4_1_2_clean.json)
+              -->
+              {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
+              <li>
+                {{ criterion_num }} - {{ criterion_data[0]['name'] }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      <!--Si plusieurs impacts, on les structure en liste -->
+      {% if forloop.length > 1 %}
+        </li>
+        {% if forloop.last %}</ul>{% endif %}
+      {% endif %}
+    {% endfor %}
+    <!-- Fin boucle sur les critères liés à chaque impact -->
+  {% endfor %}
+  <!-- Fin oucle sur les impacts users filtrés -->
+{% endfor %}
+<!-- Fin boucle sur les thématiques RGAA -->
