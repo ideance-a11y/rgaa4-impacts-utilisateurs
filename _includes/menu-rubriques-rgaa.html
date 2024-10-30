@@ -1,0 +1,19 @@
+<div class="main-nav">
+    <h2 id="summary-impact">Thématiques RGAA</h2>
+    <!-- Sommaire  -->
+    <nav role="navigation" aria-labelledby="summary-impact">
+    <ul>
+        <!-- Boucle sur les thématiques du RGAA -->
+        {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
+        <li>
+            <a href="#{{ rgaa_topic.name | slugify }}">{{ rgaa_topic.num }} - {{ rgaa_topic.name }}</a>
+
+            <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
+            {% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
+        </li>
+        {% endfor %}
+        <!-- Fin boucle sur les thématiques du RGAA -->
+    </ul>
+    </nav>
+    <!-- Fin Sommaire  -->
+</div>

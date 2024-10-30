@@ -8,3 +8,25 @@ $typo-1: 'Lato', sans-serif;
     "config/normalize"
 ;
 
+// Layout
+.page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2%;
+}
+.main-nav {
+    max-width: 32.33333%;
+    height: 80vh;
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.main {
+    max-width: 65.66667%;
+}

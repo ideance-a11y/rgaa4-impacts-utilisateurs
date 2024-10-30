@@ -1,49 +1,8 @@
 ---
 layout: default
-title: Impacts utilisateurs et utilisatrices
+title: Impacts utilisateurs et utilisatrices en version facile à comprendre
+menu: rubriques
 ---
-
-<h2 id="summary-impact">Sommaire</h2>
-
-<!-- Sommaire  -->
-<nav role="navigation" aria-labelledby="summary-impact">
-  <ul>
-    <!-- Boucle sur les thématiques du RGAA -->
-    {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
-      <li>
-        <a href="#{{ rgaa_topic.name | slugify }}">{{ rgaa_topic.num }} - {{ rgaa_topic.name }}</a>
-
-        <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
-        {% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
-
-        <!-- Si impacts pour cette thématique on construit une liste -->
-        {% if topic_impacts.size > 0 %}
-          <ul class="unstyled">
-            <!-- Boucle sur les impacts users filtrés -->
-            {% for impact in topic_impacts %}
-              <!--
-                Impacts potentiellements séparés en plusieurs sous-critères.
-                Réunis dans un tableau.
-              -->
-              {% assign impact_criteria = impact.falc | map: "criteria" | map: "rgaa" | compact %}
-
-              <li>
-                <a href="#{{ impact.name | slugify }}">
-                  {{ impact.name }}
-                  (critère{% if impact_criteria.size > 1 %}s{% endif %}
-                  {{ impact_criteria | join: ', ' }})
-                </a>
-              </li>
-            {% endfor %}
-            <!-- Boucle sur les impacts users filtrés -->
-          </ul>
-        {% endif %}
-      </li>
-    {% endfor %}
-    <!-- Fin boucle sur les thématiques du RGAA -->
-  </ul>
-</nav>
-<!-- Fin Sommaire  -->
 
 <!-- Boucle sur les thématiques du RGAA -->
 {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
@@ -117,3 +76,4 @@ title: Impacts utilisateurs et utilisatrices
   <!-- Fin oucle sur les impacts users filtrés -->
 {% endfor %}
 <!-- Fin boucle sur les thématiques RGAA -->
+ 
