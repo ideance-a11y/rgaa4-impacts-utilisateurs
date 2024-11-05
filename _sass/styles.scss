@@ -1,32 +1,13 @@
 @charset "utf-8";
 
-// Typos
-$typo-1: 'Lato', sans-serif;
-
 @import
+    "config/variables",
     "config/base",
-    "config/normalize"
+    "config/normalize",
+    "config/icons",
+    "layout/layout",
+    "layout/header",
+    "layout/main"
 ;
 
-// Layout
-.page {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2%;
-}
-.main-nav {
-    max-width: 32.33333%;
-    height: 80vh;
-    min-height: 200px;
-    overflow: auto;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-.main {
-    max-width: 65.66667%;
-}
+

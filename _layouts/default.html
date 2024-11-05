@@ -3,7 +3,7 @@
 {%- include head.html -%}
 <body>
     {%- include header.html -%}
-    <div class="page">
+    <main role="main" id="main" class="main">
         {% if page.menu == "falc" %}
         {%- include menu-falc.html -%}
         {% elsif page.menu == "default" %}
@@ -11,10 +11,10 @@
         {% elsif page.menu == "rubriques" %}
         {%- include menu-rubriques-rgaa.html -%}
         {% endif %}
-        <main role="main" id="main" class="main">
-            {{ content }}
-        </main>
-    </div>
+        <div class="main-content">
+        {{ content }}
+        </div>
+    </main>
     {%- include footer.html -%}
 </body>
 </html>

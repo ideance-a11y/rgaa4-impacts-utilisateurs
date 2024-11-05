@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Impacts utilisateurs et utilisatrices
-menu: default
+title: Impacts utilisateurs et utilisatrices en version facile à comprendre
+menu: rubriques
 ---
 
 <!-- Boucle sur les thématiques du RGAA -->
@@ -19,7 +19,7 @@ menu: default
       Impacts potentiellements séparés en plusieurs sous-critères.
       Réunis dans un tableau.
     -->
-    <!-- {% assign impact_criteria = impact.default | map: "criteria" | map: "rgaa" | compact %} -->
+    <!-- {% assign impact_criteria = impact.falc | map: "criteria" | map: "rgaa" | compact %} -->
 
     <h3 id="{{ impact.name | slugify}}">
       <!-- Critère{% if impact_criteria.size > 1 %}s{% endif %}
@@ -28,7 +28,7 @@ menu: default
     </h3>
 
     <!-- Boucle sur les critères liés à chaque impact -->
-    {% for impact_item in impact.default %}
+    {% for impact_item in impact.falc %}
       <!--Si plusieurs impacts, on les structure en liste -->
       {% if forloop.length > 1 %}
         {% if forloop.first %}<ul>{% endif %}

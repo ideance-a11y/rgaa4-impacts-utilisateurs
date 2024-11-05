@@ -1,0 +1,30 @@
+// Layout
+.main {
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2%;
+}
+.main-nav {
+    max-width: 32.33333%;
+    height: 80vh;
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.main-content {
+    max-width: 65.66667%;
+}
+
+a {
+    text-decoration: none;
+    color: $gray-1;
+    text-decoration-color: $primary-darker;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.1rem;
+}
