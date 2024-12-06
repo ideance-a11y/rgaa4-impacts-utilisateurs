@@ -26,3 +26,15 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: underline;
+    color: $gray-1;
+    text-decoration-color: $primary-darker;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.1rem;
+    transition: text-decoration-color 250ms ease-out;
+    &:hover, &:focus-visible {
+        text-decoration-color: transparent;     
+    }
+}
+

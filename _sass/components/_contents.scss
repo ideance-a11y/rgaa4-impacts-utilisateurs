@@ -1,0 +1,40 @@
+.heading-secondary {
+    margin: 2rem 0 2.1rem 1.7rem;
+    padding-bottom: 1.8rem;
+    border-bottom: 0.1rem solid $blue-2;
+    line-height: 1.35;
+    color: $blue-1;
+    font-size: 1.7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+main {
+    h2 {
+        margin: 4rem 0 2.3rem;
+        color: $gray-1;
+        font-size: 2.4rem;
+        line-height: 1.3;
+        font-weight: bold;
+        @include for-tablet {
+            font-size: 3.7rem;
+        }
+    }
+
+    h3 {
+        margin: 3rem 0 1.8rem;
+        color: $tertiary-color;
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1.35;
+        @include for-tablet {
+            font-size: 2.4rem;
+        }
+    }
+
+    hr {
+        border: 0;
+        height: 0.1rem;
+        background-color: $gray-1;
+    }
+}

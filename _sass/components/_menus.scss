@@ -1,0 +1,27 @@
+.nav-primary {
+    > *:first-child {
+        margin-top: 1.5rem;
+    }
+}
+.menu-primary {
+    padding-left: 1.5rem;
+    list-style: none;
+    margin-bottom: 5rem;
+    li {
+        margin-bottom: 0.8rem;
+    }
+    a {
+        color: $gray-1;
+        text-decoration: underline;
+        text-underline-offset: 0.3rem;
+        text-decoration-thickness: 0.1rem;
+        text-decoration-color: transparent;
+        transition: text-decoration-color 250ms ease-out;
+        &:hover {
+            text-decoration-color: $primary-darker;
+        }
+    }
+    @include for-tablet {
+        margin-bottom: 0;
+    }
+}

@@ -42,14 +42,14 @@ menu: default
       <!-- Critères associés récupérés depuis le JSON du RGAA clean -->
       {% if impact_item.criteria.rgaa.size > 0 %}
         <div class="chapo">
-          <p>
+          <p id="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
             {% if impact_item.criteria.rgaa.size > 1 %}
               Critères RGAA associés
             {% else %}
               Critère RGAA associé :
             {% endif %}
           </p>
-          <ul>
+          <ul aria-labelledby="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
             <!-- Pour chaque critère associé à l'impact user -->
             {% for criterion_num in impact_item.criteria.rgaa %}
               <!--
@@ -73,7 +73,7 @@ menu: default
     {% endfor %}
     <!-- Fin boucle sur les critères liés à chaque impact -->
   {% endfor %}
-  <!-- Fin oucle sur les impacts users filtrés -->
+  <!-- Fin boucle sur les impacts users filtrés -->
 {% endfor %}
 <!-- Fin boucle sur les thématiques RGAA -->
  
