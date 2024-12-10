@@ -1,0 +1,173 @@
+.with-gutters {
+  padding-left: $gutter-hz-mob;
+  padding-right: $gutter-hz-mob;
+
+	@include for-desktop {
+    padding-left: $gutter-hz;
+    padding-right: $gutter-hz;
+  }
+
+  &.no-md-gutters {
+    @include for-tablet {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.ice-footer {
+  min-height: 9rem;
+  padding-top: 3.5rem;
+  background: $white-color;
+  border-top: 2rem solid rgba(68, 125, 159, 0.25);
+  color: $gray-1;
+	line-height: 1.5;
+
+  @include for-tablet {
+    padding-top: 4.5rem;
+  }
+}
+
+.ice-footer-inner {
+  @include for-tablet {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .ice-link {
+		color:$gray-1;
+		text-decoration: underline;
+		text-underline-offset: 0.3rem;
+		text-decoration-thickness: 0.1rem;
+		text-decoration-color:currentColor;
+		transition:text-decoration-color 250ms ease-out;
+	}
+	.ice-link:hover,
+	.ice-link:focus {
+		text-decoration-color: transparent
+	}
+}
+
+.ice-footer-logo {
+  display: none;
+
+  @include for-tablet {
+    display: inline-flex;
+    flex: 0 0 $col-2;
+    padding-left: $gutter-hz;
+    padding-right: $gutter-hz;
+
+    img {
+      max-width: 100%;
+      width: 6rem;
+      height: auto;
+    }
+  }
+
+  @include for-desktop {
+    flex-basis: $col-1;
+    margin-left: $col-1;
+  }
+}
+
+.ice-footer-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @include for-tablet {
+    flex: 0 0 $col-5;
+  }
+
+  @include for-desktop {
+    padding-left: $gutter-hz;
+    padding-right: $gutter-hz;
+  }
+
+  p:not(:last-of-type) {
+    margin-bottom: 0;
+  }
+
+  a {
+    display: inline-flex;
+    line-height: 1.25;
+    margin-bottom: 0.7rem;
+  }
+}
+
+.ice-footer-title {
+	margin: 0;
+}
+
+.ice-footer-links {
+  margin-top: 0.2rem;
+
+  @include for-tablet {
+    flex: 0 0 $col-3;
+	  margin-left: $col-1;
+    margin-right: $col-1;
+		margin-top: 0;
+  }
+
+  @include for-desktop {
+    padding-left: $gutter-hz;
+    margin-top: 0;
+  }
+
+  .ice-social-links {
+    margin-bottom: 1.9rem;
+
+    .ice-social-link {
+      width: 4rem;
+      height: 4rem;
+      margin: 0 1rem 0 0;
+
+      .ice-icon {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  a[aria-current="page"] {
+    font-weight: bold;
+  }
+}
+
+.ice-contact, .ice-contact-wrapper {
+	margin-bottom: 0;
+	margin-top: .8rem;
+}
+
+.ice-contact-term {
+	float: left;
+	font-weight: 600;
+	&::after {
+		content: " : ";
+		speak: none;
+	}
+}
+
+.ice-contact-definition {
+	overflow: hidden;
+}
+
+.ice-other-resource {
+	padding-left: 1.7rem;
+}
+
+.ice-other-resource li {
+	margin-bottom: 0.8rem;
+}
+
+.ice-legal {
+  padding: 1rem 1.5rem;
+  background: $gray-3;
+	margin-top: 3.25rem;
+}
+
+.ice-legal-wrapper {
+	text-align: center;
+}
