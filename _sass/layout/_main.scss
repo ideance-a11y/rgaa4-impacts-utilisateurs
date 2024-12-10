@@ -1,4 +1,8 @@
 .main-content {
+    margin-bottom: 7rem;
+    @include for-tablet {
+        margin-bottom: 10rem;
+    }
     a {
         text-decoration: underline;
         color: $gray-1;
