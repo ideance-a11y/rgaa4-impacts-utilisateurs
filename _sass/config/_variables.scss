@@ -1,8 +1,11 @@
-// Typos
+// TYPOS
+
 $typo-1: 'Lato', sans-serif;
 $fonticon: 'fonticon';
 
-// Colors
+
+
+// COLORS
 
 ///--- Primary/Secondary colors
 $primary-color:     #0a42f7;
@@ -24,7 +27,26 @@ $gray-5: #233140;
 $gray-6: #848f9a;
 $light-gray: #F5F7FA;
 
-$light-blue: #bed2de;
-
+///--- Blues
 $blue-1: #37738E;
 $blue-2: #d7e3eb;
+$light-blue: #bed2de;
+
+// GRID
+
+///--- Cols
+$col-1: 8.333333%;
+$col-2: 16.666667%;
+$col-3: 25%;
+//$col-4: 33.333333%;
+$col-5: 41.666667%;
+//$col-6: 50%;
+//$col-7: 58.333333%;
+//$col-8: 66.666667%;
+//$col-9: 75%;
+//$col-10: 83.333334%;
+//$col-11: 91.666667%;
+
+///--- Gutter
+$gutter-hz: 2rem;
+$gutter-hz-mob: 1.5rem;
