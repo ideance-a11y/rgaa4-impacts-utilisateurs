@@ -9,11 +9,12 @@
     flex-direction: column;
     @include for-tablet {
         margin: 0 auto;
+        padding-right: 1rem;
         gap: 5%;
         flex-direction: row;
     }
 }
-.main-nav {    
+.main-nav {
     @include for-tablet {
         flex-basis: 25%;
         height: 100vh;

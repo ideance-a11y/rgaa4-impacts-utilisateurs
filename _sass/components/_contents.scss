@@ -47,13 +47,19 @@ main {
 
 .chapo {
     margin: 2rem 0 3rem;
-    padding: .1rem 2rem .7rem;
+    padding: .1rem 2rem 2.4rem;
     background: #fbfbfb;
     border-left: 1rem solid #e8efef;
 
-    ul {
-        margin-bottom: 1.7rem;
+    p {
+        margin-bottom: 1.2rem;
     }
+
+    ul {
+        margin: 1.2rem 0 0;
+        padding-left: 2rem;
+    }
+
     [id^='criteria-'] {
         font-weight: bold;
     }
