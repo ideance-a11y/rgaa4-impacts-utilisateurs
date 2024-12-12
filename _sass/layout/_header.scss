@@ -49,11 +49,15 @@
         &__inner {
             max-width: 120rem;
             margin: 0 auto;
-        }
-        a {
-            text-decoration-color: transparent;
-            &:hover {     
-                text-decoration-color: $white-color;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            padding-left: 2rem;
+            padding-right: 3rem;
+            font-size: 1.8rem;
+            line-height: 1;
+            span, img {
+                flex-basis: auto;
             }
         }
     }
@@ -117,9 +121,11 @@
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    padding-left: 2rem;
+    margin: 0;
+    padding-left: 1.5rem;
     padding-right: 3rem;
     font-size: 1.8rem;
+    font-weight: normal;
     line-height: 1;
     color: $white-color;
     @include for-mobile {
@@ -131,30 +137,29 @@
     @include for-desktop {
         font-size: 3.2rem;
     }
-    span, img {
-        flex-basis: auto;
-    }
-    .logo {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: center;
-        margin-right: 1.5rem;
-        border-radius: 50%;
-        background: $white-color;
-        img {
-            width: 5rem;
-            height: 5rem;
-            margin: 1rem;
-            @include for-desktop {
-                width: 6.5rem;
-                height: 6.5rem;
-            }
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: $white-color;
+    img {
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem;
+        @include for-desktop {
+            width: 6.5rem;
+            height: 6.5rem;
         }
     }
 }
 
 .infoVersion {
+    max-width: 120rem;
+    margin: 0 auto;
     &::before {
         content: "";
         display: block;
@@ -165,12 +170,12 @@
     }
     color: $secondary-color;
     font-style: italic;
-    margin: 0;
     margin-top: 0.8rem;
-    margin-left: calc(5rem + 2rem + 1.5rem);
-    padding-left: 2rem;
+    padding-left: calc(2rem + 5rem + 2rem + 1.5rem);
+    // header-bottom__inner padding + logo width + logo margin +
+    padding-right: 3rem;
     font-size: 1.3rem;
     @include for-desktop {
-        margin-left: calc(6.5rem + 2rem + 1.5rem);
+        padding-left: calc(2rem + 6.5rem + 2rem + 1.5rem);
     }
 }
