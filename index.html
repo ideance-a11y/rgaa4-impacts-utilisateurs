@@ -4,32 +4,34 @@ title: Impacts utilisateurs et utilisatrices en version facile à comprendre
 menu: rubriques
 ---
 
-<!-- Boucle sur les thématiques du RGAA -->
+{% comment %} Boucle sur les thématiques du RGAA {% endcomment %}
 {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
   <h2 id="{{ rgaa_topic.name | slugify }}">
     {{ rgaa_topic.num }} - {{ rgaa_topic.name }}
   </h2>
 
-  <!-- Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) -->
+  {% comment %} Filtre des impacts liés à la thématique en cours (fichier /_data/impact_users.json) {% endcomment %}
   {% assign topic_impacts = site.data.impact_users.impacts | where_exp: "item", "item.topics.rgaa contains rgaa_topic.num" %}
 
-  <!-- Boucle sur les impacts users filtrés -->
+  {% comment %} Boucle sur les impacts users filtrés {% endcomment %}
   {% for impact in topic_impacts %}
-    <!--
+    {% comment %}
       Impacts potentiellements séparés en plusieurs sous-critères.
       Réunis dans un tableau.
-    -->
-    <!-- {% assign impact_criteria = impact.falc | map: "criteria" | map: "rgaa" | compact %} -->
+      {% assign impact_criteria = impact.falc | map: "criteria" | map: "rgaa" | compact %}
+    {% endcomment %}
 
     <h3 id="{{ impact.name | slugify}}">
-      <!-- Critère{% if impact_criteria.size > 1 %}s{% endif %}
-      {{ impact_criteria | join: ', '}} -  -->
+      {% comment %}
+        Critère{% if impact_criteria.size > 1 %}s{% endif %}
+        {{ impact_criteria | join: ', '}} -
+      {% endcomment %}
       {{ impact.name }}
     </h3>
 
-    <!-- Boucle sur les critères liés à chaque impact -->
+    {% comment %} Boucle sur les critères liés à chaque impact {% endcomment %}
     {% for impact_item in impact.falc %}
-      <!--Si plusieurs impacts, on les structure en liste -->
+      {% comment %} Si plusieurs impacts, on les structure en liste {% endcomment %}
       {% if forloop.length > 1 %}
         {% if forloop.first %}<ul>{% endif %}
         <li>
@@ -39,24 +41,23 @@ menu: rubriques
         {{ impact_item.description | markdownify }}
       {% endif %}
 
-      <!-- Critères associés récupérés depuis le JSON du RGAA clean -->
+      {% comment %} Critères associés récupérés depuis le JSON du RGAA clean {% endcomment %}
       {% if impact_item.criteria.rgaa.size > 0 %}
         <div class="chapo">
-          
           <p id="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
             {% if impact_item.criteria.rgaa.size > 1 %}
               Critères RGAA associés
             {% else %}
-              Critère RGAA associé :
+              Critère RGAA associé
             {% endif %}
           </p>
           <ul aria-labelledby="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
-            <!-- Pour chaque critère associé à l'impact user -->
+            {% comment %} Pour chaque critère associé à l'impact user {% endcomment %}
             {% for criterion_num in impact_item.criteria.rgaa %}
-              <!--
+              {% comment %}
                 Filtres liquid pour récupérer l'intitulé du critère
                 dans les données du RGAA (/_data/rgaa_4_1_2_clean.json)
-              -->
+              {% endcomment %}
               {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
               <li>
                 {{ criterion_num }} - {{ criterion_data[0]['name'] }}
@@ -66,16 +67,15 @@ menu: rubriques
         </div>
       {% endif %}
 
-      <!--Si plusieurs impacts, on les structure en liste -->
+      {% comment %} Si plusieurs impacts, on les structure en liste {% endcomment %}
       {% if forloop.length > 1 %}
         </li>
         {% if forloop.last %}</ul>{% endif %}
       {% endif %}
     {% endfor %}
+    {% comment %} Fin boucle sur les critères liés à chaque impact {% endcomment %}
     <a href="#summary-impact" class="goback-summary"><span class="icon icon-chevrons-left-bold" aria-hidden="true"></span>Retour au sommaire</a>
-    <!-- Fin boucle sur les critères liés à chaque impact -->
   {% endfor %}
-  <!-- Fin oucle sur les impacts users filtrés -->
+  {% comment %} Fin boucle sur les impacts users filtrés {% endcomment %}
 {% endfor %}
-<!-- Fin boucle sur les thématiques RGAA -->
- 
+{% comment %} Fin boucle sur les thématiques RGAA {% endcomment %}
