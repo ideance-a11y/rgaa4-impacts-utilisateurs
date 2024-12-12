@@ -51,19 +51,29 @@ menu: rubriques
               Critère RGAA associé
             {% endif %}
           </p>
-          <ul aria-labelledby="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
-            {% comment %} Pour chaque critère associé à l'impact user {% endcomment %}
+          {% if impact_item.criteria.rgaa.size > 1 %}
+            <ul aria-labelledby="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
+              {% for criterion_num in impact_item.criteria.rgaa %}
+                {% comment %}
+                  Filtres liquid pour récupérer l'intitulé du critère
+                  dans les données du RGAA (/_data/rgaa_4_1_2_clean.json)
+                {% endcomment %}
+                {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
+                <li>
+                  {{ criterion_num }} - {{ criterion_data[0]['name'] }}
+                </li>
+              {% endfor %}
+            </ul>
+          {% else %}
             {% for criterion_num in impact_item.criteria.rgaa %}
               {% comment %}
                 Filtres liquid pour récupérer l'intitulé du critère
                 dans les données du RGAA (/_data/rgaa_4_1_2_clean.json)
               {% endcomment %}
               {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
-              <li>
-                {{ criterion_num }} - {{ criterion_data[0]['name'] }}
-              </li>
+              <span>{{ criterion_num }} - {{ criterion_data[0]['name'] }}</span>
             {% endfor %}
-          </ul>
+          {% endif %}
         </div>
       {% endif %}
 
