@@ -11,7 +11,7 @@
 
 main {
     h2 {
-        margin: 4rem 0 2.3rem;
+        margin: 7.2rem 0 3.6rem;
         color: $gray-1;
         font-size: 2.4rem;
         line-height: 1.3;
@@ -22,19 +22,39 @@ main {
     }
 
     h3 {
-        margin: 3rem 0 1.8rem;
+        margin: 5.4rem 0 1.5rem;
+        padding-bottom: 1.5rem;
         color: $tertiary-color;
         font-size: 2rem;
         font-weight: bold;
         line-height: 1.35;
+        border-bottom: 1px dashed #ffd100;
         @include for-tablet {
             font-size: 2.4rem;
         }
+    }
+
+    h2 + h3 {
+        margin-top: 3.6rem;
     }
 
     hr {
         border: 0;
         height: 0.1rem;
         background-color: $gray-1;
+    }
+}
+
+.chapo {
+    margin: 2rem 0 3rem;
+    padding: .1rem 2rem .7rem;
+    background: #fbfbfb;
+    border-left: 1rem solid #e8efef;
+
+    ul {
+        margin-bottom: 1.7rem;
+    }
+    [id^='criteria-'] {
+        font-weight: bold;
     }
 }
