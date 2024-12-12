@@ -5,94 +5,45 @@
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-  
     text-rendering: auto;
     transform: translate(0, 0);
     vertical-align: middle;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
   .icon {
     @extend %icon-base;
     display: inline-flex;
     font-size: 1.7rem;
     line-height: 1;
-  
     &.is-large {
       font-size: 2.4rem;
     }
   }
-  
-  .icon-opquast:before {
+  .icon-plus:before {
     content: "\e902";
-    margin-right: -0.2rem;
-    margin-bottom: -0.2rem;
-    font-size: 120%;
   }
-  
+  .icon-minus:before {
+    content: "\e903";
+  }
   .icon-chevrons-left-bold:before {
     content: "\e911\e911";
     font-size: 95%;
     font-weight: normal;
     letter-spacing: -0.8rem;
   }
-  .icon-chevrons-right-bold:before {
-    content: "\e906\e906";
-    padding-bottom: 0.2rem;
-    font-size: 95%;
-    font-weight: normal;
-    letter-spacing: -0.7rem;
-  }
-  
   .icon-chevron-left-bold:before {
     content: "\e911";
-  }
-  .icon-chevron-right-bold:before {
-    content: "\e906";
-  }
-  .icon-chevron-left:before {
-    content: "\e900";
-  }
-  .icon-chevron-right:before {
-    content: "\e901";
-  }
-  .icon-edit:before {
-    content: "\e907";
-  }
-  .icon-search:before {
-    content: "\e90a";
-  }
-  .icon-message:before {
-    content: "\e90b";
-  }
-  .icon-message-outline:before {
-    content: "\e90c";
-  }
-  .icon-timer:before {
-    content: "\e90d";
-  }
-  .icon-person:before {
-    content: "\e905";
-  }
-  .icon-comments:before {
-    content: "\e90f";
-  }
-  .icon-quotes-left:before {
-    content: "\e977";
-  }
-  .icon-quotes-right:before {
-    content: "\e978";
-  }
-  .icon-facebook:before {
-    content: "\ea90";
-  }
-  .icon-twitter:before {
-    content: "\ea96";
   }
   .icon-linkedin:before {
     content: "\eaca";
   }
   .icon-youtube:before {
     content: "\ea9d";
+  }
+  .icon-instagram::before {
+    content: "\ea92";
+  }
+  .icon-tiktok::before {
+    content: "\e900";
   }
