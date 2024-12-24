@@ -4,7 +4,7 @@
       "name": "Fournir une alternative aux images porteuses d’information",
       "default": [
         {
-          "description": "2 Pour les personnes aveugles ou malvoyantes utilisant des outils de lecture, de vocalisation et d'agrandissement des contenus, l'absence d’alternative aux images porteuses d’information, ou leur manque de pertinence, peuvent les empêcher de comprendre un contenu ou d’accomplir une tâche.",
+          "description": "Pour les personnes aveugles ou malvoyantes utilisant des outils de lecture, de vocalisation et d'agrandissement des contenus, l'absence d’alternative aux images porteuses d’information, ou leur manque de pertinence, peuvent les empêcher de comprendre un contenu ou d’accomplir une tâche.",
           "criteria": {
             "rgaa": ["1.1","1.3"],
             "raweb": ["1.1","1.3"],
