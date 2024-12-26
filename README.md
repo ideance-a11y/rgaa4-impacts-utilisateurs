@@ -1,4 +1,4 @@
-# RGAA 4 : Impacts utilisateurs des différents critères
+# RGAA 4 : Impacts des défauts de conformité au RGAA pour les personnes handicapées
 
 Ce site vise à expliciter les objectifs des différents critères du RGAA (dans sa version 4.1.2) au travers du ou des impacts causés aux personnes handicapées par un défaut d'accessibilité.
 Purement informatif et non normatif, ce site ne fournit pas une liste exhaustive de tous les impacts. Il essaye néanmoins d'être le plus complet et le plus clair possible dans ses explications.
