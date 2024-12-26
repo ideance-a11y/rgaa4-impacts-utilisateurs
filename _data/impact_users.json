@@ -42,7 +42,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus. Ces outils retranscrivent de nombreuses informations comme le type d’élément, ses propriétés, son état et son alternative.\n\nEn l’absence d’alternative vide (ou d’attribut permettant de masquer l’élément aux technologies d’assistance), les images de décoration risquent d’être annoncées et de rendre le contenu peu compréhensible pour ces personnes.",
+          "description": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus.\n\nCes outils retranscrivent de nombreuses informations comme le type d’élément, ses propriétés, son état et son alternative.\n\nEn l’absence d’alternative vide (ou d’attribut permettant de masquer l’élément aux technologies d’assistance), les images de décoration risquent d’être annoncées et de rendre le contenu peu compréhensible pour ces personnes.",
           "criteria": {
             "rgaa": ["1.2"],
             "raweb": ["1.2"],
