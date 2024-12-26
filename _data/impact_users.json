@@ -14,7 +14,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus. \n\nL'absence (ou le manque de pertinence) d’alternative aux images porteuses d’information empêche ces personnes de comprendre un contenu ou d’accomplir une tâche.",
+          "description": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus. \n\nL'absence (ou le manque de pertinence) d’alternative aux images porteuses d’information peuvent empêcher ces personnes de comprendre un contenu ou d’accomplir une tâche.",
           "criteria": {
             "rgaa": ["1.1","1.3"],
             "raweb": ["1.1","1.3"],
