@@ -1158,7 +1158,7 @@
       ],
       "falc": [
         {
-          "description": "En l’absence de couleur d’arrière-plan, les personnes naviguant en mode de contraste élevé peuvent ne pas voir le contenu placé sur une image insérée en CSS.\n\nEn l’absence de couleur de premier plan ou d’arrière-plan, les personnes ne peuvent pas personnaliser les styles CSS pour pouvoir lire plus facilement. C’est le cas de :\n\n* Certaines personnes malvoyantes ;\n* Certaines personnes avec des troubles cognitifs ;\n* Certaines personnes ayant des difficultés de lecture ou d’apprentissage.",
+          "description": "En l’absence de couleur d’arrière-plan, les personnes naviguant en mode de contraste élevé peuvent ne pas voir le contenu placé sur une image insérée en CSS.\n\nEn l’absence de couleur de premier plan ou d’arrière-plan, les personnes peuvent ne pas pouvoir personnaliser les styles CSS pour pouvoir lire plus facilement. C’est le cas de :\n\n* Certaines personnes malvoyantes ;\n* Certaines personnes avec des troubles cognitifs ;\n* Certaines personnes ayant des difficultés de lecture ou d’apprentissage.",
           "criteria": {
             "rgaa": ["10.5"],
             "raweb": ["10.5"],
@@ -1186,7 +1186,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes et déficientes mentales pourraient ne pas distinguer les liens s’ils ne sont pas suffisamment contrastés par rapport au reste du texte.",
+          "description": "Les personnes malvoyantes pourraient ne pas distinguer les liens s’ils ne sont pas suffisamment contrastés par rapport au reste du texte.",
           "criteria": {
             "rgaa": ["10.6"],
             "raweb": ["10.6"],
@@ -1214,7 +1214,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes déficientes motrices qui naviguent au clavier vont avoir de grandes difficultés pour interagir avec la page si elles n’arrivent pas à voir où se situe le focus et à suivre ses déplacements.",
+          "description": "Les personnes déficientes motrices qui naviguent au clavier peuvent rencontrer des grandes difficultés pour interagir avec la page si elles n’arrivent pas à voir où se situe le focus et à suivre ses déplacements.",
           "criteria": {
             "rgaa": ["10.7"],
             "raweb": ["10.7"],
@@ -1229,7 +1229,7 @@
       }
     },
     {
-      "name": "Restitution des éléments cachés aux Technologies d’Assistance",
+      "name": "Restitution des éléments cachés aux technologies d’assistance",
       "default": [
         {
           "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ont un accès séquentiel à l’information. Si des contenus importants à la compréhension sont cachés, ces personnes rencontreront des difficultés majeures pour les comprendre ou les contrôler.\n\nSi des contenus porteurs d’informations sont masqués aux technologies d’assistance, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran seront dans l’incapacité d’accéder à ces contenus sans alternatives.",
@@ -1242,7 +1242,7 @@
       ],
       "falc": [
         {
-          "description": "Si du contenu porteur d’information est masqués aux technologies d’assistance, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran n’en auront pas connaissance.\n\nÀ l’inverse, un contenu décoratif non masqué aux technologies d’assistance pose des problèmes de compréhension aux personnes qui les utilisent.",
+          "description": "Si du contenu porteur d’information est masqué aux technologies d’assistance, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran n’en auront pas connaissance.\n\nÀ l’inverse, un contenu décoratif non masqué aux technologies d’assistance peut poser des problèmes de compréhension aux personnes qui les utilisent.",
           "criteria": {
             "rgaa": ["10.8"],
             "raweb": ["10.8"],
@@ -1257,7 +1257,7 @@
       }
     },
     {
-      "name": "Alternatives pour l’information données par la forme, la taille ou la position",
+      "name": "Alternatives pour l’information donnée par la forme, la taille ou la position",
       "default": [
         {
           "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ont un accès séquentiel à l’information. Lorsqu'il n'est pas possible de distinguer une information véhiculée uniquement par la forme, la taille ou la position, ces personnes perdent de l'information. Par exemple un terme de recherche mis en évidence en gras (uniquement en CSS).\n\n---\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran n’ont pas la possibilité de distinguer une information véhiculée uniquement par la forme, la taille ou la position, ces personnes perdent de l'information. Par exemple un terme de recherche mis en évidence en gras (uniquement en CSS).",
@@ -1270,7 +1270,7 @@
       ],
       "falc": [
         {
-          "description": "Les informations véhiculées uniquement par un effet visuel sont inaccessibles aux personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran. C’est par exemple le cas d’un terme de recherche mis en évidence en gras (via CSS) ou de l’indication de la page courante par l’ajout d’une bordure.",
+          "description": "Les informations véhiculées uniquement par un effet visuel peuvent être inaccessibles aux personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran.\n\nC’est par exemple le cas d’un terme de recherche mis en évidence en gras (via CSS) ou de l’indication de la page courante par l’ajout d’une bordure.",
           "criteria": {
             "rgaa": ["10.9","10.10"],
             "raweb": ["10.9","10.10"],
@@ -1288,7 +1288,7 @@
       "name": "Absence de barre de défilement sur les terminaux de faible largeur ou hauteur",
       "default": [
         {
-          "description": "Les personnes malvoyantes ont besoin d'agrandir le texte et de lire en une seule colonne les contenus. Ils utilisent le zoom du navigateur ou un zoom d'écran spécifique, le contenu doit alors s'adapter afin que l'utilisateur puisse le lire dans une seule colonne sans avoir recours à la fois au défilement vertical et horizontal. Également, le contenu doit être présenté sans perte d’information ou de fonctionnalité.",
+          "description": "Les personnes malvoyantes peuvent avoir besoin d'agrandir le texte et de lire les contenus en une seule colonne.\n\nIls utilisent le zoom du navigateur ou un zoom d'écran spécifique, le contenu doit alors s'adapter afin qu'il puisse être lu dans une seule colonne sans avoir recours à la fois au défilement vertical et horizontal. Également, le contenu doit être présenté sans perte d’information ou de fonctionnalité.",
           "criteria": {
             "rgaa": ["10.11"],
             "raweb": ["10.11"],
