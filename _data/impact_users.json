@@ -534,7 +534,7 @@
           }
         },
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas comprendre un tableau de mise en forme qui a les caractéristiques d’un tableau de données : La restitution du lecteur d’écran ne sera pas adaptée et le contenu ne sera potentiellement pas compréhensible.",
+          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas comprendre un tableau de mise en forme qui a les caractéristiques d’un tableau de données : la restitution du lecteur d’écran ne sera pas adaptée et le contenu ne sera potentiellement pas compréhensible.",
           "criteria": {
             "rgaa": ["5.8"],
             "raweb": ["5.8"],
@@ -562,7 +562,7 @@
       ],
       "falc": [
         {
-          "description": "Les lecteurs d’écran permettent de naviguer rapidement dans la page. Par type d’éléments (de tableau en tableau, par exemple) ou grâce à la liste des éléments.\n\nDans ces deux modes de navigation, un tableau sans titre (ou sans titre pertinent) empêche les personnes aveugles d’identifier et de naviguer vers le tableau facilement.",
+          "description": "Les lecteurs d’écran permettent de naviguer rapidement dans la page. Par type d’éléments (de tableau en tableau, par exemple) ou grâce à la liste des éléments.\n\nDans ces deux modes de navigation, un tableau sans titre (ou sans titre pertinent) empêche les personnes aveugles d’identifier et de naviguer facilement vers le tableau.",
           "criteria": {
             "rgaa": ["5.4","5.5"],
             "raweb": ["5.4","5.5"],
@@ -590,7 +590,7 @@
       ],
       "falc": [
         {
-          "description": "L’absence de liaisons entre les cellules d’en-tête et de données rend la compréhension et l’utilisation d’un tableau très difficile :\n\n* Les personnes malvoyantes dépourvues de vision périphérique ou centrale ne visualisent qu’une partie de l’écran. Elles ne peuvent pas voir le tableau dans son ensemble ;\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée ne sont pas averties de la relation entre les cellules d’en-tête et de données.",
+          "description": "L’absence de liaisons entre les cellules d’en-tête et de données peut rendre la compréhension et l’utilisation d’un tableau très difficile :\n\n* Les personnes malvoyantes dépourvues de vision périphérique ou centrale ne visualisent qu’une partie de l’écran. Elles peuvent ne pas voir le tableau dans son ensemble ;\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée ne sont pas averties de la relation entre les cellules d’en-tête et de données.",
           "criteria": {
             "rgaa": ["5.6","5.7"],
             "raweb": ["5.6","5.7"],
@@ -618,7 +618,7 @@
       ],
       "falc": [
         {
-          "description": "Pour de nombreuses personnes, l’absence d’intitulé de lien explicite rend la compréhension et l’utilisation d’un contenu très difficile :\n\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre la fonction et la destination des liens ; \n* Les personnes malvoyantes dépourvues de vision centrale ou périphérique ne perçoivent pas forcément les informations données par le contexte des liens ;\n* Les personnes déficientes motrices naviguant à la voix doivent faire beaucoup d’essais pour activer un lien non explicite ;\n* Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre la destination des liens.",
+          "description": "Pour de nombreuses personnes handicapées, l’absence d’intitulé de lien explicite peut rendre la compréhension et l’utilisation d’un contenu très difficile :\n\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre la fonction et la destination des liens ; \n* Les personnes malvoyantes dépourvues de vision centrale ou périphérique ne perçoivent pas forcément les informations données par le contexte des liens ;\n* Les personnes déficientes motrices naviguant à la voix peuvent devoir faire beaucoup d’essais pour activer un lien non explicite ;\n* Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre la destination des liens.",
           "criteria": {
             "rgaa": ["6.1"],
             "raweb": ["6.1"],
@@ -646,7 +646,7 @@
       ],
       "falc": [
         {
-          "description": "La présence de lien sans intitulé rend les interactions très difficiles :\n\n* Les personnes aveugles ou malvoyantes ne sont pas informées de la fonction et de la destination du lien ;\n* Les personnes déficientes motrices naviguant à la voix doivent faire beaucoup d’essais pour activer un lien sans intitulé.",
+          "description": "La présence de lien sans intitulé rend les interactions très difficiles :\n\n* Les personnes aveugles ou malvoyantes ne sont pas informées de la fonction et de la destination du lien ;\n* Les personnes déficientes motrices naviguant à la voix peuvent devoir faire beaucoup d’essais pour activer un lien sans intitulé.",
           "criteria": {
             "rgaa": ["6.2"],
             "raweb": ["6.2"],
@@ -674,7 +674,7 @@
       ],
       "falc": [
         {
-          "description": "Les composants ne seront pas utilisables si les propriétés permettant de les nommer et de définir leur rôle et leurs états sont absentes ou peu pertinentes : Les personnes qui utilisent les technologies d’assistance comme un lecteur d’écran ou une reconnaissance vocale ne pourront pas comprendre de quel type de composant il s’agit et comment il s’utilise.",
+          "description": "Les composants ne seront pas utilisables si les propriétés permettant de les nommer et de définir leur rôle et leurs états sont absentes ou peu pertinentes : les personnes qui utilisent les technologies d’assistance comme un lecteur d’écran ou une reconnaissance vocale ne pourront pas comprendre de quel type de composant il s’agit et comment il s’utilise.",
           "criteria": {
             "rgaa": ["7.1"],
             "raweb": ["7.1"],
