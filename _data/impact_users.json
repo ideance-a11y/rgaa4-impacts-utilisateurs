@@ -786,7 +786,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit pourraient ignorer les messages de statut s’ils ne sont pas correctement restitués.\n\nElles ne sont pas informées de l’état du contenu : L’échec ou le succès d’une soumission, la progression d’une opération, la non-disponibilité d’une fonctionnalité ou la présence d’une erreur par exemple.",
+          "description": "Les personnes aveugles ou malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit pourraient ignorer les messages de statut s’ils ne sont pas correctement restitués.\n\nElles ne sont pas informées de l’état du contenu : l’échec ou le succès d’une soumission, la progression d’une opération, la non-disponibilité d’une fonctionnalité ou la présence d’une erreur, par exemple.",
           "criteria": {
             "rgaa": ["7.5"],
             "raweb": ["7.5"],
@@ -814,7 +814,7 @@
       ],
       "falc": [
         {
-          "description": "Un code HTML bien structuré est nécessaire aux technologies d’assistance pour restituer le contenu et permettre les interactions avec la page. Si le code comporte des erreurs (comme des balises mal écrites), certaines fonctionnalités risquent d’être inutilisables (comme la navigation de liens en liens, par exemple).",
+          "description": "Un code HTML bien structuré peut être nécessaire aux technologies d’assistance pour restituer le contenu et permettre les interactions avec la page. Si le code comporte des erreurs (comme des balises mal écrites), certaines fonctionnalités risquent d’être inutilisables (comme la navigation de liens en liens, par exemple).",
           "criteria": {
             "rgaa": ["8.1","8.2"],
             "raweb": ["8.1","8.2"],
@@ -842,7 +842,7 @@
       ],
       "falc": [
         {
-          "description": "Certaines personnes présentant des troubles de la lecture (comme la dyslexie ou l’illettrisme) utilisent des lecteurs vocaux qui sont inefficaces si les changements de langue ne sont pas indiqués.\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ont de grandes difficultés à comprendre les textes lus dans une langue qui n’est pas la bonne.",
+          "description": "Certaines personnes présentant des troubles de la lecture (comme la dyslexie ou l’illettrisme) utilisent des lecteurs vocaux qui peuvent être moins efficaces si les changements de langue ne sont pas indiqués.\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent rencontrer d'importantes difficultés à comprendre les textes lus dans une langue qui n’est pas la bonne.",
           "criteria": {
             "rgaa": ["8.3","8.4","8.7","8.8","8.10"],
             "raweb": ["8.3","8.4","8.7","8.8","8.10"],
@@ -857,7 +857,7 @@
       }
     },
     {
-      "name": "Présence d’un titre de page",
+      "name": "Présence et pertinence d’un titre de page",
       "default": [
         {
           "description": "Les titres des pages sont les premières informations proposées aux utilisateurs. Ils servent à la production d’un historique de navigation, de la liste des onglets ouverts, ou de la mise en favoris des pages. Leur absence peut rendre l'accès et l’utilisation d’un site complexe, particulièrement pour les personnes déficientes motrices.",
@@ -878,7 +878,7 @@
       ],
       "falc": [
         {
-          "description": "Le titre de page est la première information restituée par les technologies d’assistance. Il est utilisé dans l’historique de navigation, la liste des onglets ouverts, ou lors de la mise en favoris.\n\nLes personnes aveugles ou malvoyantes et les personnes déficientes mentales ou cognitives ont de grandes difficultés à retrouver ou identifier une page si le titre de page est absent ou peu pertinent.",
+          "description": "Le titre de page est la première information restituée par les technologies d’assistance. Il est utilisé dans l’historique de navigation, la liste des onglets ouverts ou lors de la mise en favoris.\n\nLes personnes aveugles ou malvoyantes et les personnes déficientes mentales ou cognitives peuvent rencontrer d'importantes difficultés à retrouver ou identifier une page si le titre de page est absent ou peu pertinent.",
           "criteria": {
             "rgaa": ["8.5","8.6"],
             "raweb": ["8.5","8.6"],
