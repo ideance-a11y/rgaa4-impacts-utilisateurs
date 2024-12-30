@@ -29,7 +29,7 @@
       }
     },
     {
-      "name": "Masquer les images décoratives aux Technologies d’Assistance",
+      "name": "Masquer les images décoratives aux technologies d’assistance",
       "default": [
         {
           "description": "Les outils de lecture, de vocalisation et d'agrandissement des contenus utilisés par les personnes aveugles ou malvoyantes retranscrivent beaucoup d’information, comme le type d’élément, ses propriétés, son état et son alternative. Les alternatives aux images de décoration produisent beaucoup d’information inutile et peuvent rendre un contenu difficilement compréhensible.\n\n---\n\nLes outils de lecture, de vocalisation et d'agrandissement des contenus utilisés par les personnes aveugles ou malvoyantes retranscrivent beaucoup d’information, comme le type d’élément, ses propriétés, son état et son alternative. L’absence d’alternative à une image de décoration produit beaucoup d’informations inutiles et peut rendre un contenu difficilement compréhensible.\n\nLes lecteurs d’écran utilisés par les aveugles et les systèmes de vocalisations couplés aux logiciels d’agrandissement utilisés par les grands malvoyants retranscrivent beaucoup d’informations. En l’absence d’attribut permettant de masquer les SVG de décoration aux technologies d’assistance, ces derniers risquent d’être restitués et de générer beaucoup d’informations inutiles, rendant ainsi la compréhension du contenu difficile pour ces utilisateurs.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "name": "Renseigner la nature et fournir un accès alternatif aux images Captcha",
+      "name": "Renseigner la nature et fournir un accès alternatif aux images CAPTCHA",
       "default": [
         {
           "description": "L’absence d’alternative à une image captcha permettant d’en identifier la nature, et surtout l’absence de moyen alternatif, constitue un problème insurmontable pour les personnes aveugles et les déficients visuels qui ne sont pas en capacité de lire le code. C’est également le cas pour les personnes handicapés mentales ou cognitifs qui peuvent simplement ne pas comprendre le mécanisme lui-même, notamment lorsque le moyen alternatif est un captcha logique.",
@@ -70,7 +70,7 @@
       ],
       "falc": [
         {
-          "description": "L’absence d’alternative à une image test empêche les personnes aveugles ou malvoyantes de connaître la nature de l’image.",
+          "description": "L’absence d’alternative à une image CAPTCHA empêche les personnes aveugles ou malvoyantes de connaître la nature de l’image.",
           "criteria": {
             "rgaa": ["1.4"],
             "raweb": ["1.4"],
@@ -78,7 +78,7 @@
           }
         },
         {
-          "description": "Les personnes aveugles ou malvoyantes ne peuvent pas lire le code d’un captcha visuel. Les personnes handicapées mentales ou cognitives peuvent ne pas comprendre un captcha visuel ou logique.\nL'absence de solution alternative empêche ces personnes d’accomplir une tâche.",
+          "description": "Les personnes aveugles ou malvoyantes peuvent ne pas lire le code d’un CAPTCHA visuel. Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre un CAPTCHA visuel ou logique.\nL'absence de solution alternative peut empêcher ces personnes d’accomplir une tâche.",
           "criteria": {
             "rgaa": ["1.5"],
             "raweb": ["1.5"],
@@ -106,7 +106,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus.\nL'absence (ou le manque de pertinence) de description détaillée aux images porteuses d’information empêche ces personnes de comprendre un contenu ou d’accomplir une tâche.",
+          "description": "Les personnes aveugles ou malvoyantes utilisent des outils de lecture, de vocalisation et d'agrandissement de contenus.\n\nL'absence (ou le manque de pertinence) de description détaillée aux images porteuses d’information peuvent empêcher ces personnes de comprendre un contenu ou d’accomplir une tâche.",
           "criteria": {
             "rgaa": ["1.6","1.7"],
             "raweb": ["1.6","1.7"],
@@ -121,7 +121,7 @@
       }
     },
     {
-      "name": "Remplacer les images textes par du texte stylé lorsque c'est possible",
+      "name": "Remplacer les images textes par du texte stylé, lorsque c'est possible",
       "default": [
         {
           "description": "Les personnes déficientes visuelles vont avoir de grandes difficultés à lire des textes en images, car ils ne pourront pas agrandir les textes par exemple.\nCertaines personnes présentant des troubles de la lecture (Dyslexie par exemple) peuvent avoir recours à des feuilles de styles personnalisées pour modifier la police d'écriture et en utiliser une plus spécifique. Les textes en images ne peuvent être adaptés dans ce cas.",
@@ -134,7 +134,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes ont de grandes difficultés à lire des textes en image car elles ne peuvent pas les rendre plus lisibles : Agrandir les caractères ou améliorer les contrastes, par exemple.\n\nCertaines personnes présentant des troubles de la lecture (comme la dyslexie) utilisent des feuilles de styles personnalisées et des lecteurs vocaux pour simplifier la lecture. Les textes en image ne peuvent pas être modifiés.",
+          "description": "Les personnes malvoyantes peuvent rencontrer de grandes difficultés à lire des textes en image car elles ne peuvent pas les rendre plus lisibles : agrandir les caractères ou améliorer les contrastes, par exemple.\n\nCertaines personnes présentant des troubles de la lecture (comme la dyslexie) utilisent des feuilles de styles personnalisées et des lecteurs vocaux pour simplifier la lecture. Les textes en image ne peuvent pas être modifiés.",
           "criteria": {
             "rgaa": ["1.8"],
             "raweb": ["1.8"],
@@ -162,7 +162,7 @@
       ],
       "falc": [
         {
-          "description": "Une image et sa légende sont associées visuellement par un style particulier. Les personnes aveugles ou malvoyantes ne peuvent pas comprendre le lien entre l’image et sa légende, si cette association n’est pas annoncée.\n\nElles peuvent penser que la légende (le copyright, la date de publication ou le nom de l’auteur, par exemple) sont liés à un autre contenu.",
+          "description": "Une image et sa légende sont associées visuellement par un style particulier.\n\nLes personnes aveugles ou malvoyantes peuvent ne pas comprendre le lien entre l’image et sa légende, si cette association n’est pas annoncée.\n\nElles peuvent penser que la légende (le copyright, la date de publication ou le nom de l’auteur, par exemple) sont liés à un autre contenu.",
           "criteria": {
             "rgaa": ["1.9"],
             "raweb": ["1.9"],
@@ -205,7 +205,7 @@
       }
     },
     {
-      "name": "Ne pas véhiculer d'information par la couleur uniquement",
+      "name": "Ne pas véhiculer d'information uniquement par la couleur",
       "default": [
         {
           "description": "Beaucoup de personnes n’ont qu’une vision partielle ou dégradée des couleurs, voire aucune pour les personnes aveugles. Par exemple, dans le cas d'une fonctionnalité impliquant une sélection multiple dans une liste d’objets, si le statut sélectionné est uniquement indiqué par une couleur, ces personnes se retrouveront dans l’incapacité d’utiliser la fonctionnalité.\n\nBeaucoup de personnes ont une vision partielle ou dégradée des couleurs. Lorsqu'il n'est pas possible de distinguer une information véhiculée par la couleur, ces personnes perdent de l'information. Par exemple un champ erroné signalé uniquement par le remplacement de la bordure en rouge.",
@@ -218,7 +218,7 @@
       ],
       "falc": [
         {
-          "description": "Les informations véhiculées par la couleur uniquement sont inaccessibles aux personnes aveugles ou malvoyantes qui distinguent peu ou pas du tout les couleurs.\n\nC’est par exemple le cas d’un champ en erreur signalé par un changement de couleur de bordure. Ou d’une sélection multiple dont le statut sélectionné est seulement indiqué par la couleur.",
+          "description": "Les informations véhiculées uniquement par la couleur sont inaccessibles aux personnes aveugles ou malvoyantes qui distinguent peu ou pas du tout les couleurs.\n\nC’est par exemple le cas d’un champ en erreur signalé par un changement de couleur de bordure. Ou d’une sélection multiple dont le statut sélectionné est seulement indiqué par la couleur.",
           "criteria": {
             "rgaa": ["3.1"],
             "raweb": ["3.1"],
