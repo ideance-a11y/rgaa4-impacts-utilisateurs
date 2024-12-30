@@ -134,7 +134,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes peuvent rencontrer de grandes difficultés à lire des textes en image car elles ne peuvent pas les rendre plus lisibles : agrandir les caractères ou améliorer les contrastes, par exemple.\n\nCertaines personnes présentant des troubles de la lecture (comme la dyslexie) utilisent des feuilles de styles personnalisées et des lecteurs vocaux pour simplifier la lecture. Les textes en image ne peuvent pas être modifiés.",
+          "description": "Les personnes malvoyantes peuvent rencontrer des difficultés à lire des textes en image car elles ne peuvent pas les rendre plus lisibles : agrandir les caractères ou améliorer les contrastes, par exemple.\n\nCertaines personnes présentant des troubles de la lecture (comme la dyslexie) peuvent utiliser des feuilles de styles personnalisées et des lecteurs vocaux pour simplifier la lecture. Les textes en image ne peuvent pas être modifiés.",
           "criteria": {
             "rgaa": ["1.8"],
             "raweb": ["1.8"],
@@ -190,7 +190,7 @@
       ],
       "falc": [
         {
-          "description": "Les lecteurs d’écran permettent de naviguer rapidement dans la page. Par type d’éléments (de cadre en cadre, par exemple) ou grâce à la liste des éléments.\n\nDans ces deux modes de navigation, un cadre sans titre (ou sans titre pertinent) empêche les personnes aveugles d’identifier et de naviguer vers le cadre facilement.",
+          "description": "Les lecteurs d’écran permettent de naviguer rapidement dans la page. Par type d’éléments (de cadre en cadre, par exemple) ou grâce à la liste des éléments.\n\nDans ces deux modes de navigation, un cadre sans titre (ou sans titre pertinent) empêche les personnes aveugles d’identifier et de naviguer facilement vers le cadre.",
           "criteria": {
             "rgaa": ["2.1","2.2"],
             "raweb": ["2.1","2.2"],
@@ -218,7 +218,7 @@
       ],
       "falc": [
         {
-          "description": "Les informations véhiculées uniquement par la couleur sont inaccessibles aux personnes aveugles ou malvoyantes qui distinguent peu ou pas du tout les couleurs.\n\nC’est par exemple le cas d’un champ en erreur signalé par un changement de couleur de bordure. Ou d’une sélection multiple dont le statut sélectionné est seulement indiqué par la couleur.",
+          "description": "Les informations véhiculées uniquement par la couleur peuvent être inaccessibles aux personnes aveugles ou malvoyantes qui distinguent peu ou pas du tout les couleurs.\n\nC’est par exemple le cas d’un champ en erreur signalé par un changement de couleur de bordure. Ou d’une sélection multiple dont le statut sélectionné est seulement indiqué par la couleur.",
           "criteria": {
             "rgaa": ["3.1"],
             "raweb": ["3.1"],
@@ -274,7 +274,7 @@
       ],
       "falc": [
         {
-          "description": "L'absence (ou le manque de pertinence) d’audiodescription ou de transcription textuelle empêche les personnes aveugles ou malvoyantes d’avoir accès aux informations visuelles du média.",
+          "description": "L'absence (ou le manque de pertinence) d’audiodescription ou de transcription textuelle peut empêcher les personnes aveugles ou malvoyantes d’accéder aux informations visuelles du média.",
           "criteria": {
             "rgaa": ["4.1","4.2"],
             "raweb": ["4.1","4.2"],
@@ -358,7 +358,7 @@
       ],
       "falc": [
         {
-          "description": "L’absence de titre ou de résumé associé aux contenus audio et vidéo peut rendre la recherche d’informations très difficile pour les personnes aveugles et malvoyantes.\nPar exemple, dans le cas d’une page regroupant plusieurs médias non titrés, elles sont obligées de démarrer chaque lecteur pour connaître le sujet traité.",
+          "description": "L’absence de titre ou de résumé associé aux contenus audio et vidéo peut rendre complexe la recherche d’informations pour les personnes aveugles et malvoyantes.\n\nPar exemple, dans le cas d’une page regroupant plusieurs médias non titrés, elles sont obligées de démarrer chaque lecteur pour connaître le sujet traité.",
           "criteria": {
             "rgaa": ["4.7"],
             "raweb": ["4.7"],
@@ -386,7 +386,7 @@
       ],
       "falc": [
         {
-          "description": "Les médias non temporels sont intégrés via un plugin (Java, Silverlight…) ou un élément natif (canvas ou svg).\n\nLes problèmes rencontrés peuvent être liés à la technologie ou à la manière dont elle est utilisée :\n\n* Les personnes déficientes motrices n’arriveront peut-être pas à contrôler les éléments interactifs du média ;\n* Les personnes sourdes et malentendantes n’auront pas accès aux informations présentes dans la bande son ;\n* Les personnes déficientes mentales ou cognitives n’arriveront pas à comprendre et à utiliser des fonctionnalités trop riches ou inhabituelles ;\n* Les personnes malvoyantes ne pourront pas personnaliser les contenus du média. Comme agrandir les tailles de caractères ou modifier la couleur du texte, par exemple ;\n* Les personnes aveugles auront des difficultés avec les informations visuelles, les indications données par la couleur uniquement, l’absence de structure ou l’utilisation d’éléments interactifs. Les éléments de navigation et de contrôle des contenus peuvent aussi être inefficaces.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative textuelle peut empêcher l’accès à l’information contenue dans le média.",
+          "description": "Les médias non temporels sont intégrés via un plugin (Java, Silverlight…) ou un élément natif (canvas ou svg).\n\nLes problèmes rencontrés peuvent être liés à la technologie ou à la manière dont elle est utilisée :\n\n* Les personnes déficientes motrices n’arriveront peut-être pas à contrôler les éléments interactifs du média ;\n* Les personnes sourdes et malentendantes n’auront pas accès aux informations présentes dans la bande son ;\n* Les personnes déficientes mentales ou cognitives n’arriveront pas à comprendre et à utiliser des fonctionnalités trop riches ou inhabituelles ;\n* Les personnes malvoyantes ne pourront pas personnaliser les contenus du média. Comme agrandir les tailles de caractères ou modifier la couleur des textes, par exemple ;\n* Les personnes aveugles auront des difficultés avec les informations visuelles, les indications données par la couleur uniquement, l’absence de structure ou l’utilisation d’éléments interactifs. Les éléments de navigation et de contrôle des contenus peuvent aussi être inefficaces.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative textuelle peut empêcher l’accès à l’information contenue dans le média.",
           "criteria": {
             "rgaa": ["4.8","4.9"],
             "raweb": ["4.8","4.9"],
@@ -534,7 +534,7 @@
           }
         },
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas comprendre un tableau de mise en forme qui a les caractéristiques d’un tableau de données : la restitution du lecteur d’écran ne sera pas adaptée et le contenu ne sera potentiellement pas compréhensible.",
+          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas comprendre un tableau de mise en forme possédant les caractéristiques d’un tableau de données : la restitution du lecteur d’écran ne sera pas adaptée et le contenu ne sera potentiellement pas compréhensible.",
           "criteria": {
             "rgaa": ["5.8"],
             "raweb": ["5.8"],
@@ -618,7 +618,7 @@
       ],
       "falc": [
         {
-          "description": "Pour de nombreuses personnes handicapées, l’absence d’intitulé de lien explicite peut rendre la compréhension et l’utilisation d’un contenu très difficile :\n\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre la fonction et la destination des liens ; \n* Les personnes malvoyantes dépourvues de vision centrale ou périphérique ne perçoivent pas forcément les informations données par le contexte des liens ;\n* Les personnes déficientes motrices naviguant à la voix peuvent devoir faire beaucoup d’essais pour activer un lien non explicite ;\n* Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre la destination des liens.",
+          "description": "Pour de nombreuses personnes handicapées, l’absence d’intitulé de lien explicite peut fortement complexifier la compréhension et l’utilisation d’un contenu :\n\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre la destination des liens ; \n* Les personnes malvoyantes dépourvues de vision centrale ou périphérique ne perçoivent pas forcément les informations données par le contexte des liens ;\n* Les personnes déficientes motrices naviguant à la voix peuvent devoir faire beaucoup d’essais pour activer un lien non explicite ;\n* Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre la destination des liens.",
           "criteria": {
             "rgaa": ["6.1"],
             "raweb": ["6.1"],
@@ -646,7 +646,7 @@
       ],
       "falc": [
         {
-          "description": "La présence de lien sans intitulé rend les interactions très difficiles :\n\n* Les personnes aveugles ou malvoyantes ne sont pas informées de la fonction et de la destination du lien ;\n* Les personnes déficientes motrices naviguant à la voix peuvent devoir faire beaucoup d’essais pour activer un lien sans intitulé.",
+          "description": "La présence de liens sans intitulé rend les interactions très difficiles :\n\n* Les personnes aveugles ou malvoyantes ne sont pas informées de la destination du lien ;\n* Les personnes déficientes motrices naviguant à la voix peuvent devoir faire beaucoup d’essais pour activer un lien sans intitulé.",
           "criteria": {
             "rgaa": ["6.2"],
             "raweb": ["6.2"],
@@ -702,7 +702,7 @@
       ],
       "falc": [
         {
-          "description": "Certains scripts très complexes (comme une carte interactive, par exemple) peuvent poser de nombreux problèmes :\n\n* Les personnes déficientes motrices n’arrivent pas à contrôler les éléments interactifs ;\n* Les personnes déficientes mentales ou cognitives ne comprennent pas ou ne savent pas comment à utiliser la ou les fonctionnalités ;\n* Les personnes malvoyantes n’ont pas les moyens de personnaliser les contenus ;\n* Les fonctionnalités de navigation et de contrôle ne sont pas fonctionnelles avec les technologies d’assistance.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative donnant des contenus similaires empêche l’accès à l’information.",
+          "description": "Certains scripts très complexes (comme une carte interactive, par exemple) peuvent poser de nombreux problèmes :\n\n* Les personnes déficientes motrices n’arrivent pas à contrôler les éléments interactifs ;\n* Les personnes déficientes mentales ou cognitives ne comprennent pas ou ne savent pas comment à utiliser la ou les fonctionnalités ;\n* Les personnes malvoyantes n’ont pas les moyens de personnaliser les contenus ;\n* Les fonctionnalités de navigation et de contrôle ne sont pas fonctionnelles avec les technologies d’assistance.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative donnant des contenus similaires peut empêcher l’accès à l’information.",
           "criteria": {
             "rgaa": ["7.2"],
             "raweb": ["7.2"],
@@ -730,7 +730,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes motrices ne peuvent pas utiliser et interagir avec les composants s’ils ne fonctionnent pas correctement au clavier.",
+          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes motrices ne peuvent pas interagir avec les composants s’ils ne fonctionnent pas correctement au clavier.",
           "criteria": {
             "rgaa": ["7.3"],
             "raweb": ["7.3"],
@@ -758,7 +758,7 @@
       ],
       "falc": [
         {
-          "description": "Pour de nombreuses personnes, les changements de contexte rendent la navigation très compliquée, voire impossible :\n\n* Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre les modifications de contenu si elles ne sont pas prévenues avant ;\n* Les personnes malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit peuvent ne pas voir les modifications de contenu ou le déplacement du focus ;\n* Les personnes aveugles ou malvoyantes ignorent les modifications de contenu si elles ne sont pas prévenues avant.",
+          "description": "Pour de nombreuses personnes handicapées, les changements de contexte peuvent fortement complexifier la navigation, voire la rendre impossible :\n\n* Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre les modifications de contenu si elles ne sont pas prévenues en amont ;\n* Les personnes malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit peuvent ne pas voir les modifications de contenu ou le déplacement du focus ;\n* Les personnes aveugles ou malvoyantes peuvent ignorer les modifications de contenu si elles ne sont pas prévenues en amont.",
           "criteria": {
             "rgaa": ["7.4"],
             "raweb": ["7.4"],
