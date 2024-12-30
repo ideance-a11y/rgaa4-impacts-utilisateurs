@@ -330,7 +330,7 @@
       ],
       "falc": [
         {
-          "description": "L’absence (ou le manque de pertinence) d’audiodescription empêche les personnes aveugles ou malvoyantes de comprendre les vidéos. En particulier si elles contiennent des textes incrustés.",
+          "description": "L’absence (ou le manque de pertinence) d’audiodescription peut empêcher les personnes aveugles ou malvoyantes de comprendre les vidéos. En particulier si elles contiennent des textes incrustés.",
           "criteria": {
             "rgaa": ["4.5","4.6"],
             "raweb": ["4.5","4.6"],
@@ -358,7 +358,7 @@
       ],
       "falc": [
         {
-          "description": "L’absence de titre ou de résumé associé aux contenus audios et vidéos rend la recherche d’informations très difficile pour les personnes aveugles et malvoyantes.\nPar exemple, dans le cas d’une page regroupant plusieurs médias non titrés, elles sont obligées de démarrer chaque lecteur pour connaître le sujet traité.",
+          "description": "L’absence de titre ou de résumé associé aux contenus audio et vidéo peut rendre la recherche d’informations très difficile pour les personnes aveugles et malvoyantes.\nPar exemple, dans le cas d’une page regroupant plusieurs médias non titrés, elles sont obligées de démarrer chaque lecteur pour connaître le sujet traité.",
           "criteria": {
             "rgaa": ["4.7"],
             "raweb": ["4.7"],
@@ -386,7 +386,7 @@
       ],
       "falc": [
         {
-          "description": "Les médias non temporels sont intégrés via un plugin (Java, Silverlight…) ou un élément natif (canvas ou svg). Les problèmes rencontrés peuvent être liés à la technologie ou à la manière dont elle est utilisée :\n\n* Les personnes déficientes motrices n’arriveront peut-être pas à contrôler les éléments interactifs du média ;\n* Les personnes sourdes et malentendantes n’auront pas accès aux informations présentes dans la bande son ;\n* Les personnes handicapées mentales ou cognitive n’arriveront pas à comprendre et à utiliser des fonctionnalités trop riches ou inhabituelles ;\n* Les personnes malvoyantes ne pourront pas personnaliser les contenus du média. Comme agrandir les tailles de caractères ou modifier la couleur du texte, par exemple ;\n* Les aveugles auront des difficultés avec les informations visuelles, les indications données par la couleur uniquement, l’absence de structure ou l’utilisation d’éléments interactifs. Les éléments de navigation et de contrôle des contenus peuvent aussi être inefficaces.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative textuelle empêche l’accès à l’information contenue dans le média.",
+          "description": "Les médias non temporels sont intégrés via un plugin (Java, Silverlight…) ou un élément natif (canvas ou svg).\n\nLes problèmes rencontrés peuvent être liés à la technologie ou à la manière dont elle est utilisée :\n\n* Les personnes déficientes motrices n’arriveront peut-être pas à contrôler les éléments interactifs du média ;\n* Les personnes sourdes et malentendantes n’auront pas accès aux informations présentes dans la bande son ;\n* Les personnes déficientes mentales ou cognitives n’arriveront pas à comprendre et à utiliser des fonctionnalités trop riches ou inhabituelles ;\n* Les personnes malvoyantes ne pourront pas personnaliser les contenus du média. Comme agrandir les tailles de caractères ou modifier la couleur du texte, par exemple ;\n* Les personnes aveugles auront des difficultés avec les informations visuelles, les indications données par la couleur uniquement, l’absence de structure ou l’utilisation d’éléments interactifs. Les éléments de navigation et de contrôle des contenus peuvent aussi être inefficaces.\n\nPour ces personnes, l'absence (ou le manque de pertinence) d’une alternative textuelle peut empêcher l’accès à l’information contenue dans le média.",
           "criteria": {
             "rgaa": ["4.8","4.9"],
             "raweb": ["4.8","4.9"],
@@ -414,7 +414,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes vont avoir de grandes difficultés à naviguer si un son démarre immédiatement après le chargement de la page : Le son va recouvrir celui de la synthèse vocale.\n\nLes personnes handicapées mentales ou cognitives peuvent être désorientées par le déclenchement automatique du son et ne pas comprendre d’où il vient.",
+          "description": "Les personnes aveugles ou malvoyantes peuvent rencontrer de grandes difficultés à naviguer si un son démarre immédiatement après le chargement de la page : le son va recouvrir celui de la synthèse vocale.\n\nLes personnes déficientes mentales ou cognitives peuvent être désorientées par le déclenchement automatique du son et ne pas comprendre d’où il vient.",
           "criteria": {
             "rgaa": ["4.10"],
             "raweb": ["4.10"],
@@ -442,7 +442,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée et les personnes déficientes motrices qui naviguent au clavier vont avoir de grandes difficultés pour interagir avec la page si les contrôles ne fonctionnent pas correctement au clavier.",
+          "description": "Les personnes aveugles ou malvoyantes (qui utilisent un lecteur d’écran ou une loupe vocalisée) et les personnes déficientes motrices (qui naviguent au clavier ou à l’aide d’une reconnaissance vocale) peuvent rencontrer de grandes difficultés pour interagir avec la page si les contrôles ne fonctionnent pas correctement au clavier.",
           "criteria": {
             "rgaa": ["4.11","4.12"],
             "raweb": ["4.11","4.12"],
@@ -470,7 +470,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes (qui utilisent un lecteur d’écran ou une loupe vocalisée) et les personnes déficientes motrices (qui naviguent au clavier ou à l’aide d’une reconnaissance vocale) vont avoir de grandes difficultés si les contrôles du media ne sont pas compatibles avec les technologies d’assistance.",
+          "description": "Les personnes aveugles ou malvoyantes (qui utilisent un lecteur d’écran ou une loupe vocalisée) et les personnes déficientes motrices (qui naviguent au clavier ou à l’aide d’une reconnaissance vocale) peuvent rencontrer de grandes difficultés si les contrôles du media ne sont pas compatibles avec les technologies d’assistance.",
           "criteria": {
             "rgaa": ["4.13"],
             "raweb": ["4.13"],
@@ -498,7 +498,7 @@
       ],
       "falc": [
         {
-          "description": "L’absence (ou le manque de pertinence) d’un résumé rend la compréhension et l’utilisation d’un tableau complexe très difficile :\n\n* Les personnes malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit ne visualisent pas la structure globale du tableau ;\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée ne sont pas averties de la structure du tableau ;\n* Les personnes handicapées mentales ou cognitives peuvent ne pas comprendre la structure du tableau.",
+          "description": "L’absence (ou le manque de pertinence) d’un résumé peut rendre la compréhension et l’utilisation d’un tableau complexe très difficile :\n\n* Les personnes malvoyantes qui utilisent une loupe d'écran et les personnes dont le champ de vision est réduit ne visualisent pas la structure globale du tableau ;\n* Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée ne sont pas averties de la structure du tableau ;\n* Les personnes déficientes mentales ou cognitives peuvent ne pas comprendre la structure du tableau.",
           "criteria": {
             "rgaa": ["5.1","5.2"],
             "raweb": ["5.1","5.2"],
@@ -526,7 +526,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran parcourent les tableaux de mise en forme dans l’ordre de lecture. Si le contenu des cellules ne forme pas une suite logique, l’information n’est pas compréhensible.",
+          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran parcourent les tableaux de mise en forme dans l’ordre de lecture. Si le contenu des cellules ne forme pas une suite logique, l’information peut ne pas être compréhensible.",
           "criteria": {
             "rgaa": ["5.3"],
             "raweb": ["5.3"],
@@ -534,7 +534,7 @@
           }
         },
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ne comprendront pas un tableau de mise en forme qui a les caractéristiques d’un tableau de données : La restitution du lecteur d’écran ne sera pas adaptée et le contenu ne sera pas compréhensible.",
+          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas comprendre un tableau de mise en forme qui a les caractéristiques d’un tableau de données : La restitution du lecteur d’écran ne sera pas adaptée et le contenu ne sera potentiellement pas compréhensible.",
           "criteria": {
             "rgaa": ["5.8"],
             "raweb": ["5.8"],
