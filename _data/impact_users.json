@@ -878,7 +878,7 @@
       ],
       "falc": [
         {
-          "description": "Le titre de page est la première information restituée par les technologies d’assistance. Il est utilisé dans l’historique de navigation, la liste des onglets ouverts ou lors de la mise en favoris.\n\nLes personnes aveugles ou malvoyantes et les personnes déficientes mentales ou cognitives peuvent rencontrer d'importantes difficultés à retrouver ou identifier une page si le titre de page est absent ou peu pertinent.",
+          "description": "Le titre de page est la première information restituée par les technologies d’assistance. Il est utilisé dans l’historique de navigation, la liste des onglets ouverts ou lors de la mise en favoris.\n\nLes personnes aveugles ou malvoyantes et les personnes déficientes mentales ou cognitives peuvent rencontrer d'importantes difficultés à identifier ou retrouver une page si le titre de page est absent ou peu pertinent.",
           "criteria": {
             "rgaa": ["8.5","8.6"],
             "raweb": ["8.5","8.6"],
@@ -906,7 +906,7 @@
       ],
       "falc": [
         {
-          "description": "Un code HTML sémantique est nécessaire aux technologies d’assistance pour restituer le contenu et permettre les interactions avec la page. Si les balises ne sont pas utilisées pour leur sens, la restitution peut être difficilement compréhensible et certaines fonctionnalités risquent d’être inutilisables.",
+          "description": "Un code HTML sémantique est nécessaire aux technologies d’assistance pour restituer le contenu et permettre les interactions avec la page.\n\nSi les balises ne sont pas utilisées pour leur sens, la restitution peut être difficilement compréhensible et certaines fonctionnalités risquent d’être inutilisables.",
           "criteria": {
             "rgaa": ["8.9"],
             "raweb": ["8.9"],
@@ -934,7 +934,7 @@
       ],
       "falc": [
         {
-          "description": "Pour certaines personnes, l'absence (ou le manque de pertinence) de titre rend la compréhension et la navigation vers les contenus très difficiles. C’est le cas :\n\n* Des personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ;\n* Des personnes déficientes motrices qui utilisent des outils spécifiques ;\n* Des personnes déficientes mentales ou cognitives.",
+          "description": "Pour certaines personnes handicapées, l'absence (ou le manque de pertinence) de titre peut fortement compléxifier la compréhension et la navigation vers les contenus. C’est le cas :\n\n* Des personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ;\n* Des personnes déficientes motrices qui utilisent des outils spécifiques ;\n* Des personnes déficientes mentales ou cognitives.",
           "criteria": {
             "rgaa": ["9.1"],
             "raweb": ["9.1"],
@@ -962,7 +962,7 @@
       ],
       "falc": [
         {
-          "description": "Si les éléments de structure HTML5 ne sont pas présents dans la page (ou s’ils sont mal utilisés), l’accès rapides aux différentes zones de la page ne sera pas possible pour :\n\n* Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées ;\n* Les personnes déficientes motrices.",
+          "description": "Si les éléments de structure HTML5 ne sont pas présents dans la page (ou s’ils sont mal utilisés), l’accès rapide aux principales zones de la page ne sera pas possible pour :\n\n* Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées ;\n* Les personnes déficientes motrices.",
           "criteria": {
             "rgaa": ["9.2"],
             "raweb": ["9.2"],
@@ -990,7 +990,7 @@
       ],
       "falc": [
         {
-          "description": "Pour les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées, l'absence de listes (ou la présence de listes mal structurées) complique l’accès et la compréhension du contenu :\n\n* La navigation rapide par type d’éléments (de liste en liste) n’est pas utilisable ;\n* Les suites d’éléments ne sont pas reconnaissables ;\n* Le nombre d’éléments n’est pas indiqué.",
+          "description": "Pour les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées, l'absence de listes (ou la présence de listes mal structurées) peut complexifier l’accès et la compréhension du contenu :\n\n* La navigation rapide par type d’éléments (de liste en liste) n’est pas utilisable ;\n* Les suites d’éléments ne sont pas reconnaissables ;\n* Le nombre d’éléments n’est pas indiqué.",
           "criteria": {
             "rgaa": ["9.3"],
             "raweb": ["9.3"],
@@ -1018,7 +1018,7 @@
       ],
       "falc": [
         {
-          "description": "En l’absence de balisage approprié :\n\n* Les personnes aveugles ou malvoyantes auront du mal à comprendre le sens d’une citation et sa relation avec le contenu proche ;\n* Les navigateurs et technologies d’assistance ne modifieront pas la restitution visuelle ou auditive de la citation par rapport au reste du contenu.",
+          "description": "En l’absence de balisage approprié :\n\n* Les personnes aveugles ou malvoyantes peuvent rencontrer des difficultés à comprendre le sens d’une citation et sa relation avec le contenu proche ;\n* Les navigateurs et technologies d’assistance ne modifieront pas la restitution visuelle ou auditive de la citation par rapport au reste du contenu.",
           "criteria": {
             "rgaa": ["9.4"],
             "raweb": ["9.4"],
@@ -1046,7 +1046,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes et certaines personnes présentant des troubles de la lecture (comme la dyslexie) ont de grandes difficultés pour lire le contenu si son affichage n’est pas personnalisable : Augmenter l’espace entre les mots, les lettres ou les lignes facilite la lecture.\n\nLa présence d’éléments et d’attributs HTML de présentation rend impossible toute personnalisation.",
+          "description": "Les personnes malvoyantes et certaines personnes présentant des troubles de la lecture (comme la dyslexie) peuvent rencontrer des difficultés pour lire le contenu si son affichage n’est pas personnalisable : augmenter l’espace entre les mots, les lettres ou les lignes peut faciliter la lecture.\n\nLa présence d’éléments et d’attributs HTML de présentation peut empêcher la personnalisation.",
           "criteria": {
             "rgaa": ["10.1"],
             "raweb": ["10.1"],
@@ -1074,7 +1074,7 @@
       ],
       "falc": [
         {
-          "description": "Les éléments porteurs d’information insérés en CSS (comme une icône ou une image d’arrière-plan) ne sont pas correctement restitués par les lecteurs d’écran et les loupes vocalisées.\n\nÀ l’inverse, certains éléments décoratifs insérés en CSS peuvent être restitués aux personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran. Ce qui gêne l’écoute et surtout la compréhension du contenu.",
+          "description": "Les éléments porteurs d’information insérés en CSS (comme une icône ou une image d’arrière-plan) ne sont pas correctement restitués par les lecteurs d’écran et les loupes vocalisées.\n\nÀ l’inverse, certains éléments décoratifs insérés en CSS peuvent être restitués aux personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran. Ce qui peut gêner l’écoute et donc la compréhension du contenu.",
           "criteria": {
             "rgaa": ["10.2"],
             "raweb": ["10.2"],
@@ -1102,7 +1102,7 @@
       ],
       "falc": [
         {
-          "description": "La présence d’incohérences dans le code HTML rend la compréhension du contenu très difficile pour les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée.\n\nLorsque l’ordre du code n’est pas logique, l’enchaînement des éléments peut poser des problèmes de compréhension. C’est par exemple le cas :\n\n* Des personnes malvoyantes qui utilisent une loupe (ou un zoom) d’écran ou qui agrandissent la taille des caractères ;\n* Des personnes qui utilisent un lecteur d’écran ;\n* Des personnes qui naviguent au clavier.",
+          "description": "La présence d’incohérences dans le code HTML peut fortement complexifier la compréhension du contenu pour les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée.\n\nLorsque l’ordre du code n’est pas logique, l’enchaînement des éléments peut poser des problèmes de compréhension. C’est par exemple le cas :\n\n* Des personnes malvoyantes qui utilisent une loupe (ou un zoom) d’écran ou qui agrandissent la taille des caractères ;\n* Des personnes qui utilisent un lecteur d’écran ;\n* Des personnes qui naviguent au clavier.",
           "criteria": {
             "rgaa": ["10.3"],
             "raweb": ["10.3"],
@@ -1120,7 +1120,7 @@
       "name": "Personnalisation de la taille de caractères",
       "default": [
         {
-          "description": "Les personnes déficientes visuelles rencontreront une difficulté majeure à lire des contenus dont ils ne peuvent pas contrôler la taille des caractères et le jeu de couleurs qu’ils adaptent à leurs capacités de perception.",
+          "description": "Les personnes déficientes visuelles peuvent rencontrer une difficulté majeure à lire des contenus dont ils ne peuvent pas contrôler la taille des caractères et le jeu de couleurs qu’ils adaptent à leurs capacités de perception.",
           "criteria": {
             "rgaa": ["10.4"],
             "raweb": ["10.4"],
@@ -1130,7 +1130,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes rencontrent de grandes difficultés à lire des contenus dont ils ne peuvent pas contrôler la taille des caractères.",
+          "description": "Les personnes malvoyantes peuvent rencontrer des difficultés à lire des contenus dont ils ne peuvent pas contrôler la taille des caractères.",
           "criteria": {
             "rgaa": ["10.4"],
             "raweb": ["10.4"],
@@ -1158,7 +1158,7 @@
       ],
       "falc": [
         {
-          "description": "En l’absence de couleur d’arrière-plan, les personnes naviguant en mode de contraste élevé pourraient ne pas voir le contenu placé sur une image insérée en CSS.\n\nEn l’absence de couleur de premier plan ou d’arrière-plan, les personnes ne peuvent pas personnaliser les styles CSS pour pouvoir lire plus facilement. C’est le cas de :\n\n* Certaines personnes malvoyantes ;\n* Certaines personnes souffrant de problèmes cognitifs ;\n* Certaines personnes ayant des difficultés de lecture ou d’apprentissage.",
+          "description": "En l’absence de couleur d’arrière-plan, les personnes naviguant en mode de contraste élevé peuvent ne pas voir le contenu placé sur une image insérée en CSS.\n\nEn l’absence de couleur de premier plan ou d’arrière-plan, les personnes ne peuvent pas personnaliser les styles CSS pour pouvoir lire plus facilement. C’est le cas de :\n\n* Certaines personnes malvoyantes ;\n* Certaines personnes avec des troubles cognitifs ;\n* Certaines personnes ayant des difficultés de lecture ou d’apprentissage.",
           "criteria": {
             "rgaa": ["10.5"],
             "raweb": ["10.5"],
