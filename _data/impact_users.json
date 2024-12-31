@@ -1298,7 +1298,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes utilisent le zoom du navigateur (ou un zoom d'écran spécifique) pour agrandir la taille du texte. Si le contenu ne s’adapte pas et ne s’affiche pas sur une seule colonne, elles sont obligées d’utiliser les barres de défilement horizontale et verticale pour pouvoir lire la totalité du contenu.\n\nDe plus, toutes les personnes ne passent pas forcément par un ordinateur de bureau pour naviguer : C’est par exemple le cas de certaines personnes tétraplégiques qui se servent uniquement d’un mobile (ou d’une tablette) fixé à leur fauteuil ou de certaines personnes aveugles qui utilisent uniquement un mobile couplé à un lecteur d’écran.\n\nSi les différentes versions d’un site (pour mobile, pour tablette et pour ordinateur de bureau, par exemple) ne donnent pas la même information, ces personnes seront privées d’une partie du contenu.",
+          "description": "Les personnes malvoyantes peuvent utiliser le zoom du navigateur (ou un zoom d'écran spécifique) pour agrandir la taille du texte.\n\nSi le contenu ne s’adapte pas et ne s’affiche pas sur une seule colonne, elles sont obligées d’utiliser les barres de défilement horizontale et verticale pour pouvoir lire la totalité du contenu.\n\nDe plus, toutes les personnes ne passent pas forcément par un ordinateur de bureau pour naviguer : c’est par exemple le cas de certaines personnes tétraplégiques qui se servent uniquement d’un mobile (ou d’une tablette) fixé à leur fauteuil ou de certaines personnes aveugles qui utilisent uniquement un mobile couplé à un lecteur d’écran.\n\nSi les différentes versions d’un site (pour mobile, pour tablette et pour ordinateur de bureau, par exemple) ne donnent pas la même information, ces personnes seront privées d’une partie du contenu.",
           "criteria": {
             "rgaa": ["10.11"],
             "raweb": ["10.11"],
@@ -1326,7 +1326,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes et certaines personnes présentant des troubles de la lecture (comme la dyslexie) ont de grandes difficultés pour lire un contenu si l’affichage n’est pas personnalisable : Augmenter l’espace entre les mots, les lettres ou les lignes facilite la lecture.",
+          "description": "Les personnes malvoyantes et certaines personnes présentant des troubles de la lecture (comme la dyslexie) peuvent rencontrer des difficultés pour lire un contenu si l’affichage n’est pas personnalisable : augmenter l’espace entre les mots, les lettres ou les lignes peut faciliter la lecture.",
           "criteria": {
             "rgaa": ["10.12"],
             "raweb": ["10.12"],
@@ -1410,7 +1410,7 @@
       ],
       "falc": [
         {
-          "description": "L’absence (ou le manque de pertinence) d’une étiquette de formulaire empêche de comprendre la fonction du champ à renseigner. C’est notamment le cas pour :\n\n* Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées ;\n* Les personnes déficientes motrices qui utilisent des reconnaissances vocales ;\n* Les personnes déficientes mentales ou cognitives.",
+          "description": "L’absence (ou le manque de pertinence) d’une étiquette de formulaire peut empêcher de comprendre la fonction du champ à renseigner. C’est notamment le cas pour :\n\n* Les personnes aveugles ou malvoyantes qui utilisent des lecteurs d’écran ou des loupes vocalisées ;\n* Les personnes déficientes motrices qui utilisent des reconnaissances vocales ;\n* Les personnes déficientes mentales ou cognitives.",
           "criteria": {
             "rgaa": ["11.1","11.2"],
             "raweb": ["11.1","11.2"],
@@ -1438,7 +1438,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes déficientes mentales ou cognitives pourraient ne pas comprendre la fonction d’un champ répété en plusieurs endroits et dont l’étiquette n’est pas identique (ou similaire) partout.",
+          "description": "Les personnes déficientes mentales ou cognitives pourraient ne pas comprendre la fonction d’un champ répété à plusieurs endroits et dont l’étiquette n’est pas identique (ou similaire) partout.",
           "criteria": {
             "rgaa": ["11.3"],
             "raweb": ["11.3"],
@@ -1528,7 +1528,7 @@
       "name": "Pertinence de l’intitulé des boutons de soumission",
       "default": [
         {
-          "description": "Les personnes déficientes motrices qui naviguent à la voix pourraient rencontrer des difficultés dans le cas où les intitulés des boutons ne sont pas uniques et pertinents. Les personnes voyantes utilisant un lecteur d’écran pourraient ne pas comprendre lorsque les intitulés qu’ils entendent ne correspondent pas aux intitulés visibles.",
+          "description": "Les personnes déficientes motrices qui naviguent à la voix pourraient rencontrer des difficultés dans le cas où les intitulés des boutons ne sont pas pertinents. Les personnes voyantes utilisant un lecteur d’écran pourraient ne pas comprendre lorsque les intitulés qu’ils entendent ne correspondent pas aux intitulés visibles.",
           "criteria": {
             "rgaa": ["11.9"],
             "raweb": ["11.9"],
@@ -1538,7 +1538,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes déficientes motrices qui naviguent à la voix peuvent rencontrer des difficultés dans le cas où les intitulés de boutons ne sont pas uniques et pertinents.\n\nLes personnes malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre si le nom vocalisé d’un bouton est différent de celui qu’elles visualisent.\n\nLes personnes déficientes mentales ou cognitives peuvent avoir des difficultés à envoyer un formulaire si les boutons d’action n’ont pas de noms (ou s’ils sont peu pertinents).",
+          "description": "Les personnes déficientes motrices qui naviguent à la voix peuvent rencontrer des difficultés dans le cas où les intitulés de boutons ne sont pas pertinents.\n\nLes personnes malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent ne pas comprendre si le nom vocalisé d’un bouton est différent de celui qu’elles visualisent.\n\nLes personnes déficientes mentales ou cognitives peuvent avoir des difficultés à envoyer un formulaire si les boutons d’action n’ont pas de noms (ou s’ils sont peu pertinents).",
           "criteria": {
             "rgaa": ["11.9"],
             "raweb": ["11.9"],
@@ -1566,7 +1566,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes déficientes motrices mettront beaucoup de temps à remplir le formulaire si la liste des champs obligatoires n’est pas donnée dans l’étiquette ou le passage de texte associé, mais en fin de formulaire par exemple.\n\nLes personnes déficientes mentales peuvent être incapables de remplir un champ de formulaire si le format attendu n’est pas précisé.\n\nLes personnes déficientes mentales et les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent être incapables d’envoyer un formulaire si les champs obligatoires ne sont pas indiqués avant le bouton d’envoi.\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée, peuvent avoir de grandes difficultés à envoyer un formulaire si :\n\n* Le message d’erreur n’est pas vocalisé avant le champ en erreur ;\n* Ou si le message d’erreur et le champ ne sont pas reliés.",
+          "description": "Les personnes déficientes motrices peuvent mettre beaucoup de temps à remplir le formulaire si la liste des champs obligatoires n’est pas donnée dans l’étiquette ou le passage de texte associé, mais en fin de formulaire par exemple.\n\nLes personnes déficientes mentales peuvent être incapables de remplir un champ de formulaire si le format attendu n’est pas précisé.\n\nLes personnes déficientes mentales et les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée peuvent être incapables d’envoyer un formulaire si les champs obligatoires ne sont pas indiqués avant le bouton d’envoi.\n\nLes personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ou une loupe vocalisée, peuvent avoir de grandes difficultés à envoyer un formulaire si :\n\n* Le message d’erreur n’est pas vocalisé avant le champ en erreur ;\n* Ou si le message d’erreur et le champ ne sont pas reliés.",
           "criteria": {
             "rgaa": ["11.10"],
             "raweb": ["11.10"],
@@ -1602,7 +1602,7 @@
       ],
       "falc": [
         {
-          "description": "Certaines personnes présentant des troubles de l’attention ou ayant des difficultés de lecture et toutes les personnes ayant des problèmes d’agilité peuvent saisir des données incorrectes. S’il n’est pas possible de revoir et de corriger les données ou d’annuler l’envoi du formulaire, cela pourrait avoir de graves conséquences.",
+          "description": "Certaines personnes présentant des troubles de l’attention ou ayant des difficultés de lecture et toutes les personnes ayant des problèmes d’agilité peuvent saisir des données incorrectes.\n\nS’il n’est pas possible de revoir et de corriger les données ou d’annuler l’envoi du formulaire, cela pourrait avoir de graves conséquences.",
           "criteria": {
             "rgaa": ["11.12"],
             "raweb": ["11.12"],
@@ -1630,7 +1630,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes déficientes mentales et les personnes déficientes motrices peuvent avoir des difficultés à renseigner les champs d’un formulaire si leurs données personnelles ne sont pas suggérées.\n\nDe même, un champ dont la liste des données proposées ne correspond pas à la valeur attendue pose également problème : Cela oblige les personnes à devoir modifier la valeur du champ manuellement.",
+          "description": "Les personnes déficientes mentales et les personnes déficientes motrices peuvent rencontrer des difficultés à renseigner les champs d’un formulaire si leurs données personnelles ne sont pas suggérées.\n\nDe même, un champ dont la liste des données proposées ne correspond pas à la valeur attendue pose également problème : cela oblige les personnes à devoir modifier la valeur du champ manuellement.",
           "criteria": {
             "rgaa": ["11.13"],
             "raweb": ["11.13"],
@@ -1674,7 +1674,7 @@
           }
         },
         {
-          "description": "Les personnes déficientes motrices et les personnes déficientes mentales ou cognitives pourraient avoir de grandes difficultés pour naviguer dans le site si le système de navigation est trop complexe et que le plan du site n’est pas fonctionnel : S’il contient des liens morts ou qu’il ne permet pas d’atteindre facilement l’ensemble des pages du site, par exemple.",
+          "description": "Les personnes déficientes motrices et les personnes déficientes mentales ou cognitives pourraient rencontrer des difficultés pour naviguer dans le site si le système de navigation est trop complexe et que le plan du site n’est pas fonctionnel : S’il contient des liens morts ou qu’il ne permet pas d’atteindre facilement l’ensemble des pages du site, par exemple.",
           "criteria": {
             "rgaa": ["12.3"],
             "raweb": ["12.3"],
@@ -1766,7 +1766,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles, malvoyantes ou déficientes motrices qui naviguent au clavier parcourent le contenu dans l’ordre du code source : Un ordre de tabulation incorrect rend très difficile la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions.",
+          "description": "Les personnes aveugles, malvoyantes ou déficientes motrices qui naviguent au clavier peuvent parcourir le contenu dans l’ordre du code source : un ordre de tabulation incorrect peut rendre très difficile la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions.",
           "criteria": {
             "rgaa": ["12.8"],
             "raweb": ["12.8"],
@@ -1794,7 +1794,7 @@
       ],
       "falc": [
         {
-          "description": "Face à un piège au clavier, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes ne peuvent plus déplacer le focus : Elles sont bloquées et sont obligées de quitter la page pour récupérer le contrôle du curseur.",
+          "description": "Face à un piège au clavier, les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran et les personnes déficientes motrices ne peuvent plus déplacer le focus : elles sont bloquées et sont obligées de quitter la page pour récupérer le contrôle du curseur.",
           "criteria": {
             "rgaa": ["12.9"],
             "raweb": ["12.9"],
@@ -1865,7 +1865,7 @@
       }
     },
     {
-      "name": "Contrôle des Limites de temps",
+      "name": "Contrôle des limites de temps",
       "default": [
         {
           "description": "Le recours à des technologies d’assistance (lecteur d’écran ou périphériques spécialisés) et les conséquences des déficiences subies par les utilisateurs impactent directement les performances dans l’exploration, la lecture et l’utilisation des contenus et fonctionnalités.\n\nLa modification des contenus à intervalles réguliers, l’absence de contrôle des processus de mise à jour ou les limites de temps fixées pour réaliser une tâche, ont toujours comme conséquence que ces utilisateurs puissent se retrouver dans l’impossibilité d’accomplir une tâche ou, simplement, de lire le contenu.",
@@ -1878,7 +1878,7 @@
       ],
       "falc": [
         {
-          "description": "L’utilisation de technologies d’assistance (comme un lecteur d’écran, une loupe vocalisée ou un périphérique spécialisé) et les effets de certaines déficiences ralentissent fortement la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions…\n\nToutes les personnes utilisant une technologie d’assistance ou atteintes d’une déficience auront du mal à accomplir une tâche ou à lire le contenu, si elles non pas la possibilité d’arrêter (ou de contrôler) les délais de mise à jour.",
+          "description": "L’utilisation de technologies d’assistance (comme un lecteur d’écran, une loupe vocalisée ou un périphérique spécialisé) et les effets de certaines déficiences peuvent fortement ralentir la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions…\n\nCertaines personnes utilisant une technologie d’assistance ou atteintes d’une déficience auront du mal à accomplir une tâche ou à lire le contenu, si elles non pas la possibilité d’arrêter (ou de contrôler) les délais de mise à jour.",
           "criteria": {
             "rgaa": ["13.1"],
             "raweb": ["13.1"],
@@ -1906,7 +1906,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes déficientes mentales ou cognitives et les personnes aveugles ou malvoyantes qui utilisent un lecteur ou un agrandisseur d’écran peuvent être désorientés par l’ouverture non prévue d’une nouvelle fenêtre.",
+          "description": "Les personnes déficientes mentales ou cognitives et les personnes aveugles ou malvoyantes qui utilisent un lecteur d'écran ou un agrandisseur d’écran peuvent être désorientés par l’ouverture non prévue d’une nouvelle fenêtre.",
           "criteria": {
             "rgaa": ["13.2"],
             "raweb": ["13.2"],
@@ -1934,7 +1934,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes en situation de handicap, notamment les personnes déficientes visuel (cécité, malvoyance, daltonisme entre autres) ou encore les personnes déficientes cognitives (présentant par exemple des troubles Dys) auront de grandes difficultés pour consulter un document en téléchargement qui n’est pas accessible ou pour lequel il n’existe pas d’alternative accessible.",
+          "description": "Les personnes handicapées, notamment les personnes déficientes visuelles (cécité, malvoyance, daltonisme entre autres) ou encore les personnes déficientes cognitives (présentant par exemple des troubles Dys) auront de grandes difficultés pour consulter un document en téléchargement qui n’est pas accessible ou pour lequel il n’existe pas d’alternative accessible.",
           "criteria": {
             "rgaa": ["13.3","13.4"],
             "raweb": ["13.3","13.4"],
@@ -1962,7 +1962,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran ne visualisent pas la forme ou le dessin représenté par une émoticône, du texte cryptique ou de l’art ASCII : ces éléments sont restitués par le lecteur d’écran comme une succession de caractères sans signification particulière.",
+          "description": "Les personnes aveugles ou malvoyantes qui utilisent un lecteur d’écran peuvent ne pas visualiser la forme ou le dessin représenté par une émoticône, du texte cryptique ou de l’art ASCII : ces éléments sont restitués par le lecteur d’écran comme une succession de caractères sans signification particulière.",
           "criteria": {
             "rgaa": ["13.5","13.6"],
             "raweb": ["13.5","13.6"],
@@ -1990,7 +1990,7 @@
       ],
       "falc": [
         {
-          "description": "Les flashs et les changements brusques de luminosités peuvent rendre la lecture d’un contenu impossible pour les personnes malvoyantes (comme les achromates).\n\nCes effets visuels peuvent aussi provoquer des crises d’épilepsie chez certaines personnes sensibles à la lumière.",
+          "description": "Les effets de flash et les changements brusques de luminosités peuvent rendre la lecture d’un contenu impossible pour les personnes malvoyantes (comme les achromates).\n\nCes effets visuels peuvent aussi provoquer des crises d’épilepsie chez certaines personnes sensibles à la lumière.",
           "criteria": {
             "rgaa": ["13.7"],
             "raweb": ["13.7"],
@@ -1998,7 +1998,7 @@
           }
         },
         {
-          "description": "La présence de texte en mouvement peut rendre l’accès au contenu très difficile. C’est le cas pour :\n\n* Certaines personnes présentant des troubles de la lecture (comme la dyslexie) : Elles ne peuvent pas lire le texte s’il défile trop rapidement ;\n* Certaines personnes présentant des troubles de l’attention : Elles peuvent être distraites et ne pas arriver à lire le reste du contenu ;\n* Certaines personnes utilisant un lecteur d’écran : Un texte en mouvement peut empêcher le lecteur d’écran de restituer le contenu.",
+          "description": "La présence de texte en mouvement peut rendre l’accès au contenu très difficile. C’est le cas pour :\n\n* Certaines personnes présentant des troubles de la lecture (comme la dyslexie) : elles ne peuvent pas lire le texte s’il défile trop rapidement ;\n* Certaines personnes présentant des troubles de l’attention : elles peuvent être distraites et ne pas arriver à lire le reste du contenu ;\n* Certaines personnes utilisant un lecteur d’écran : un texte en mouvement peut empêcher le lecteur d’écran de restituer le contenu.",
           "criteria": {
             "rgaa": ["13.8"],
             "raweb": ["13.8"],
@@ -2054,7 +2054,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes déficientes motrices et toutes les personnes ayant des problèmes d’agilité peuvent ne pas arriver à réaliser des gestes complexes. Par exemple : Faire plusieurs actions en même temps, utiliser des combinaisons de touches, ou encore exécuter une suite de gestes particuliers.",
+          "description": "Les personnes déficientes motrices et toutes les personnes ayant des problèmes d’agilité peuvent ne pas arriver à réaliser des gestes complexes. \n\nPar exemple : faire plusieurs actions en même temps, utiliser des combinaisons de touches, ou encore exécuter une suite de gestes particuliers.",
           "criteria": {
             "rgaa": ["13.10"],
             "raweb": ["13.10"],
@@ -2082,7 +2082,7 @@
       ],
       "falc": [
         {
-          "description": "Les personnes malvoyantes, déficientes motrices et handicapées mentales ou cognitives peuvent activer des fonctionnalités ou exécuter des commandes liées au toucher, à la souris ou à tout autre système de pointage sans le vouloir. S’il n’est pas possible d’annuler l’action, l’interface pourrait devenir inutilisable.",
+          "description": "Les personnes malvoyantes, déficientes motrices, mentales ou cognitives peuvent activer des fonctionnalités ou exécuter des commandes liées au toucher, à la souris ou à tout autre système de pointage sans le vouloir. S’il n’est pas possible d’annuler l’action, l’interface pourrait devenir inutilisable.",
           "criteria": {
             "rgaa": ["13.11"],
             "raweb": ["13.11"],
