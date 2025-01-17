@@ -2,7 +2,7 @@
     <!-- Sommaire  -->
     <nav role="navigation" aria-labelledby="summary-impact" class="nav-primary">
         <h2 id="summary-impact" class="heading-secondary nav-primary__heading">Thématiques</h2>
-        <ol class="menu-primary" id="menu-primary">
+        <ul class="menu-primary" id="menu-primary">
             <!-- Boucle sur les thématiques du RGAA -->
             {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
             <li>
@@ -13,7 +13,7 @@
             </li>
             {% endfor %}
             <!-- Fin boucle sur les thématiques du RGAA -->
-        </ol>
+        </ul>
     </nav>
     <!-- Fin Sommaire  -->
 </div>
