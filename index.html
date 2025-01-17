@@ -52,7 +52,7 @@ menu: rubriques
             {% endif %}
           </p>
           {% if impact_item.criteria.rgaa.size > 1 %}
-            <ul aria-labelledby="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
+            <ul>
               {% for criterion_num in impact_item.criteria.rgaa %}
                 {% comment %}
                   Filtres liquid pour récupérer l'intitulé du critère
