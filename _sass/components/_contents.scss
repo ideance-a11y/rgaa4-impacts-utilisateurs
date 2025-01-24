@@ -37,6 +37,23 @@ main {
         height: 0.1rem;
         background-color: $gray-1;
     }
+    
+    > *:first-child {
+        margin-top: inherit;
+    }
+
+    .thematic > h2:first-child {
+        margin-top: inherit;
+    }
+    
+    .rule {
+        margin: 7rem 0;
+    }
+
+    .thematic > h2 + .rule {
+        margin-top: 0;
+    }
+
 }
 
 .chapo {
@@ -56,5 +73,23 @@ main {
 
     [id^='criteria-'] {
         font-weight: bold;
+    }
+}
+
+.main-content  {
+    .goback-summary {
+        margin-bottom: 5rem;
+        display: flex;
+        justify-content: flex-end;
+
+        .icon {
+            margin-left: 0.5rem;
+            font-size: 1.5rem;
+            color: $red-color;
+            &::before {
+                transform: rotate(90deg);
+                margin-top: -0.7rem;
+            }
+        }
     }
 }

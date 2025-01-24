@@ -6,7 +6,7 @@ menu: rubriques
 
 {% comment %} Boucle sur les thématiques du RGAA {% endcomment %}
 {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
-<section>
+<section class="thematic">
   <h2 id="{{ rgaa_topic.name | slugify }}">
     {{ rgaa_topic.num }} - {{ rgaa_topic.name }}
   </h2>
@@ -16,7 +16,7 @@ menu: rubriques
 
   {% comment %} Boucle sur les impacts users filtrés {% endcomment %}
   {% for impact in topic_impacts %}
-  <article>
+  <article class="rule">
     {% comment %}
       Impacts potentiellements séparés en plusieurs sous-critères.
       Réunis dans un tableau.
