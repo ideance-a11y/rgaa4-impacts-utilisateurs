@@ -6,6 +6,7 @@ menu: rubriques
 
 {% comment %} Boucle sur les thématiques du RGAA {% endcomment %}
 {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
+<section>
   <h2 id="{{ rgaa_topic.name | slugify }}">
     {{ rgaa_topic.num }} - {{ rgaa_topic.name }}
   </h2>
@@ -15,6 +16,7 @@ menu: rubriques
 
   {% comment %} Boucle sur les impacts users filtrés {% endcomment %}
   {% for impact in topic_impacts %}
+  <article>
     {% comment %}
       Impacts potentiellements séparés en plusieurs sous-critères.
       Réunis dans un tableau.
@@ -90,7 +92,9 @@ menu: rubriques
         <span class="icon icon-chevrons-left-bold" aria-hidden="true"></span>
       </a>
     </span>
+  </article>
   {% endfor %}
   {% comment %} Fin boucle sur les impacts users filtrés {% endcomment %}
+</section>
 {% endfor %}
 {% comment %} Fin boucle sur les thématiques RGAA {% endcomment %}
