@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     scrollContainer = (element) => {
         if (scrollbarVisible(element)) {
-            element.setAttribute("tabindex", "-1")
+            element.setAttribute("tabindex", "0")
         } else {
             element.removeAttribute("tabindex")
         }
