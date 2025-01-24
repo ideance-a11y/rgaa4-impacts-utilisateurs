@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    function scrollbarVisible(element) {
+    scrollbarVisible = (element) => {
         return element.scrollHeight > element.clientHeight
     }
-
-    function scrollContainer(element) {
+    scrollContainer = (element) => {
         if (scrollbarVisible(element)) {
             element.setAttribute("tabindex", "-1")
         } else {
