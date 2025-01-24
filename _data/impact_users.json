@@ -246,7 +246,7 @@
       ],
       "falc": [
         {
-          "description": "Les informations véhiculées par la couleur uniquement sont inaccessibles aux personnes aveugles ou malvoyantes qui distinguent peu ou pas du tout les couleurs.\n\nC’est par exemple le cas d’un champ en erreur signalé par un changement de couleur de bordure. Ou d’une sélection multiple dont le statut sélectionné est seulement indiqué par la couleur.",
+          "description": "L’utilisation de contrastes trop faibles diminue considérablement la lisibilité des contenus. Dans ce cas, les personnes malvoyantes ne perçoivent pas certains textes, composants d’interface ou éléments graphiques. Elles sont alors incapables de lire le contenu ou d’interagir avec les éléments concernés.",
           "criteria": {
             "rgaa": ["3.2","3.3"],
             "raweb": ["3.2","3.3"],
