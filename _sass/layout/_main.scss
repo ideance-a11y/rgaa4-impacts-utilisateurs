@@ -14,26 +14,4 @@
             text-decoration-color: transparent;
         }
     }
-    .goback-summary {
-        margin-bottom: 5rem;
-        display: flex;
-        justify-content: flex-end;
-
-        .icon {
-            margin-left: 0.5rem;
-            font-size: 1.5rem;
-            color: $red-color;
-            &::before {
-                transform: rotate(90deg);
-                margin-top: -0.7rem;
-            }
-        }
-    }
-
-    > *:first-child {
-        margin-top: inherit;
-    }
-    > section > h2:first-child {
-        margin-top: inherit;
-    }
 }

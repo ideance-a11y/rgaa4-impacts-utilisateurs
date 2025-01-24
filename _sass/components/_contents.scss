@@ -44,23 +44,20 @@ main {
         margin-top: inherit;
     }
 
-    .thematic > h2:first-child {
+    .thematic > h2:first-child,
+    .thematic > h2 + .rule,
+    article > h2 {
         margin-top: inherit;
     }
     
     .rule {
         margin: 7rem 0;
     }
-
-    .thematic > h2 + .rule {
-        margin-top: 0;
-    }
-
 }
 
 .chapo {
     margin: 2rem 0 3rem;
-    padding: .1rem 2rem 2.4rem;
+    padding: 0.1rem 2rem;
     background: #fbfbfb;
     border-left: 1rem solid #e8efef;
 
@@ -69,7 +66,7 @@ main {
     }
 
     ul {
-        margin: 1.2rem 0 0;
+        margin: 1.2rem 0;
         padding-left: 2rem;
     }
 
@@ -93,5 +90,23 @@ main {
                 margin-top: -0.7rem;
             }
         }
+    }
+}
+
+.ice-block {
+    background: $blue-3;
+    border-left: 0.4rem solid $blue-4;
+    border-radius: 0.2rem;
+    padding: 0.1rem 1.5rem;
+    margin: 2rem 0;
+
+    &__validate {
+        background-color: $green-1;
+        border-color: $green-2;
+    }
+
+    &__error {
+        background-color: $red-1;
+        border-color: $red-2;
     }
 }
