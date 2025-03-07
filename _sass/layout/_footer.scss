@@ -41,19 +41,6 @@
     align-items: flex-start;
     justify-content: space-between;
   }
-
-  .ice-link {
-		color:$gray-1;
-		text-decoration: underline;
-		text-underline-offset: 0.3rem;
-		text-decoration-thickness: 0.1rem;
-		text-decoration-color:currentColor;
-		transition:text-decoration-color 250ms ease-out;
-	}
-	.ice-link:hover,
-	.ice-link:focus {
-		text-decoration-color: transparent
-	}
 }
 
 .ice-footer-logo {
@@ -143,8 +130,9 @@
   }
 }
 
-.menu-pied-de-page {
+.ice-menu {
   list-style: none;
+  margin: 0;
   padding: 0;
   a {
     text-decoration-color: currentColor;
