@@ -4,9 +4,7 @@
 <body>
     {%- include header.html -%}
     <main role="main" id="main" class="main">
-        {% if page.menu == "falc" %}
-        {%- include menu-falc.html -%}
-        {% elsif page.menu == "default" %}
+        {% if page.menu == "default" %}
         {%- include menu-default.html -%}
         {% elsif page.menu == "rubriques" %}
         {%- include menu-rubriques-rgaa.html -%}
