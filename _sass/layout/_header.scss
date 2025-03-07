@@ -137,6 +137,19 @@
     @include for-desktop {
         font-size: 3.2rem;
     }
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        text-underline-offset: 0.3rem;
+        text-decoration-thickness: 0.1rem;
+        transition: text-decoration-color 250ms ease-out;
+
+        &:hover, &:focus-visible {
+            text-decoration-color: currentColor;
+        }
+    }
 }
 
 .logo {
