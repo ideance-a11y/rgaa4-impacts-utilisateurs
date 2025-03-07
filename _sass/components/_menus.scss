@@ -1,9 +1,9 @@
-.about {
+.about, .go-back {
+    display: block;
     position: relative;
     margin: 0 0 5rem 1.7rem;
     padding: 1rem 2rem 0 0;
-    
-    
+
     a {
         background-color: $white-color;
         border: 0.2rem solid $blue-2;
@@ -21,14 +21,14 @@
             text-decoration-color: $primary-darker;
         }
     }
-    
-    &__svg {
-        width: 4.2rem;
-        height: 4.2rem;
-        position: absolute;
-        top: 0rem;
-        right: 4rem;
-    }
+}
+
+.about__svg {
+    width: 4.2rem;
+    height: 4.2rem;
+    position: absolute;
+    top: 0rem;
+    right: 4rem;
 }
 
 .nav-primary {

@@ -6,7 +6,7 @@
     <main role="main" id="main" class="main">
         {% if page.menu == "default" %}
         {%- include menu-default.html -%}
-        {% elsif page.menu == "rubriques" %}
+        {% elsif page.menu == "rubriques" or page.menu == "about" %}
         {%- include menu-rubriques-rgaa.html -%}
         {% endif %}
         <div id="main-content" class="main-content">
