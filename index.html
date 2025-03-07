@@ -44,6 +44,7 @@ menu: rubriques
       {% endif %}
 
       {% comment %} Critères associés récupérés depuis le JSON du RGAA clean {% endcomment %}
+      {% assign rgaa_url = "https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/" %}
       {% if impact_item.criteria.rgaa.size > 0 %}
         <div class="chapo">
           <p id="criteria-{{forloop.index}}-{{ impact.name | slugify}}">
@@ -62,7 +63,7 @@ menu: rubriques
                 {% endcomment %}
                 {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
                 <li>
-                  {{ criterion_num }} - {{ criterion_data[0]['name'] }}
+                  <a href="{{rgaa_url}}#{{ criterion_num }}" target="_blank">{{ criterion_num }} - {{ criterion_data[0]['name'] }}<span class="sr-only"> Ouvre une nouvelle fenêtre</span></a>
                 </li>
               {% endfor %}
             </ul>
@@ -73,7 +74,7 @@ menu: rubriques
                 dans les données du RGAA (/_data/rgaa_4_1_2_clean.json)
               {% endcomment %}
               {% assign criterion_data = site.data.rgaa_4_1_2_clean.criteria | where: 'num', criterion_num %}
-              <span>{{ criterion_num }} - {{ criterion_data[0]['name'] }}</span>
+              <a href="{{rgaa_url}}#{{ criterion_num }}" target="_blank">{{ criterion_num }} - {{ criterion_data[0]['name'] }}<span class="sr-only"> Ouvre une nouvelle fenêtre</span></a>
             {% endfor %}
           {% endif %}
         </div>
