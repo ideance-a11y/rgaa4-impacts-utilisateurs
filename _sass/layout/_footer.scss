@@ -18,13 +18,19 @@
 .ice-footer {
   min-height: 9rem;
   padding-top: 3.5rem;
+  padding-bottom: 4.5rem;
   background: $white-color;
   border-top: 2rem solid rgba(68, 125, 159, 0.25);
   color: $gray-1;
 	line-height: 1.5;
+  font-size: 1.5rem;
 
   @include for-tablet {
     padding-top: 4.5rem;
+    padding-bottom: 6.5rem;
+  }
+  @include for-desktop {
+    font-size: 1.7rem;
   }
 }
 
@@ -87,7 +93,12 @@
     padding-right: $gutter-hz;
   }
 
-  p:not(:last-of-type) {
+  p {
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+  }
+
+  p:first-of-type {
     margin-bottom: 0;
   }
 
@@ -125,7 +136,7 @@
       height: 4rem;
       margin: 0 1rem 0 0;
 
-      .ice-icon {
+      .icon::before {
         font-size: 2rem;
       }
     }
@@ -170,4 +181,15 @@
 
 .ice-legal-wrapper {
 	text-align: center;
+}
+
+.menu-pied-de-page {
+  list-style: none;
+  padding: 0;
+  a {
+    text-decoration-color: currentColor;
+    &:hover, &:focus-visible {
+      text-decoration-color: transparent;
+  }
+  }
 }
