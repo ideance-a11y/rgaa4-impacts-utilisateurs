@@ -39,14 +39,6 @@
     box-shadow: 0 0 0 0.5rem rgba($primary-color, 0.3), 0 0 0.3rem 0.3rem rgba($primary-color, 0.65);
   }
 
-  .ice-icon {
-    font-size: 2.1rem;
-
-    @include for-desktop {
-      font-size: 2.4rem;
-    }
-  }
-
   &:focus {
     outline: 0.3rem solid $white-color;
   }

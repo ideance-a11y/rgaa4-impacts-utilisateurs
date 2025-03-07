@@ -118,10 +118,11 @@
       width: 4rem;
       height: 4rem;
       margin: 0 1rem 0 0;
+    }
 
-      .icon::before {
-        font-size: 2rem;
-      }
+    img {
+      width: 50%;
+      height: auto;
     }
   }
 
@@ -136,8 +137,8 @@
   padding: 0;
   a {
     text-decoration-color: currentColor;
-    &:hover, &:focus-visible {
-      text-decoration-color: transparent;
-  }
+      &:hover, &:focus-visible {
+        text-decoration-color: transparent;
+    }
   }
 }
