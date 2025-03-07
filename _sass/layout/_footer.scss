@@ -109,10 +109,6 @@
   }
 }
 
-.ice-footer-title {
-	margin: 0;
-}
-
 .ice-footer-links {
   margin-top: 0.2rem;
 
@@ -145,42 +141,6 @@
   a[aria-current="page"] {
     font-weight: bold;
   }
-}
-
-.ice-contact, .ice-contact-wrapper {
-	margin-bottom: 0;
-	margin-top: .8rem;
-}
-
-.ice-contact-term {
-	float: left;
-	font-weight: 600;
-	&::after {
-		content: " : ";
-		speak: none;
-	}
-}
-
-.ice-contact-definition {
-	overflow: hidden;
-}
-
-.ice-other-resource {
-	padding-left: 1.7rem;
-}
-
-.ice-other-resource li {
-	margin-bottom: 0.8rem;
-}
-
-.ice-legal {
-  padding: 1rem 1.5rem;
-  background: $gray-3;
-	margin-top: 3.25rem;
-}
-
-.ice-legal-wrapper {
-	text-align: center;
 }
 
 .menu-pied-de-page {
