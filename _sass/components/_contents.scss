@@ -81,10 +81,9 @@ main {
 
 .main-content  {
     .goback-summary {
+        position: relative;
+        display: block;
         margin-bottom: 5rem;
-        display: flex;
-        justify-content: flex-end;
-
         .icon {
             margin-left: 0.5rem;
             font-size: 1.5rem;
@@ -92,6 +91,16 @@ main {
             &::before {
                 transform: rotate(90deg);
                 margin-top: -0.7rem;
+            }
+        }
+        a {
+            display: inline-block;
+            
+            position: absolute;
+            right: -99999rem;
+            //right: 0;
+            &:focus-visible {
+                right: 0;
             }
         }
     }
