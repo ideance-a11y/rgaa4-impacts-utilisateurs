@@ -8,7 +8,7 @@ menu: rubriques
 {% comment %} Boucle sur les thématiques du RGAA {% endcomment %}
 {% for rgaa_topic in site.data.rgaa_4_1_2_clean.topics %}
 <section class="thematic" aria-labelledby="{{ rgaa_topic.name | slugify }}">
-  <h2 id="{{ rgaa_topic.name | slugify }}">
+  <h2 id="{{ rgaa_topic.name | slugify }}" tabindex="-1">
     {{ rgaa_topic.num }} - {{ rgaa_topic.name }}
   </h2>
 
