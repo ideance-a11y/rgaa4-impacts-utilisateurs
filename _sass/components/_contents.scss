@@ -95,10 +95,8 @@ main {
         }
         a {
             display: inline-block;
-            
             position: absolute;
             right: -99999rem;
-            //right: 0;
             &:focus-visible {
                 right: 0;
             }
