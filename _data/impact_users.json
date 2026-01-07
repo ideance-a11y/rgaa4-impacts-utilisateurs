@@ -1878,7 +1878,7 @@
       ],
       "falc": [
         {
-          "description": "L’utilisation de technologies d’assistance (comme un lecteur d’écran, une loupe vocalisée ou un périphérique spécialisé) et les effets de certaines déficiences peuvent fortement ralentir la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions…\n\nCertaines personnes utilisant une technologie d’assistance ou atteintes d’une déficience auront du mal à accomplir une tâche ou à lire le contenu, si elles non pas la possibilité d’arrêter (ou de contrôler) les délais de mise à jour.",
+          "description": "L’utilisation de technologies d’assistance (comme un lecteur d’écran, une loupe vocalisée ou un périphérique spécialisé) et les effets de certaines déficiences peuvent fortement ralentir la découverte du contenu, la manipulation des éléments et la réalisation de certaines actions…\n\nCertaines personnes utilisant une technologie d’assistance ou atteintes d’une déficience auront du mal à accomplir une tâche ou à lire le contenu, si elles n'ont pas la possibilité d’arrêter (ou de contrôler) les délais de mise à jour.",
           "criteria": {
             "rgaa": ["13.1"],
             "raweb": ["13.1"],
